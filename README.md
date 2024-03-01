@@ -1,5 +1,7 @@
 # 개요
-> 이 스터디에 대해서 설명합니다. (e.g. 모집 대상, 예상 효과 등)
+본 스터디는 [Federico Busato의 Modern Cpp Programming](https://github.com/federico-busato/Modern-CPP-Programming)을 기반으로 진행되는 스터디입니다.
+적은 분량이라도 **매일 꾸준히 하는 것**을 목표로 진행됩니다. 꾸준히 한다는 것은 휴일이 없다는 얘기입니다.
+C++을 배우고 싶은 사람 누구나 참여가 가능하며, 검증된 자료로 진행하기에 체계적으로 C++을 배워나갈 수 있습니다.
 
 # 참여 인원
 <table>
