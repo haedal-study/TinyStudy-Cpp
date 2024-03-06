@@ -4,25 +4,20 @@
 C++을 배우고 싶은 사람 누구나 참여가 가능하며, 검증된 자료로 진행하기에 체계적으로 C++을 배워나갈 수 있습니다.
 
 # 참여 인원
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/17216686?v=4" width="100px;" alt="choiseonmun"/><br /><sub><a href="https://github.com/choiseonmun"><b>choiseonmun</b></a></sub><br /></td>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/65526713?v=4" width="100px;" alt="Dong-kyu-Lee"/><br /><sub><a href="https://github.com/Dong-kyu-Lee"><b>Dong-kyu-Lee</b></a></sub><br /></td>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/66552780?v=4" width="100px;" alt="Zel-da"/><br /><sub><a href="https://github.com/Zel-da"><b>Zel-da</b></a></sub><br /></td>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/77572658?v=4" width="100px;" alt="Choi Seoyeon"/><br /><sub><a href="https://github.com/csy-59"><b>Choi Seoyeon</b></a></sub><br /></td>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/91855427?v=4" width="100px;" alt="JunghyeonShin"/><br /><sub><a href="https://github.com/JunghyeonShin"><b>JunghyeonShin</b></a></sub><br /></td>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/78996787?v=4" width="100px;" alt="Lailael"/><br /><sub><a href="https://github.com/YB970902"><b>JunghyeonShin</b></a></sub><br /></td>
-    </tr>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/92175769?v=4" width="100px;" alt="kaylahee"/><br /><sub><a href="https://github.com/kaylahee"><b>kaylahee</b></a></sub><br /></td>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/120005151?v=4" width="100px;" alt="Mati Kong"/><br /><sub><a href="https://github.com/Mati-as"><b>Mati Kong</b></a></sub><br /></td>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/120005202?v=4" width="100px;" alt="주진수"/><br /><sub><a href="https://github.com/weweweme"><b>주진수</b></a></sub><br /></td>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/120005259?v=4" width="100px;" alt="yoreleihee"/><br /><sub><a href="https://github.com/yoreleihee"><b>yoreleihee</b></a></sub><br /></td>
-      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/91333092?v=4" width="100px;" alt="BaekSeungSu"/><br /><sub><a href="https://github.com/BaekSeungSu"><b>yoreleihee</b></a></sub><br /></td>
-    </tr>
-  </tbody>
-</table>
+| 참여자 | 참여 동기 | 각오 |
+| ----- | --- | --- |
+| [최선문](https://github.com/choiseonmun) | - | - |
+| [이동규](https://github.com/Dong-kyu-Lee) | C++을 확실하게 공부하고 싶습니다. | 꾸준히 열심히 스터디에 참여하겠습니다. |
+| [안예준](https://github.com/Zel-da) | 언리얼 엔진을 공부하고 있는데 C++ 지식이 부족해서 이를 보완하고자 참여했습니다. | C++을 제대로 다룰 수 있을만큼 많이 배우고 노력하겠습니다. |
+| [신중현](https://github.com/JunghyeonShin) | - | - |
+| [남궁영빈](https://github.com/YB970902) | 언리얼 엔진을 공부하고 싶었는데 C++을 혼자하려니 의지력이 부족해서 이를 극복하고자 참여했습니다. | 열심히 해서 끝까지 안 빠지고 진도 잘 나가도록 하겠습니다! |
+| [한승희](https://github.com/kaylahee) | 교환학생 이후 C++을 잊은 상태라 이를 복습하고자 스터디를 참여하게 되었습니다. | 꾸준히 열심히 해서 밀리지 않겠습니다. |
+| [공민석](https://github.com/Mati-as) | 취업 후 언리얼 엔진을 배우고 싶어 C++을 공부하고 싶었는데, 독학하려니 막막해서 참여했습니다. | 만족스러운 결과물을 내도록 하겠습니다. |
+| [주진수](https://github.com/weweweme) | 앞으로의 커리어 발전을 위해서 C++을 아는 것이 중요하다고 생각하고 이를 인덱싱하고 싶습니다. | 진도 밀리지 않고 꾸준히 뒤따라가겠습니다. | 
+| [최희지](https://github.com/yoreleihee) | C#말고 다른 언어를 다루고 싶어 참여를 결정했습니다. | C++도 C#만큼 다뤄보겠습니다! |
+| [백승수](https://github.com/BaekSeungSu) | 언리얼 엔진을 공부 중이라 C++을 잘하고 싶어 참여했습니다. | 낙오하는 일 없이 끝까지 가도록 하겠습니다. |
+| [최서연](https://github.com/csy-59) | 이번에 복학하는 김에 다양한 걸 공부하고 싶었고, 언리얼 엔진 엔지니어가 되고자 C++을 배우려 참여했습니다. | 꾸준히 열심히 따라가도록 하겠습니다. |
+
 
 # 커리큘럼
 * 크게 6개의 섹션으로 나뉘며, 하나의 섹션이 끝나면 일정 기간 동안 리프레시 기간을 부여합니다.
