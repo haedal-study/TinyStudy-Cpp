@@ -12,12 +12,14 @@ C++을 배우고 싶은 사람 누구나 참여가 가능하며, 검증된 자�
       <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/66552780?v=4" width="100px;" alt="Zel-da"/><br /><sub><a href="https://github.com/Zel-da"><b>Zel-da</b></a></sub><br /></td>
       <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/77572658?v=4" width="100px;" alt="Choi Seoyeon"/><br /><sub><a href="https://github.com/csy-59"><b>Choi Seoyeon</b></a></sub><br /></td>
       <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/91855427?v=4" width="100px;" alt="JunghyeonShin"/><br /><sub><a href="https://github.com/JunghyeonShin"><b>JunghyeonShin</b></a></sub><br /></td>
+      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/78996787?v=4" width="100px;" alt="Lailael"/><br /><sub><a href="https://github.com/YB970902"><b>JunghyeonShin</b></a></sub><br /></td>
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/92175769?v=4" width="100px;" alt="kaylahee"/><br /><sub><a href="https://github.com/kaylahee"><b>kaylahee</b></a></sub><br /></td>
       <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/120005151?v=4" width="100px;" alt="Mati Kong"/><br /><sub><a href="https://github.com/Mati-as"><b>Mati Kong</b></a></sub><br /></td>
       <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/120005202?v=4" width="100px;" alt="주진수"/><br /><sub><a href="https://github.com/weweweme"><b>주진수</b></a></sub><br /></td>
       <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/120005259?v=4" width="100px;" alt="yoreleihee"/><br /><sub><a href="https://github.com/yoreleihee"><b>yoreleihee</b></a></sub><br /></td>
+      <td align="center" valign="top" width="14.28%"><img src="https://avatars.githubusercontent.com/u/91333092?v=4" width="100px;" alt="BaekSeungSu"/><br /><sub><a href="https://github.com/BaekSeungSu"><b>yoreleihee</b></a></sub><br /></td>
     </tr>
   </tbody>
 </table>
