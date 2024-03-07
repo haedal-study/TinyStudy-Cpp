@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch1-Introduction/1-Areas of Application and Popularity.md",
+                "file": "Ch1-Introduction/2-C++Philosophy.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch1-Introduction/1-Areas of Application and Popularity.md",
+                "file": "Ch1-Introduction/2-C++Philosophy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch1-Introduction/1-Areas of Application and Popularity.md",
+                "file": "Ch1-Introduction/2-C++Philosophy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch1-Introduction/1-Areas of Application and Popularity.md"
+                "file": "Ch1-Introduction/2-C++Philosophy.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   "active": "87de73c53dcc5fa7",
   "lastOpenFiles": [
     "Ch1-Introduction/1-Areas of Application and Popularity.md",
+    "Ch1-Introduction/2-C++Philosophy.md",
     "Welcome.md",
     "Ch1-Introduction"
   ]
