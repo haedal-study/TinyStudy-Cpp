@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1장-Introduction/2일차-C++Philosophy.md",
+                "file": "1장-Introduction/3일차-C++ Weaknesses.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1장-Introduction/2일차-C++Philosophy.md",
+                "file": "1장-Introduction/3일차-C++ Weaknesses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1장-Introduction/2일차-C++Philosophy.md",
+                "file": "1장-Introduction/3일차-C++ Weaknesses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1장-Introduction/2일차-C++Philosophy.md"
+                "file": "1장-Introduction/3일차-C++ Weaknesses.md"
               }
             }
           }
@@ -148,7 +148,8 @@
   },
   "active": "cbc4fdf251ad32fe",
   "lastOpenFiles": [
-    "1장-Introduction/1일차-Area of Application and Popularity.md",
-    "1장-Introduction/2일차-C++Philosophy.md"
+    "1장-Introduction/2일차-C++Philosophy.md",
+    "1장-Introduction/3일차-C++ Weaknesses.md",
+    "1장-Introduction/1일차-Area of Application and Popularity.md"
   ]
 }
