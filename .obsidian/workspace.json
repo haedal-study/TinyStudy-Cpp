@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "61d06d0965325fd4",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e12d39b3b83d878",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7823d2181c8b4700",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TinyStude-CPP-1장/2. C++ Philosophy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9420b017cdfc8269",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8513f01dadbd0d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6800f8c318fe507",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d872872e7a52c49b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a422828dc256038d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7db04b2d8c333070",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc71f47e8f0b1ee1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59f4b1849f7a3489",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TinyStude-CPP-1장/2. C++ Philosophy.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c40b943d098eb5e6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TinyStude-CPP-1장/2. C++ Philosophy.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1310d1112faf9fb4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c6d4ce8538dac124",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TinyStude-CPP-1장/2. C++ Philosophy.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "7823d2181c8b4700",
+  "lastOpenFiles": [
+    "TinyStude-CPP-1장/1. Area of Application and Popularity.md",
+    "TinyStude-CPP-1장/2. C++ Philosophy.md",
+    "README.md",
+    "1. Area of Application and Popularity.md"
+  ]
+}
