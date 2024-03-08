@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch1-Introduction/3-C++ Weaknesses.md",
+                "file": "Ch2 - Fundamental Types/1. Hello World.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch1-Introduction/3-C++ Weaknesses.md",
+                "file": "Ch2 - Fundamental Types/1. Hello World.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch1-Introduction/3-C++ Weaknesses.md",
+                "file": "Ch2 - Fundamental Types/1. Hello World.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch1-Introduction/3-C++ Weaknesses.md"
+                "file": "Ch2 - Fundamental Types/1. Hello World.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "87de73c53dcc5fa7",
   "lastOpenFiles": [
-    "Ch1-Introduction/2-C++Philosophy.md",
     "Ch1-Introduction/3-C++ Weaknesses.md",
+    "Ch2 - Fundamental Types/1. Hello World.md",
+    "Ch2 - Fundamental Types",
+    "Ch1-Introduction/2-C++Philosophy.md",
     "Ch1-Introduction/1-Areas of Application and Popularity.md",
     "Welcome.md",
     "Ch1-Introduction"
