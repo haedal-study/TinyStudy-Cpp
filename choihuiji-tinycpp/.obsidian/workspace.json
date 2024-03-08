@@ -26,9 +26,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2bb4eea1db6ed9ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ch1-Introduction/2. C++ Philosophy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch1-Introduction/1. Areas Of Application and Popularity.md",
+                "file": "Ch1-Introduction/2. C++ Philosophy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch1-Introduction/1. Areas Of Application and Popularity.md",
+                "file": "Ch1-Introduction/2. C++ Philosophy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch1-Introduction/1. Areas Of Application and Popularity.md"
+                "file": "Ch1-Introduction/2. C++ Philosophy.md"
               }
             }
           }
@@ -155,10 +167,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5fdfeb179bae0abf",
+  "active": "2bb4eea1db6ed9ff",
   "lastOpenFiles": [
-    "Ch1-Introduction",
     "Ch1-Introduction/1. Areas Of Application and Popularity.md",
+    "Ch1-Introduction/2. C++ Philosophy.md",
+    "Ch1-Introduction",
     "choihuiji-tinycpp"
   ]
 }
