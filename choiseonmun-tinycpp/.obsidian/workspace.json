@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch2 - Fundamental Types/4. auto.md",
+                "file": "Ch2 - Fundamental Types/5. Operators.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch2 - Fundamental Types/4. auto.md",
+                "file": "Ch2 - Fundamental Types/5. Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch2 - Fundamental Types/4. auto.md",
+                "file": "Ch2 - Fundamental Types/5. Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch2 - Fundamental Types/4. auto.md"
+                "file": "Ch2 - Fundamental Types/5. Operators.md"
               }
             }
           }
@@ -157,10 +157,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff6821b6ec8295fc",
+  "active": "483927812e74c161",
   "lastOpenFiles": [
-    "Ch2 - Fundamental Types/3. Conversion Rules.md",
+    "Resources/Pasted image 20240309132756.png",
     "Ch2 - Fundamental Types/4. auto.md",
+    "Ch2 - Fundamental Types/5. Operators.md",
+    "Ch2 - Fundamental Types/3. Conversion Rules.md",
     "Resources/Pasted image 20240309130126.png",
     "Ch2 - Fundamental Types/2. Fundamental Types Overview.md",
     "Resources/Pasted image 20240309124007.png",
