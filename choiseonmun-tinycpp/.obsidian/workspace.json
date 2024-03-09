@@ -11,15 +11,26 @@
             "id": "87de73c53dcc5fa7",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Resources/Pasted image 20240309123810.png"
+              }
+            }
+          },
+          {
+            "id": "ff6821b6ec8295fc",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch2 - Fundamental Types/1. Hello World.md",
+                "file": "Ch2 - Fundamental Types/2. Fundamental Types Overview.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch2 - Fundamental Types/1. Hello World.md",
+                "file": "Ch2 - Fundamental Types/2. Fundamental Types Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch2 - Fundamental Types/1. Hello World.md",
+                "file": "Ch2 - Fundamental Types/2. Fundamental Types Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch2 - Fundamental Types/1. Hello World.md"
+                "file": "Ch2 - Fundamental Types/2. Fundamental Types Overview.md"
               }
             }
           }
@@ -146,10 +157,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87de73c53dcc5fa7",
+  "active": "ff6821b6ec8295fc",
   "lastOpenFiles": [
-    "Ch1-Introduction/3-C++ Weaknesses.md",
+    "Resources/Pasted image 20240309124007.png",
+    "Resources/Pasted image 20240309123810.png",
+    "Ch2 - Fundamental Types/2. Fundamental Types Overview.md",
+    "Resources/Literal_Suffix.png",
+    "Resources/Literal_Prefix.png",
+    "Resources",
     "Ch2 - Fundamental Types/1. Hello World.md",
+    "Ch1-Introduction/3-C++ Weaknesses.md",
     "Ch2 - Fundamental Types",
     "Ch1-Introduction/2-C++Philosophy.md",
     "Ch1-Introduction/1-Areas of Application and Popularity.md",
