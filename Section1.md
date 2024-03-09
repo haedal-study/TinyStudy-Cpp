@@ -29,3 +29,10 @@
 - 많은 사용자들의 경험,테스트 이후에 발견되는 결함이 있습니다. 이러한 결함은 사실상 수정되기 어려우며, 이로인해 소프트웨어의 안정성에 안좋은 영향을 줄 수 있습니다.
 - C++은 점점 복잡해지고 있습니다. 생산성이나 표현력 보다는 코드명확성,가독성에 큰 비용을 치르게끔 언어가 발전해 왔습니다.
 
+### 1.3.2 C++의 대체
+c.f.) https://www.infoworld.com/article/3678178/beyond-c-the-promise-of-rust-carbon-and-cppfront.html
+
+- C++ Epochs : keep backward-compatibility while evolving itself
+- Carbon Language : less complexity but safer
+- Circle C++  Compiler : effeciency, code productivity
+- Cppfront : simper, safer
