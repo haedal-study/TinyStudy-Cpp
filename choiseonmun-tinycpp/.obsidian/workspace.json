@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch2 - Fundamental Types/2. Fundamental Types Overview.md",
+                "file": "Ch2 - Fundamental Types/4. auto.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch2 - Fundamental Types/2. Fundamental Types Overview.md",
+                "file": "Ch2 - Fundamental Types/4. auto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch2 - Fundamental Types/2. Fundamental Types Overview.md",
+                "file": "Ch2 - Fundamental Types/4. auto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch2 - Fundamental Types/2. Fundamental Types Overview.md"
+                "file": "Ch2 - Fundamental Types/4. auto.md"
               }
             }
           }
@@ -159,9 +159,12 @@
   },
   "active": "ff6821b6ec8295fc",
   "lastOpenFiles": [
+    "Ch2 - Fundamental Types/3. Conversion Rules.md",
+    "Ch2 - Fundamental Types/4. auto.md",
+    "Resources/Pasted image 20240309130126.png",
+    "Ch2 - Fundamental Types/2. Fundamental Types Overview.md",
     "Resources/Pasted image 20240309124007.png",
     "Resources/Pasted image 20240309123810.png",
-    "Ch2 - Fundamental Types/2. Fundamental Types Overview.md",
     "Resources/Literal_Suffix.png",
     "Resources/Literal_Prefix.png",
     "Resources",
