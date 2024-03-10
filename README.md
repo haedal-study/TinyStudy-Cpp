@@ -39,8 +39,7 @@ C++을 배우고 싶은 사람 누구나 참여가 가능하며, 검증된 자�
 ### 3장 : Basic Concepts II - Integral and Floating-point Types
 **Integral Data Types**
 - Fixed Width Integers | size_t and ptrdiff_t
-- Signed/Unsigned Integer Characteristics
-- Promotion, Truncation
+- Signed/Unsigned Integer Characteristics | Promotion, Truncation
 - Undefined Behaviour
 
 **Floating-point Types and Arithmetic**
