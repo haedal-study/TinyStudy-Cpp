@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch2 - Fundamental Types/5. Operators.md",
+                "file": "Ch3 - Integral and Floating Data Types/2. size_t and ptrdiff_t.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch2 - Fundamental Types/5. Operators.md",
+                "file": "Ch3 - Integral and Floating Data Types/2. size_t and ptrdiff_t.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch2 - Fundamental Types/5. Operators.md",
+                "file": "Ch3 - Integral and Floating Data Types/2. size_t and ptrdiff_t.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch2 - Fundamental Types/5. Operators.md"
+                "file": "Ch3 - Integral and Floating Data Types/2. size_t and ptrdiff_t.md"
               }
             }
           }
@@ -159,14 +159,18 @@
   },
   "active": "483927812e74c161",
   "lastOpenFiles": [
+    "Ch2 - Fundamental Types/3. Conversion Rules.md",
+    "Ch2 - Fundamental Types/2. Fundamental Types Overview.md",
+    "Ch3 - Integral and Floating Data Types/2. size_t and ptrdiff_t.md",
+    "Ch3 - Integral and Floating Data Types/1. Fixed Width Integers.md",
+    "Resources/Pasted image 20240310100501.png",
+    "Ch2 - Fundamental Types/5. Operators.md",
+    "Ch3 - Integral and Floating Data Types",
+    "Resources/Pasted image 20240309123810.png",
     "Resources/Pasted image 20240309132756.png",
     "Ch2 - Fundamental Types/4. auto.md",
-    "Ch2 - Fundamental Types/5. Operators.md",
-    "Ch2 - Fundamental Types/3. Conversion Rules.md",
     "Resources/Pasted image 20240309130126.png",
-    "Ch2 - Fundamental Types/2. Fundamental Types Overview.md",
     "Resources/Pasted image 20240309124007.png",
-    "Resources/Pasted image 20240309123810.png",
     "Resources/Literal_Suffix.png",
     "Resources/Literal_Prefix.png",
     "Resources",
