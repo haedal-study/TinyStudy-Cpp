@@ -50,9 +50,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2b0f0483ce4a19cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ch2-Fundamental Types/Hello World.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch1-Introduction/3. C++ Weaknesses.md",
+                "file": "Ch2-Fundamental Types/Hello World.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch1-Introduction/3. C++ Weaknesses.md",
+                "file": "Ch2-Fundamental Types/Hello World.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch1-Introduction/3. C++ Weaknesses.md"
+                "file": "Ch2-Fundamental Types/Hello World.md"
               }
             }
           }
@@ -179,10 +191,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3ac701e5c9c7c1ff",
+  "active": "2b0f0483ce4a19cf",
   "lastOpenFiles": [
-    "Ch1-Introduction/2. C++ Philosophy.md",
+    "Ch2-Fundamental Types",
     "Ch1-Introduction/3. C++ Weaknesses.md",
+    "Ch2-Fundamental Types/Hello World.md",
+    "Ch1-Introduction/2. C++ Philosophy.md",
     "Ch1-Introduction/1. Areas Of Application and Popularity.md",
     "Ch1-Introduction",
     "choihuiji-tinycpp"
