@@ -36,3 +36,6 @@ c.f.) https://www.infoworld.com/article/3678178/beyond-c-the-promise-of-rust-car
 - Carbon Language : less complexity but safer
 - Circle C++  Compiler : effeciency, code productivity
 - Cppfront : simper, safer
+
+
+
