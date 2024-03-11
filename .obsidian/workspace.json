@@ -11,8 +11,12 @@
             "id": "6b6fb99ffca3d00b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "TinyStudy-CPP-2장/5. Fundamental Types Overview.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 228.5
   },
   "right": {
     "id": "c89468e758f01abc",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TinyStudy-CPP-2장/5. Fundamental Types Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TinyStudy-CPP-2장/5. Fundamental Types Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TinyStudy-CPP-2장/5. Fundamental Types Overview.md"
+              }
             }
           }
         ],
@@ -126,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,8 +147,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "820fe3f57d80b54c",
+  "active": "6b6fb99ffca3d00b",
   "lastOpenFiles": [
+    "TinyStudy-CPP-2장/5. Fundamental Types Overview.md",
     "TinyStudy-CPP-2장/4. Hello World.md",
     "TinyStudy-CPP-2장",
     "TinyStude-CPP-1장/3. C++ Weaknesses.md",
