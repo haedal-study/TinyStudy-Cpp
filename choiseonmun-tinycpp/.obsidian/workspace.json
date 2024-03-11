@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch3 - Integral and Floating Data Types/3. Signed Unsigned Integer Characteristics.md",
+                "file": "Ch3 - Integral and Floating Data Types/6. IEEE Floating-point Standard and Other Representations.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch3 - Integral and Floating Data Types/3. Signed Unsigned Integer Characteristics.md",
+                "file": "Ch3 - Integral and Floating Data Types/6. IEEE Floating-point Standard and Other Representations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch3 - Integral and Floating Data Types/3. Signed Unsigned Integer Characteristics.md",
+                "file": "Ch3 - Integral and Floating Data Types/6. IEEE Floating-point Standard and Other Representations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch3 - Integral and Floating Data Types/3. Signed Unsigned Integer Characteristics.md"
+                "file": "Ch3 - Integral and Floating Data Types/6. IEEE Floating-point Standard and Other Representations.md"
               }
             }
           }
@@ -159,8 +159,10 @@
   },
   "active": "ff6821b6ec8295fc",
   "lastOpenFiles": [
-    "Ch3 - Integral and Floating Data Types/4. Promotion Truncation.md",
+    "Resources/Pasted image 20240311211409.png",
+    "Ch3 - Integral and Floating Data Types/6. IEEE Floating-point Standard and Other Representations.md",
     "Ch3 - Integral and Floating Data Types/3. Signed Unsigned Integer Characteristics.md",
+    "Ch3 - Integral and Floating Data Types/4. Promotion Truncation.md",
     "Ch3 - Integral and Floating Data Types/5. Undefined Behavior.md",
     "Ch3 - Integral and Floating Data Types/2. size_t and ptrdiff_t.md",
     "Ch2 - Fundamental Types/3. Conversion Rules.md",
