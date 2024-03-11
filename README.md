@@ -9,7 +9,7 @@ C++을 배우고 싶은 사람 누구나 참여가 가능하며, 검증된 자�
 | [최선문](https://github.com/choiseonmun) | - | - |
 | [이동규](https://github.com/Dong-kyu-Lee) | C++을 확실하게 공부하고 싶습니다. | 꾸준히 열심히 스터디에 참여하겠습니다. |
 | [안예준](https://github.com/Zel-da) | 언리얼 엔진을 공부하고 있는데 C++ 지식이 부족해서 이를 보완하고자 참여했습니다. | C++을 제대로 다룰 수 있을만큼 많이 배우고 노력하겠습니다. |
-| [신중현](https://github.com/JunghyeonShin) | - | - |
+| [신중현](https://github.com/JunghyeonShin) | 배웠던 C++ 내용이 가물가물해서 이번 스터디를 통해 배우고자 참여했습니다. | 꾸준한 참여와 C++ 재정립입니다. |
 | [남궁영빈](https://github.com/YB970902) | 언리얼 엔진을 공부하고 싶었는데 C++을 혼자하려니 의지력이 부족해서 이를 극복하고자 참여했습니다. | 열심히 해서 끝까지 안 빠지고 진도 잘 나가도록 하겠습니다! |
 | [한승희](https://github.com/kaylahee) | 교환학생 이후 C++을 잊은 상태라 이를 복습하고자 스터디를 참여하게 되었습니다. | 꾸준히 열심히 해서 밀리지 않겠습니다. |
 | [공민석](https://github.com/Mati-as) | 취업 후 언리얼 엔진을 배우고 싶어 C++을 공부하고 싶었는데, 독학하려니 막막해서 참여했습니다. | 만족스러운 결과물을 내도록 하겠습니다. |
@@ -39,8 +39,7 @@ C++을 배우고 싶은 사람 누구나 참여가 가능하며, 검증된 자�
 ### 3장 : Basic Concepts II - Integral and Floating-point Types
 **Integral Data Types**
 - Fixed Width Integers | size_t and ptrdiff_t
-- Signed/Unsigned Integer Characteristics
-- Promotion, Truncation
+- Signed/Unsigned Integer Characteristics | Promotion, Truncation
 - Undefined Behaviour
 
 **Floating-point Types and Arithmetic**
