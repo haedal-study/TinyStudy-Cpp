@@ -74,9 +74,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "867dc1954cba983c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ch2-Fundamental Types/3. Conversion Rules.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "71ae85600ee97a13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ch2-Fundamental Types/4. Auto Declaration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -142,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch2-Fundamental Types/2. Fundamental Types Overview.md",
+                "file": "Ch2-Fundamental Types/4. Auto Declaration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch2-Fundamental Types/2. Fundamental Types Overview.md",
+                "file": "Ch2-Fundamental Types/4. Auto Declaration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch2-Fundamental Types/2. Fundamental Types Overview.md"
+                "file": "Ch2-Fundamental Types/4. Auto Declaration.md"
               }
             }
           }
@@ -203,10 +227,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "de0917cfc8224498",
+  "active": "71ae85600ee97a13",
   "lastOpenFiles": [
-    "Ch2-Fundamental Types/1. Hello World.md",
+    "Ch2-Fundamental Types/3. Conversion Rules.md",
+    "Ch2-Fundamental Types/4. Auto Declaration.md",
     "Ch2-Fundamental Types/2. Fundamental Types Overview.md",
+    "Ch2-Fundamental Types/1. Hello World.md",
     "Ch2-Fundamental Types",
     "Ch1-Introduction/3. C++ Weaknesses.md",
     "Ch1-Introduction/2. C++ Philosophy.md",
