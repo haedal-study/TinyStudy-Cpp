@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStudy-CPP-2장/6. Conversion Rules and auto Declaration.md",
+                "file": "TinyStudy-CPP-2장/C++ Operators.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-2장/6. Conversion Rules and auto Declaration.md",
+                "file": "TinyStudy-CPP-2장/C++ Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-2장/6. Conversion Rules and auto Declaration.md",
+                "file": "TinyStudy-CPP-2장/C++ Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-2장/6. Conversion Rules and auto Declaration.md"
+                "file": "TinyStudy-CPP-2장/C++ Operators.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "6b6fb99ffca3d00b",
   "lastOpenFiles": [
-    "TinyStudy-CPP-2장/5. Fundamental Types Overview.md",
     "TinyStudy-CPP-2장/6. Conversion Rules and auto Declaration.md",
+    "TinyStudy-CPP-2장/C++ Operators.md",
+    "TinyStudy-CPP-2장/5. Fundamental Types Overview.md",
     "TinyStudy-CPP-2장/4. Hello World.md",
     "TinyStudy-CPP-2장",
     "TinyStude-CPP-1장/3. C++ Weaknesses.md",
