@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStudy-CPP-2장/C++ Operators.md",
+                "file": "TinyStudy-CPP-3장/Fixed Width Integers, size_t and ptrdiff_t.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-2장/C++ Operators.md",
+                "file": "TinyStudy-CPP-3장/Fixed Width Integers, size_t and ptrdiff_t.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-2장/C++ Operators.md",
+                "file": "TinyStudy-CPP-3장/Fixed Width Integers, size_t and ptrdiff_t.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-2장/C++ Operators.md"
+                "file": "TinyStudy-CPP-3장/Fixed Width Integers, size_t and ptrdiff_t.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "6b6fb99ffca3d00b",
   "lastOpenFiles": [
-    "TinyStudy-CPP-2장/6. Conversion Rules and auto Declaration.md",
     "TinyStudy-CPP-2장/C++ Operators.md",
+    "TinyStudy-CPP-3장/Fixed Width Integers, size_t and ptrdiff_t.md",
+    "TinyStudy-CPP-3장",
+    "TinyStudy-CPP-2장/6. Conversion Rules and auto Declaration.md",
     "TinyStudy-CPP-2장/5. Fundamental Types Overview.md",
     "TinyStudy-CPP-2장/4. Hello World.md",
     "TinyStudy-CPP-2장",
