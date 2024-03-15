@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3장-Basic Concepts II-Integral and Floating-point Types/8일차-Fixed Width Integers, size_t and ptrdiff_t.md",
+                "file": "3장-Basic Concepts II-Integral and Floating-point Types/9일차-Signed,Unsigned Integer Characteristics, Promotion,Truncation.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200.5
   },
   "right": {
     "id": "6eb0695dd919a71c",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3장-Basic Concepts II-Integral and Floating-point Types/8일차-Fixed Width Integers, size_t and ptrdiff_t.md",
+                "file": "3장-Basic Concepts II-Integral and Floating-point Types/9일차-Signed,Unsigned Integer Characteristics, Promotion,Truncation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3장-Basic Concepts II-Integral and Floating-point Types/8일차-Fixed Width Integers, size_t and ptrdiff_t.md",
+                "file": "3장-Basic Concepts II-Integral and Floating-point Types/9일차-Signed,Unsigned Integer Characteristics, Promotion,Truncation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3장-Basic Concepts II-Integral and Floating-point Types/8일차-Fixed Width Integers, size_t and ptrdiff_t.md"
+                "file": "3장-Basic Concepts II-Integral and Floating-point Types/9일차-Signed,Unsigned Integer Characteristics, Promotion,Truncation.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "cbc4fdf251ad32fe",
   "lastOpenFiles": [
-    "2장-Basic Concepts I-Fundamental Types/7일차-C++ Operators.md",
     "3장-Basic Concepts II-Integral and Floating-point Types/8일차-Fixed Width Integers, size_t and ptrdiff_t.md",
+    "3장-Basic Concepts II-Integral and Floating-point Types/9일차-Signed,Unsigned Integer Characteristics, Promotion,Truncation.md",
+    "2장-Basic Concepts I-Fundamental Types/7일차-C++ Operators.md",
     "3장-Basic Concepts II-Integral and Floating-point Types",
     "Pasted image 20240313075240.png",
     "2장-Basic Concepts I-Fundamental Types/6일차-Conversion Rules, auto Declaration.md",
