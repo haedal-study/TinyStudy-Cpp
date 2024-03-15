@@ -26,93 +26,93 @@ C++을 배우고 싶은 사람 누구나 참여가 가능하며, 검증된 자�
 
 ## 1차 - C++ 기초(1~6장)
 ### 1장 : Introduction
-- Area of Application and Popularity
-- C++ Philosophy
-- C++ Weaknessses
+- 3.08 : Area of Application and Popularity
+- 3.09 : C++ Philosophy
+- 3.10 : C++ Weaknessses
 
 ### 2장 : Basic Concepts I - Fundamental Types 
-- Hello World
-- Fundamental Types Overview
-- Conversion Rules | auto Declaration
-- C++ Operators
+- 3.11 : Hello World
+- 3.12 : Fundamental Types Overview
+- 3.13 : Conversion Rules | auto Declaration
+- 3.14 : C++ Operators
 
 ### 3장 : Basic Concepts II - Integral and Floating-point Types
 **Integral Data Types**
-- Fixed Width Integers | size_t and ptrdiff_t
-- Signed/Unsigned Integer Characteristics | Promotion, Truncation
-- Undefined Behaviour
+- 3.15 : Fixed Width Integers | size_t and ptrdiff_t
+- 3.16 : Signed/Unsigned Integer Characteristics | Promotion, Truncation
+- 3.17 : Undefined Behaviour
 
 **Floating-point Types and Arithmetic**
-- IEEE Floating-point Standard and Other Representations
-- Normal/Denormal | Infinity | NaN; Not a Number
-- Machine Epsilon | ULP; Units at the Last Place
-- Cheatsheet
-- Arithmetic Properties | Detect Floating-point Errors
+- 3.18 : IEEE Floating-point Standard and Other Representations
+- 3.19 : Normal/Denormal | Infinity | NaN; Not a Number
+- 3.20 : Machine Epsilon | ULP; Units at the Last Place
+- 3.21 : Cheatsheet
+- 3.22 : Arithmetic Properties | Detect Floating-point Errors
 
 **Floating-point Issues**
-- Catastrophic Cancellation
-- Floating-point Comparison
+- 3.23 : Catastrophic Cancellation
+- 3.24 : Floating-point Comparison
 
 ### 4장 : Basic Concepts III - Entities and Control Flow
-- Entities | Declaration and Definition
-- Enumerators
-- struct, Bitfield and union
+- 3.25 : Entities | Declaration and Definition
+- 3.26 : Enumerators
+- 3.27 : struct, Bitfield and union
 
 **Control Flow**
-- if statement | for and while Loops | Range-based for Loop
-- switch | goto | Avoid Unused Variable Warning [[maybe_unused]]
+- 3.28 : if statement | for and while Loops | Range-based for Loop
+- 3.29 : switch | goto | Avoid Unused Variable Warning [[maybe_unused]]
 
 ### 5장 : Basic Concepts IV - Memory Management
 **Heap and Stack**
-- Stack Memory
-- new, delete
-- Non-allocating Placement Allocation | Non-throwing Allocation
-- Memory Leak
+- 3.30 : Stack Memory
+- 3.31 : new, delete
+- 4.01 : Non-allocating Placement Allocation | Non-throwing Allocation
+- 4.02 : Memory Leak
 
 **Initialization**
-- Variable Initialization | Uniform Initialization | Fixed-size Array Initialization
-- Structure Initialization | Dynamic Memory Initialization
+- 4.03 : Variable Initialization | Uniform Initialization | Fixed-size Array Initialization
+- 4.04 : Structure Initialization | Dynamic Memory Initialization
 
 **Pointers and References**
-- Pointer Operations
-- Address-of operator &
-- Reference
+- 4.05 : Pointer Operations
+- 4.06 : Address-of operator &
+- 4.07 : Reference
 
 **Constants, Literals, const, constexpr, consteval, constinit**
-- Constants and Literals | const
-- constexpr
-- consteval | constinit | if constexpr
-- std::is_constant_evaluated() | if consteval
+- 4.08 : Constants and Literals | const
+- 4.09 : constexpr
+- 4.10 : consteval | constinit | if constexpr
+- 4.11 : std::is_constant_evaluated() | if consteval
 
-- volatile Keyword
+- 4.12 : volatile Keyword
 
 **Explicit Type Conversion**
-- static_cast, const_cast, reintepret_cast
-- Type Punning
+- 4.13 : static_cast, const_cast, reintepret_cast
+- 4.14 : Type Punning
 
-- sizeof Operator
+- 4.15 : sizeof Operator
 
 ### 6장 : Basic Concepts V - Functions and Preprocessing
 **Functions**
-- Pass by-Value | Pass by-Pointer |Pass by-Reference
-- Function Signature and Overloading | Overloading and =delete
-- Default Parameters | Attributes [[attribute]]
+- 4.16 : Pass by-Value | Pass by-Pointer |Pass by-Reference
+- 4.17 : Function Signature and Overloading | Overloading and =delete
+- 4.18 : Default Parameters | Attributes [[attribute]]
 
-- **Function Pointers and Function Objects**
+- 4.19 : **Function Pointers and Function Objects**
 
 **Lambda Expressions**
-- Capture List
-- Parameters | Composability | constexpr/consteval
-- template | mutable
-- [[nodiscard]] | Capture List and Classes
+- 4.20 : Capture List
+- 4.21 : Parameters | Composability | constexpr/consteval
+- 4.22 : template | mutable
+- 4.23 : [[nodiscard]] | Capture List and Classes
 
 **Preprocessing**
-- Preprocessors
-- Common Errors
-- Source Location Macros
-- Condition Compiling Macros
-- Stringizing Operator # | #error and #warning | #pragma
-- Token-Pasting Operator ## | Variadic Macro
+- 4.24 : Preprocessors
+- 4.25 : Common Errors
+- 4.26 : Source Location Macros
+- 4.27 : Condition Compiling Macros
+- 4.28 : Stringizing Operator # | #error and #warning | #pragma
+- 4.29 : Token-Pasting Operator ## | Variadic Macro
 
 ## 2차 - 객체지향 프로그래밍, 일반화 프로그래밍(7~10장)
 
