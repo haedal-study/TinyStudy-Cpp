@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch3 - Integral and Floating Data Types/10. Machine Epsilon, ULP.md",
+                "file": "Ch3 - Integral and Floating Data Types/11. Cheatsheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch3 - Integral and Floating Data Types/10. Machine Epsilon, ULP.md",
+                "file": "Ch3 - Integral and Floating Data Types/11. Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch3 - Integral and Floating Data Types/10. Machine Epsilon, ULP.md",
+                "file": "Ch3 - Integral and Floating Data Types/11. Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch3 - Integral and Floating Data Types/10. Machine Epsilon, ULP.md"
+                "file": "Ch3 - Integral and Floating Data Types/11. Cheatsheet.md"
               }
             }
           }
@@ -162,12 +162,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff6821b6ec8295fc",
+  "active": "483927812e74c161",
   "lastOpenFiles": [
+    "Resources/Floating-point Cheatsheet 3.png",
+    "Resources/Floating-point Cheatsheet 2.png",
+    "Resources/Floating-point Cheatsheet 1.png",
     "Ch3 - Integral and Floating Data Types/9. NaN.md",
+    "Ch3 - Integral and Floating Data Types/11. Cheatsheet.md",
+    "Ch3 - Integral and Floating Data Types/10. Machine Epsilon, ULP.md",
     "Ch3 - Integral and Floating Data Types/6. IEEE Floating-point Standard and Other Representations.md",
     "Ch3 - Integral and Floating Data Types/8. Infinity.md",
-    "Ch3 - Integral and Floating Data Types/10. Machine Epsilon, ULP.md",
     "Resources/Pasted image 20240309123810.png",
     "Ch3 - Integral and Floating Data Types/11. ULP.md",
     "Ch3 - Integral and Floating Data Types/7. Normal Denormal.md",
@@ -188,8 +192,6 @@
     "Resources/Pasted image 20240309132756.png",
     "Ch2 - Fundamental Types/4. auto.md",
     "Resources/Pasted image 20240309130126.png",
-    "Resources/Pasted image 20240309124007.png",
-    "Resources/Literal_Suffix.png",
     "Resources",
     "Ch2 - Fundamental Types/1. Hello World.md",
     "Ch1-Introduction/3-C++ Weaknesses.md",
