@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cc7ddb209089ee51",
+        "id": "8626a60b27681d59",
         "type": "tabs",
         "children": [
           {
-            "id": "cbc4fdf251ad32fe",
+            "id": "189ef02a277fbf81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3장-Basic Concepts II-Integral and Floating-point Types/10일차-Undefined Behaviour.md",
+                "file": "3장-Basic Concepts II-Integral and Floating-point Types/11일차-IEEE Floating-point Standard and Other Representations.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3장-Basic Concepts II-Integral and Floating-point Types/10일차-Undefined Behaviour.md",
+                "file": "3장-Basic Concepts II-Integral and Floating-point Types/11일차-IEEE Floating-point Standard and Other Representations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3장-Basic Concepts II-Integral and Floating-point Types/10일차-Undefined Behaviour.md",
+                "file": "3장-Basic Concepts II-Integral and Floating-point Types/11일차-IEEE Floating-point Standard and Other Representations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3장-Basic Concepts II-Integral and Floating-point Types/10일차-Undefined Behaviour.md"
+                "file": "3장-Basic Concepts II-Integral and Floating-point Types/11일차-IEEE Floating-point Standard and Other Representations.md"
               }
             }
           }
@@ -146,14 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cbc4fdf251ad32fe",
+  "active": "189ef02a277fbf81",
   "lastOpenFiles": [
-    "3장-Basic Concepts II-Integral and Floating-point Types/9일차-Signed,Unsigned Integer Characteristics, Promotion,Truncation.md",
+    "Pasted image 20240313075240.png",
+    "3장-Basic Concepts II-Integral and Floating-point Types/11일차-IEEE Floating-point Standard and Other Representations.md",
+    "Untitled.canvas",
     "3장-Basic Concepts II-Integral and Floating-point Types/10일차-Undefined Behaviour.md",
+    "3장-Basic Concepts II-Integral and Floating-point Types/9일차-Signed,Unsigned Integer Characteristics, Promotion,Truncation.md",
     "3장-Basic Concepts II-Integral and Floating-point Types/8일차-Fixed Width Integers, size_t and ptrdiff_t.md",
     "2장-Basic Concepts I-Fundamental Types/7일차-C++ Operators.md",
     "3장-Basic Concepts II-Integral and Floating-point Types",
-    "Pasted image 20240313075240.png",
     "2장-Basic Concepts I-Fundamental Types/6일차-Conversion Rules, auto Declaration.md",
     "2장-Basic Concepts I-Fundamental Types/5일차-Fundamental Types Overview.md",
     "Pasted image 20240311075415.png",
