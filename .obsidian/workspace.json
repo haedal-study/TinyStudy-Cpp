@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStudy-CPP-3장/Undefined Behavior.md",
+                "file": "TinyStudy-CPP-3장/IEEE Floating-point Standard and Other Representations.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-3장/Undefined Behavior.md",
+                "file": "TinyStudy-CPP-3장/IEEE Floating-point Standard and Other Representations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-3장/Undefined Behavior.md",
+                "file": "TinyStudy-CPP-3장/IEEE Floating-point Standard and Other Representations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-3장/Undefined Behavior.md"
+                "file": "TinyStudy-CPP-3장/IEEE Floating-point Standard and Other Representations.md"
               }
             }
           }
@@ -149,11 +149,14 @@
   },
   "active": "6b6fb99ffca3d00b",
   "lastOpenFiles": [
+    "Pasted image 20240317213213.png",
+    "TinyStudy-CPP-3장/Signed and Unsigned Integer Characteristics.md",
+    "Pasted image 20240317212545.png",
+    "TinyStudy-CPP-3장/Undefined Behavior.md",
+    "TinyStudy-CPP-3장/IEEE Floating-point Standard and Other Representations.md",
     "TinyStudy-CPP-2장/6. Conversion Rules and auto Declaration.md",
     "TinyStudy-CPP-2장/C++ Operators.md",
     "TinyStudy-CPP-3장/Fixed Width Integers, size_t and ptrdiff_t.md",
-    "TinyStudy-CPP-3장/Signed and Unsigned Integer Characteristics.md",
-    "TinyStudy-CPP-3장/Undefined Behavior.md",
     "TinyStudy-CPP-3장",
     "TinyStudy-CPP-2장/5. Fundamental Types Overview.md",
     "TinyStudy-CPP-2장/4. Hello World.md",

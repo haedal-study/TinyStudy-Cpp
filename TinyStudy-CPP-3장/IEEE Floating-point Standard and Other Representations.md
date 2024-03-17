@@ -1,0 +1,51 @@
+
+* IEEE754 : floating-point 연산의 기술적 규범을 정해놓은 것
+
+### 32/64 bit Floating Point
+---
+
+* Single-percision (float : 32bit)
+	* 32bit --> 부호부(1bit) , 지수부(8bit) , 가수부(23bit)
+
+* Double-precision (double : 64bit)
+	* 64bit --> 부호부(1bit) , 지수부(11bit) , 가수부(52bit)
+
+* Quad-precision (std::float128 : 128bit)
+	* 128bit --> 부호부(1bit) , 지수부(15bit) , 가수부(112bit)
+	* C++23부터 있음
+
+* Octuple-precision (C++ 표준에 없음 : 256bit)
+	* 256bit --> 부호부(1bit) , 지수부(19bit) , 가수부(236bit)
+
+이외에도 16bit, 8bit floating point 타입들도 있다.
+
+* 16bit : std::binary16(C++23부터) , std::bfloat16(C++23부터)
+* 8 bit : E4M3 , E5M2
+
+
+### 지수 편향(Exponent Bias)
+---
+
+#### 부동소수점 표현방법
+
+* 10진수로 된 실수를 2진수로 변환한다. (ex. 12.345 --> 1100.011)
+
+![[Pasted image 20240317212545.png]]
+* 이를 정규화한다. (IEEE754: 1.M × 2^e)
+	* 정규화 하는 이유는 최적화와 관련되어 있음
+	* 가수(M)의 첫번째 자리를 (밑수(2)보다 작은 한자리 실수) x (밑수의 지수배)로 바꾼다. (ex. 1100.011 --> 1.100011 x 2^3)
+
+* (가수) x (밑수)^(지수)의 형태에서 가수는 가수부로, 지수는 지수부로 넣어 2진법으로 표현한다. 여기에서 지수부를 표현할 때 **지수편향**을 사용한다.
+	![[Pasted image 20240317213213.png]]
+
+
+* **지수 편향**
+	* IEEE754에서 floating-point의 지수부 값을 지수 편향을 통해 오프셋(이동된) 값으로 변경하여 사용한다.
+	
+	* 지수를 저장할 때 어떤 편향값을 기준으로 편향시켜 저장함.
+		* 편향값은 2^(k-1) - 1 (k는 지수부 비트수. 32bit float의 경우 127)
+		* 예를 들어, 지수부가 3일 경우, 편향된 지수값은 130 --> 10000010
+
+
+
+사진 출처 : [부동 소수점의 이해 (1부) (sk.com)](https://devocean.sk.com/blog/techBoardDetail.do?ID=165270#none)
