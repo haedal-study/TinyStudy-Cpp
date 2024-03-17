@@ -78,7 +78,7 @@
         // the compiler translates the multiplication constant into an addition
         ```
         - ![alt text](image-1.png)
-            -직접 돌려보니 무한루프가 나오진 않았다, 최적화가 적용안된 경우로 에상
+            -직접 돌려보니 무한루프가 나오진 않았다, 컴파일러 최적화가 적용이 안된 걸 수 있음.
 
     안전한 루프 작성방법
         - 변수가 그 타입의 최대값에 도달하지 않도록 주의합니다.
@@ -86,3 +86,36 @@
         - 변수가 최대값에 근접할 수 있는 연산을 할때는 오버플로우를 감지하고 처리할 수 있는 로직을 추가해야합니다.
             -예시로<limits> 헤더를 추가하여, 연산 수행시 오버플로우 가능성을 검사할 수있습니다. 
             - std::numeric_limits<int>::max() 를 사용할 수 있습니다. 
+
+
+## 3.5 IEEE FLoating-Point Standard Overview
+    - IEEE754
+        - Institute of Electrical and Electronics Enginners
+        - 부동 소수점의 연산을 위해 채택된 국제적인 표준을 의미합니다.
+        - 이진 형식, 연산 규칙, 반올림, 예외처리를 표준화 합니다. 
+        - 다시말해 위와 같은 항목을 표준화 하여, 컴퓨터간에 숫자를 일관적으로 처리하도록 정의한 것 입니다.
+        - 표준연혁
+            - 첫 릴리즈 : 1985
+            - 두번째 릴리즈 : 2008 Add 16-bit, 128bit, 256 bit등의 다양한 비트길이의 부동 소수점 타입 추가
+            - 세번째 릴리즈: 2019, 최소/최대 처리방식에 대해 규칙을 명시합니다 
+        - C/C++ 은 IEEE754 표준을 따릅니다 (<numveric_limits>)
+    - 비표준 방식 (Non-Standardized in C++/IEEE)
+        - TensorFloat-32
+            -딥러닝 응용프로그램을 위한 특수한 포맷의 부동소수점 입니다.
+            - NVIDIA의 최신 GPU 아키텍쳐에서 사용되는 부동소수점 형식입니다. 
+            - https://blogs.nvidia.com/blog/tensorfloat-32-precision-format/
+        -Posit
+            - John Gustafson에 의해 2017년 제안됨, unum III라고도 불립니다.
+            - 지수부와 가수부의 가변 너비를 가지는 부동소수점 값을 표현합니다.
+            - 실험적 플랫폼에서 구현되었습니다.
+        _Microscaling Formats(MX)
+            - AMD, Arm, Intel, Meta, Microsoft, NVIDIA, Qualcomm이 정의한 저정밀도 부동소수점 형식입니다.
+            - FP8, FP6, FP4, (MX)INT8을 포함합니다.
+        Fixed Point
+            - 임베디드 시스템에서 많이 사용됩니다.
+            - 소숫점 이하 자리가 고정된 형식입니다.
+            - 인접한 숫자 간격이 항상 동일합니다.
+                - 인접한 숫자간격이 동일하지 않을 수도 있다는 것은, 100.1과 100.2 사이의 차이가 0.1,0.2사이의 간격과 정밀도 이슈로 인해 동일하지 않을 수 있다는 것을의미합니다.
+                - 큰 숫자일수록 간격이 더 커질 수 있는데,
+            - 값의 범위가 부동 소수점 수에 비해서 상당히 제한적입니다. 
+            ![alt text](image-2.png)
