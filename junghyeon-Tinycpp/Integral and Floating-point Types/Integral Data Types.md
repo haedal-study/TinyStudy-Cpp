@@ -55,6 +55,12 @@
 - 컨테이너의 크기는 `int64_t`를 사용
 - 음의 값으로 섞을 수 없는 경우, 비트마스크 값, 오버플로우 발생 시 미정의 동작을 피해야하는 상황이 아니면 Signed 정수를 사용
 <br></br>
+# Promotion, Truncation
+- 승격 (Promotion)
+    - 더 큰 크기를 가진 타입으로 변환하며, 값 그대로 유지
+- 절삭 (Truncation)
+    - 더 작은 크기를 가진 타입으로 변환하며, 비트가 절삭
+<br></br>
 ## 자료
 - https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf
 - https://en.cppreference.com/w/cpp/header/cstddef
