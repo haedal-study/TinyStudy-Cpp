@@ -120,9 +120,11 @@
             - 값의 범위가 부동 소수점 수에 비해서 상당히 제한적입니다. 
             ![alt text](image-2.png)
 
+   
 ## 3.6 Normal / Denormal Number 
-    -정상수와 비정상수
-    ![alt text](image-4.png)
+    - 정상수와 비정상수
+    
+   <img src="/images/image-4.png" width="400" height="300">
 
     - ...가 아니고 정규화된 숫자와 비정규화 숫자
     - 정규화 수 (Normal Number)
