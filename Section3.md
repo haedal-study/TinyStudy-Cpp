@@ -119,3 +119,56 @@
                 - 큰 숫자일수록 간격이 더 커질 수 있는데,
             - 값의 범위가 부동 소수점 수에 비해서 상당히 제한적입니다. 
             ![alt text](image-2.png)
+
+## 3.6 Normal / Denormal Number 
+    -정상수와 비정상수
+    ![alt text](image-4.png)
+
+    - ...가 아니고 정규화된 숫자와 비정규화 숫자
+    - 정규화 수 (Normal Number)
+        - 부동소수점 방식으로 표현된 소수 중에서(mantissa x 2 ^ exponent), 지수에 적어도 하나이상의  비트로 표현되거나, 가수가 모두 0인경우를 말합니다
+        - 예시로, 156.25 = 1.001110001 * 2^7 입니다.
+    - 비정규화수 (Denormal number)
+        - 기본적으로 정규화가 불가능한 숫자들을 말합니다.
+        - 지수가 모두 0이고, 가수가 0이아닌 값으로 표현되는 부동소수점을 말합니다. 
+        - 예를들어 0.000000000001 같은 경우 가장 작은 정상수,1.0 2^-126보다 작으므로 정규화 할 수 없기에 가수부분만 가지고 표현하게됩니다.
+        - 추가 하드웨어 지원없이 느리게 진행 되며, underflow를 방지하고, 0으로 반올림을 막아주는 방식으로 진행됩니다.
+        -참고: "std::numeric_limits<float>::denorm_min(); 이용해 가장 작은 수를 표현한 경우 
+        ![alt text](image-5.png)
+
+
+
+### 3.7  Infinity
+    - Infinity값이란, IEEE754의 기준으로, 최대,최소로 표현가능한 숫자(repsentable value)를 초과한 값을 말합니다. 
+    - 수학적인 개념보다, 오류를 나타내거나 예외처리를 위한 용도로 사용되는 경우가 꽤 있습니다. 
+    - 비교연산 특징
+        - inf != finite_value 
+        - ±inf == ±inf
+    - Inifnity가 생성되는 연산
+        - +∞ 연산 +∞
+        - +∞ 연산 finite_value
+        - finite_value 연산 finite_value > max_value
+        - non-NaN / 0
+    ```
+        std::cout << 0 / 0;          // 정의되지 않은 행동(undefined behavior)
+        std::cout << 0.0 / 0.0;      // "nan" 출력
+        std::cout << 5.0 / 0.0;      // "inf" 출력
+        std::cout << -5.0 / 0.0;     // "-inf" 출력
+
+        auto inf = std::numeric_limits<float>::infinity();
+        std::cout << (-0.0 == 0.0);  // true, 0은 0과 같음
+        std::cout << ((5.0f * inf) == (-5.0f * inf)); // true, 0은 0과 같음
+        std::cout << ((10e40f) == (10e40f + 9999999.0f)); // true, inf는 inf와 같음
+        std::cout << ((10e40f) != (10e40f + 9999999.0f)); // false, 10e40는 inf가 아님
+    ```
+### 3.8 Not A Number (NaN)
+    - IEEEStandar를 기준으로, NaN은 정의되지않았거나, 표현할 수 없는 값을 의미합니다. 
+    - 예를들면 허수나 숫자자체로 표현되지 않는경우를 말합니다. 
+    - 특징
+        - (NaN == NaN) → false
+        - 모든 x에 대하여, (NaN != x) 
+    - NaN이 발생되는 예시 
+     - ±∞ · ∓∞ , 0 · ∞
+     - 0/0, ∞/∞
+     - √x, log(x) for x < 0
+     - sin−1(x), cos−1(x) for x < −1 or x > 1
