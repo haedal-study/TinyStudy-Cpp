@@ -61,6 +61,47 @@
 - 절삭 (Truncation)
     - 더 작은 크기를 가진 타입으로 변환하며, 비트가 절삭
 <br></br>
+# 미정의 동작
+- 양수보다 음수가 많음
+```
+int x = std::numeric_limits<int>::max() * -1;
+cout << x;                                          //문제 없음
+
+int y = std::numeric_limits<int>::min() * -1;
+cout << y;                                          //오버플로우
+```
+- 범위보다 큰 값을 갖는 정수를 초기화하는 것
+```
+int z = 3000000000;
+```
+- signed 정수형에 비트 연산을 하는 것
+```
+int w = 1 << 12;
+```
+- 타입의 범위를 초과한 시프트 연산을 하는 것
+```
+unsigned x = 1u << 32u;
+```
+- 암시적 형변환하는 것
+```
+uint16_t a = 65535;
+uint16_t b = 65535;
+cout << (a * b); 
+```
+# Overflow/Underflow
+- unsigned 정수형 타입에 대한 랩어라운드 탐지는 사소하지 않음
+```
+bool is_add_overflow(unsigned a, unsigned b) {
+    return (a + b) < a || (a + b) < b;
+}
+
+bool is_mul_overflow(unsigned a, unsigned b) {
+    unsigned x = a * b;
+    return a != 0 && (x / a) != b;
+}
+```
+- signed 정수형 타입에 대한 오버플로우/언더플로우 감지는 쉽지 않기 때문에 작업을 수행하기 전에 꼭 점검해야 함
+<br></br>
 ## 자료
 - https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf
 - https://en.cppreference.com/w/cpp/header/cstddef
