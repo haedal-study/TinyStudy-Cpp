@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch3-Integral and Floating-point Types/4. Undefined Behaviour.md",
+                "file": "Ch3-Integral and Floating-point Types/5. IEEE Floating-point Standard and Other Representations.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch3-Integral and Floating-point Types/4. Undefined Behaviour.md",
+                "file": "Ch3-Integral and Floating-point Types/5. IEEE Floating-point Standard and Other Representations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch3-Integral and Floating-point Types/4. Undefined Behaviour.md",
+                "file": "Ch3-Integral and Floating-point Types/5. IEEE Floating-point Standard and Other Representations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch3-Integral and Floating-point Types/4. Undefined Behaviour.md"
+                "file": "Ch3-Integral and Floating-point Types/5. IEEE Floating-point Standard and Other Representations.md"
               }
             }
           }
@@ -229,13 +229,14 @@
   },
   "active": "71ae85600ee97a13",
   "lastOpenFiles": [
-    "Ch3-Integral and Floating-point Types/2. Signed, Unsigned Integer Characteristics.md",
-    "Ch2-Fundamental Types/4. Auto Declaration.md",
     "Ch3-Integral and Floating-point Types/4. Undefined Behaviour.md",
+    "Ch3-Integral and Floating-point Types/5. IEEE Floating-point Standard and Other Representations.md",
     "Ch3-Integral and Floating-point Types/3. Promotion and Truncation.md",
+    "Ch3-Integral and Floating-point Types/2. Signed, Unsigned Integer Characteristics.md",
     "Ch3-Integral and Floating-point Types/1. Fixed Width Integers.md",
     "Ch2-Fundamental Types/5. C++ Operators.md",
     "Ch3-Integral and Floating-point Types",
+    "Ch2-Fundamental Types/4. Auto Declaration.md",
     "Ch2-Fundamental Types/3. Conversion Rules.md",
     "Ch2-Fundamental Types/2. Fundamental Types Overview.md",
     "Ch2-Fundamental Types/1. Hello World.md",
