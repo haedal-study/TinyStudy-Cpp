@@ -200,3 +200,17 @@
         - ε = ULP(p, 0)
         - ULPx = ε ∗ β^e(x)
 
+### 3.10 CheatSheet
+    - Floating-point Number Representations Cheat Sheet
+    -아래사진은, float의 예시로 1개의 sign ,8개의 지수, 그리고 23개의 가수 (mantissa) 가 있을때, NaN, Infinity, Lowest, Minimum,Largest등이 어떻게 표현되는지 나타냅니다.
+    - 예를들어 infinity는 sign비트와 관계없이, 11111111 / 00000000000000000000000과 같이 표현됩니다. 
+    -참고내용
+        - Bias는 편향값을 의미합니다.
+            - 컴퓨터가 음수를 저장할때 추가적 연산없이 효율적으로 처리하기 위해 만들어졌습니다. 
+            - 예를들어 8비트의 편항값은 127이므로, 지수에서 127을뺀 -127~128까지 표현이 가능합니다. 
+        -bfloat16은 "Braining Floating Point"의 약자로, 구글이 딥러닝 연산을 위해 만든 부동 소수점 형식을 의미합니다. 
+            -8비트의 지수와  7비트의 가수를 사용하여 더 넓은 범위의 수를 표현할 수 있으나, float,double에 비해 정밀도는 낮습니다. 
+- <img src="/images/CheatSheet1.png" width="400" height="300">
+- <img src="/images/CheatSheet2.png" width="400" height="300">
+  
+
