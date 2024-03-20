@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3장-Basic Concepts II-Integral and Floating-point Types/13일차-Machine Epsilon, ULP; Units at the Last Place.md",
+                "file": "3장-Basic Concepts II-Integral and Floating-point Types/14일차-Cheatsheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3장-Basic Concepts II-Integral and Floating-point Types/13일차-Machine Epsilon, ULP; Units at the Last Place.md",
+                "file": "3장-Basic Concepts II-Integral and Floating-point Types/14일차-Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3장-Basic Concepts II-Integral and Floating-point Types/13일차-Machine Epsilon, ULP; Units at the Last Place.md",
+                "file": "3장-Basic Concepts II-Integral and Floating-point Types/14일차-Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3장-Basic Concepts II-Integral and Floating-point Types/13일차-Machine Epsilon, ULP; Units at the Last Place.md"
+                "file": "3장-Basic Concepts II-Integral and Floating-point Types/14일차-Cheatsheet.md"
               }
             }
           }
@@ -148,8 +148,12 @@
   },
   "active": "189ef02a277fbf81",
   "lastOpenFiles": [
-    "3장-Basic Concepts II-Integral and Floating-point Types/12일차-Normal,Denormal, Infinity, NaN; Not a Number.md",
+    "Pasted image 20240320112107.png",
+    "Pasted image 20240320112056.png",
+    "Pasted image 20240320112001.png",
     "3장-Basic Concepts II-Integral and Floating-point Types/13일차-Machine Epsilon, ULP; Units at the Last Place.md",
+    "3장-Basic Concepts II-Integral and Floating-point Types/14일차-Cheatsheet.md",
+    "3장-Basic Concepts II-Integral and Floating-point Types/12일차-Normal,Denormal, Infinity, NaN; Not a Number.md",
     "3장-Basic Concepts II-Integral and Floating-point Types/11일차-IEEE Floating-point Standard and Other Representations.md",
     "Pasted image 20240313075240.png",
     "Untitled.canvas",
