@@ -36,6 +36,40 @@
     - 인접한 숫자들 사이의 간격은 항상 같음
     - 부동 소수점 숫자에 비해 범위가 상당히 제한적
 <br></br>
+# Normal/Denormal
+- 정규값(Normal number)
+    - 지수부에 한 비트라도 설정되거나 가수부가 모두 0인 부동 소수점 수
+- 비정규값(Denormal number)
+    - 부동 소수점 연산에서 0 주변의 언더플로우 갭을 채움
+    - 지수부가 모두 0이지만 가수부는 0이 아닌 부동 소수점 수
+<br></br>
+# 무한대 (Infinity)
+- IEEE754 표준에서 `inf`(infinity value)는 최대(또는 최소) 표시 가능한 값을 초과하는 숫자 데이터 타입
+- 비교
+```
+(inf == finite_value)   → false
+(±inf == ±inf)          → true
+
+ex)
+cout << 0 / 0;          //undefined behavior
+cout << 0.0 / 0.0;      //print "nan"
+cout << 5.0 / 0.0;      //print "inf"
+cout << -5.0 / 0.0;     //print "-inf"
+
+auto inf = std::numeric_limits<float>::infinity;
+cout << (-0.0 == 0.0);                      // true, 0 == 0
+cout << ((5.0f / inf) == ((-5.0f / inf));   // true, 0 == 0
+cout << (10e40f) == (10e40f + 9999999.0f);  // true, inf == inf
+cout << (10e40) == (10e40f + 9999999.0f);   // false, 10e40 != inf
+```
+# Not a Number(NaN)
+- IEEE754 표준에서 `NaN`(not a number)는 정의되지 않거나 표현할 수 없는 값을 나타내는 숫자 데이터 타입
+- 비교
+```
+(NaN == x)      → false, 모든 x에 대해
+(NaN == NaN)    → false
+```
 ## 자료
 - https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf
+- https://devocean.sk.com/blog/techBoardDetail.do?page=&boardType=undefined&query=&ID=165270&searchData=&subIndex=
 
