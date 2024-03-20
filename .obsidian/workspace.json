@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStudy-CPP-3장/11. IEEE Floating-point Standard and Other Representations.md",
+                "file": "TinyStudy-CPP-3장/Cheatsheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-3장/11. IEEE Floating-point Standard and Other Representations.md",
+                "file": "TinyStudy-CPP-3장/Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-3장/11. IEEE Floating-point Standard and Other Representations.md",
+                "file": "TinyStudy-CPP-3장/Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-3장/11. IEEE Floating-point Standard and Other Representations.md"
+                "file": "TinyStudy-CPP-3장/Cheatsheet.md"
               }
             }
           }
@@ -149,13 +149,16 @@
   },
   "active": "6b6fb99ffca3d00b",
   "lastOpenFiles": [
-    "TinyStudy-CPP-3장/13. Machine Epsilon , ULP.md",
+    "Pasted image 20240320103835.png",
+    "Pasted image 20240320103613.png",
+    "TinyStudy-CPP-3장/11. IEEE Floating-point Standard and Other Representations.md",
+    "TinyStudy-CPP-3장/Cheatsheet.md",
     "TinyStudy-CPP-3장/12. Normal and Denormal , Infinity , NaN; Not a Number.md",
+    "TinyStudy-CPP-3장/9. Signed and Unsigned Integer Characteristics.md",
+    "TinyStudy-CPP-3장/13. Machine Epsilon , ULP.md",
     "Pasted image 20240317212545.png",
     "README.md",
-    "TinyStudy-CPP-3장/11. IEEE Floating-point Standard and Other Representations.md",
     "TinyStudy-CPP-3장/10. Undefined Behavior.md",
-    "TinyStudy-CPP-3장/9. Signed and Unsigned Integer Characteristics.md",
     "TinyStudy-CPP-3장/8. Fixed Width Integers, size_t and ptrdiff_t.md",
     "TinyStudy-CPP-2장/7. C++ Operators.md",
     "Pasted image 20240317213213.png",
