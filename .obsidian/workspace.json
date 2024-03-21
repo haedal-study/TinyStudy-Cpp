@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStudy-CPP-3장/Cheatsheet.md",
+                "file": "TinyStudy-CPP-3장/15. Arithmetic Properties , Detect Floating-point Errors.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-3장/Cheatsheet.md",
+                "file": "TinyStudy-CPP-3장/15. Arithmetic Properties , Detect Floating-point Errors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-3장/Cheatsheet.md",
+                "file": "TinyStudy-CPP-3장/15. Arithmetic Properties , Detect Floating-point Errors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-3장/Cheatsheet.md"
+                "file": "TinyStudy-CPP-3장/15. Arithmetic Properties , Detect Floating-point Errors.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "6b6fb99ffca3d00b",
   "lastOpenFiles": [
+    "TinyStudy-CPP-3장/15. Arithmetic Properties , Detect Floating-point Errors.md",
     "Pasted image 20240320103835.png",
     "Pasted image 20240320103613.png",
     "TinyStudy-CPP-3장/11. IEEE Floating-point Standard and Other Representations.md",
