@@ -214,3 +214,66 @@
 - <img src="/images/CheatSheet2.png" width="400" height="300">
   
 
+### 3.11 Floating-point Arithmetic Properties
+    :부동 소수점 연산의 성질
+        - 개요
+        부동 소수점은  실제 수학적인 연산과 다른 성질을 가지고있으므로, 이를 정확히 이해함으로써 오차를 최소화 할 수 있습니다.
+        - 성질
+            1. 일반적으로 더하기,빼기,나누기,곱하기는 정확한 정밀도로 수행되지 않을 수 있습니다.
+            2. NaN의 경우 반사성,Reflexivity를 가지지 않습니다. 
+                - 반사관계란, 모든 원소가 자기자신이랑 대응이 있는경우를 말합니다. (즉, 자기자신과 비교했을때 항상 참)
+                -하지만 NaN의 경우 비트표현에서 보았듯이, * / 11111111 / *************... 와같이 표현됩니다.
+                -이는 *****에 무수한 경우가 올 수 있고, 똑같이 NaN이라 하여도 NaN==NaN을 보장할 수 없다는 것을 의미합니다. 
+                - 참고
+                    - 행렬에서, 반사관계에 대한 행렬은 대각원소가 모두 1인경우를 말합니다. 
+                    - 즉 모든 원소에 대하여 루프가 존재합니다
+                    - 비반사와 반사는 여집합관계이며, 동시에 불가능합니다. 
+            3. NaN의 경우 교환법칙이 성립하지 않습니다.
+                - Nan != NaN => NaN + a != NaN + a => a + NaN != NaN + a
+            4. 부동 소수점 연산의 경우, 결합 법칙이 성립하지 않습니다.
+                - 예를들어 a + (b + c) 와 (a + b) + c 에서 a + b 값이 너무 크거나 작을경우 유효하지 않은 숫자가 생략 될 수 있습니다.  
+            5. 분배법칙이 성립하지 않습니다.
+                - 곱셈과 덧셈사이에 정확한 분배법칙이 적용되지 않습니다.
+                - a * (b + c) = a * b + a * c를 의미하는데, a가 매우작은 수이고, b + c단계에서, 오버플로우로 인해 inf가 되는 경우를 가정하면 우변과 좌변이 일치하지 않을 수 있게됩니다. 
+            6. 연산에 대한 항등성이 보장되지 않습니다. 
+                - k를 a로 나누고 a를 다시 곱할때, 이 값이 k와 동일하다는 보장을 할 수 없습니다.
+                - 예시
+                     - NaN + 0 != NaN
+                     - 매우작은 부동소수점 수 같은 반올림오차  
+            7. 오버플로우,언더플로가 없습니다. 
+                - inf,-inf에서 포화상태(Saturation)이 되며, 더하기 연산에서 inf나 -inf에 이르기 전에 포화될 수 있습니다.
+
+### 3.12 Detect Floating-point Errors
+    - C++11 의 <cfenv> 헤더는 부동소수점 관련 오류를 감지 및 처리하는 기능을 제공합니다.
+    - 0으로 나눔연산, 부정확한 반올림,비유효 검사, 오버플로우, 언더플로우 등이 포함됩니다.
+    ```
+    #include <cfenv>
+    FE_DIVBYZERO
+    FE_INEXACT
+    FE_INVALID
+    FE_OVERFLOW
+    FE_UNDERFLOW
+    FE_ALL_EXCEPT
+
+    //예시 
+    #include <cfenv> // floating point exceptions
+    #include <iostream>
+    #pragma STDC FENV_ACCESS ON     /* 전처리기: 부동소수점 환경에 대한 접근을 필요로 한다는 것을 알립니다.
+    */ 모든 컴파일러가 지원하는것은 아니며, gcc는 지원하나 clang은 지원하지 않습니다.  
+
+    // environment (not supported by all compilers)
+    // gcc: yes, clang: no
+    int main() {
+    std::feclearexcept(FE_ALL_EXCEPT); // clear
+    auto x = 1.0 / 0.0; // all compilers
+    std::cout << (bool) std::fetestexcept(FE_DIVBYZERO); // print true
+    std::feclearexcept(FE_ALL_EXCEPT); // clear
+    auto x2 = 0.0 / 0.0; // all compilers
+    std::cout << (bool) std::fetestexcept(FE_INVALID); // print true
+    std::feclearexcept(FE_ALL_EXCEPT); // clear
+    auto x4 = 1e38f * 10; // gcc: ok
+    std::cout << std::fetestexcept(FE_OVERFLOW); // print true
+    }
+    ``` 
+       
+
