@@ -69,6 +69,23 @@ cout << (10e40) == (10e40f + 9999999.0f);   // false, 10e40 != inf
 (NaN == x)      → false, 모든 x에 대해
 (NaN == NaN)    → false
 ```
+# Machine epsilon
+- 1.0에 더했을 때 1이 아닌 다른 값을 주는 가장 작은 수(ε, machine accuracy)
+    - IEEE754 단일 정밀도 : ε = 2<sup>-23</sup> ≈ 1.19209 ∗ 10<sup>−7</sup>
+    - IEEE754 2배 정밀도 : ε = 2<sup>-52</sup> ≈ 2.22045 ∗ 10<sup>−16</sup>
+<br></br>
+# ULP(Units at the Last Place)
+- 연속적인 부동 소수점 수 사이의 간격
+- $ULP(p,e)=β^{e−(p−1)} → 2^{e−(p−1)}$
+- ε(Machine epsilon)과의 관계
+    - $ε=ULP(p,0)$
+    - $ILP_x=ε∗β^e(x)$
+# 실수의 부동 소수점 표현
+- $fl(x)=x(1 + δ)$
+    - δ : 작은 상수
+    - x는 아래와 같은 성질을 가짐
+        - 절대 오차 : $|fl(x) − x|$ $≤$ $1\over2$ · $ULP_x$
+        - 상대 오차 : $|\frac{fl(x)-x}{x}|$ $≤$ $1\over2$ · $ε$
 ## 자료
 - https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf
 - https://devocean.sk.com/blog/techBoardDetail.do?page=&boardType=undefined&query=&ID=165270&searchData=&subIndex=
