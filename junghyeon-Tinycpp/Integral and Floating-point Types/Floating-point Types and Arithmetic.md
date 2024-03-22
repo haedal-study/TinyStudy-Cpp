@@ -86,6 +86,33 @@ cout << (10e40) == (10e40f + 9999999.0f);   // false, 10e40 != inf
     - x는 아래와 같은 성질을 가짐
         - 절대 오차 : $|fl(x) − x|$ $≤$ $1\over2$ · $ULP_x$
         - 상대 오차 : $|\frac{fl(x)-x}{x}|$ $≤$ $1\over2$ · $ε$
+# Cheatsheet
+![Cheatsheet](Images/Cheatsheet.png)
+# Limits
+```
+#include <limits>
+// T : float or double
+
+std::numeric_limits<T>::max();          // largest value
+std::numeric_limits<T>::lowest();       // lowest value (C++11)
+std::numeric_limits<T>::min();          // smallest value
+std::numeric_limits<T>::denorm min()    // smallest (denormal) value
+std::numeric_limits<T>::epsilon();      // epsilon value
+std::numeric_limits<T>::infinity()      // infinity
+std::numeric_limits<T>::quiet NaN()     // NaN
+```
+# Useful Functions
+```
+#include <cmath>                // C++11
+bool std::isnan(T value)        // NaN 체크
+bool std::isinf(T value)        // ±infinity 체크
+bool std::isfinite(T value)     // !NaN && !±infinity
+
+bool std::isnormal(T value);    // Normal 체크
+
+T std::ldexp(T x, p)            // 지수부 왼쪽으로 시프트
+int std::ilogb(T value)         // 지수부 값 추출
+```
 ## 자료
 - https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf
 - https://devocean.sk.com/blog/techBoardDetail.do?page=&boardType=undefined&query=&ID=165270&searchData=&subIndex=
