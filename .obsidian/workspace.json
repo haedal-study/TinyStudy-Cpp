@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7204a5925d9a62c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TinyStudy-CPP-3장/16. Catastrophic Cancellation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-3장/15. Arithmetic Properties , Detect Floating-point Errors.md",
+                "file": "TinyStudy-CPP-3장/16. Catastrophic Cancellation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-3장/15. Arithmetic Properties , Detect Floating-point Errors.md",
+                "file": "TinyStudy-CPP-3장/16. Catastrophic Cancellation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-3장/15. Arithmetic Properties , Detect Floating-point Errors.md"
+                "file": "TinyStudy-CPP-3장/16. Catastrophic Cancellation.md"
               }
             }
           }
@@ -147,8 +160,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6b6fb99ffca3d00b",
+  "active": "ce3574058efd2c67",
   "lastOpenFiles": [
+    "TinyStudy-CPP-3장/16. Catastrophic Cancellation.md",
     "TinyStudy-CPP-3장/15. Arithmetic Properties , Detect Floating-point Errors.md",
     "Pasted image 20240320103835.png",
     "Pasted image 20240320103613.png",
