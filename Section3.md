@@ -88,7 +88,9 @@
             - std::numeric_limits<int>::max() 를 사용할 수 있습니다. 
 
 
-## 3.5 IEEE FLoating-Point Standard Overview
+## 2 Floating-point Types and Arithmetic
+
+### 2.1 IEEE FLoating-Point Standard Overview
     - IEEE754
         - Institute of Electrical and Electronics Enginners
         - 부동 소수점의 연산을 위해 채택된 국제적인 표준을 의미합니다.
@@ -121,7 +123,7 @@
             ![alt text](image-2.png)
 
    
-## 3.6 Normal / Denormal Number 
+### 2.2 Normal / Denormal Number 
     - 정상수와 비정상수
     
    <img src="/images/image-4.png" width="400" height="300">
@@ -140,7 +142,7 @@
 
 
 
-### 3.7  Infinity
+### 2.3  Infinity
     - Infinity값이란, IEEE754의 기준으로, 최대,최소로 표현가능한 숫자(repsentable value)를 초과한 값을 말합니다. 
     - 수학적인 개념보다, 오류를 나타내거나 예외처리를 위한 용도로 사용되는 경우가 꽤 있습니다. 
     - 비교연산 특징
@@ -163,7 +165,7 @@
         std::cout << ((10e40f) == (10e40f + 9999999.0f)); // true, inf는 inf와 같음
         std::cout << ((10e40f) != (10e40f + 9999999.0f)); // false, 10e40는 inf가 아님
     ```
-### 3.8 Not A Number (NaN)
+### 2.4 Not A Number (NaN)
     - IEEEStandar를 기준으로, NaN은 정의되지않았거나, 표현할 수 없는 값을 의미합니다. 
     - 예를들면 허수나 숫자자체로 표현되지 않는경우를 말합니다. 
     - 특징
@@ -175,14 +177,14 @@
      - √x, log(x) for x < 0
      - sin−1(x), cos−1(x) for x < −1 or x > 1
 
-### 3.9 Machine epsilon (머신 입실론)
+### 2.5 Machine epsilon (머신 입실론)
     - Machine Epsion ε 혹은 Machine accuray는, 가장 작은 숫자를 발합니다.
         - 예를들어, 1.0이 있다면, 최소 이 엡실론 만큼은 더해줘야 다른숫자로 인식됩니다.
         - 당신의 자에 밀리미터 눈금이 마지막이라면, 그 상황의 밀리미터가 바로 엡실론입니다.
     - IEEE 754 single precision  ;  ε = 2−23 ≈ 1.19209 ∗ 10−7
     - IEEE 754 double prrecision ;  : ε = 2−52 ≈ 2.22045 ∗ 10−16
 
-### 3.10 Units at the Last Place (ULP)
+### 2.6 Units at the Last Place (ULP)
     - ULP란, IEEE 부동소수점표준을 따르는 연속적인 부동 소수점 숫자들 사이의 간격을 의미합니다.
     - 식으로 ULP(p, e) = β^e−(p−1) → 2^e−(p−1)와 같이 표현합니다.
     - 참고) 정밀도p로만 ULP를 정의하지않고 지수부분인 e까지 사용하는 이유는 다음과같습니다.
@@ -200,7 +202,7 @@
         - ε = ULP(p, 0)
         - ULPx = ε ∗ β^e(x)
 
-### 3.10 CheatSheet
+### 2.7 CheatSheet
     - Floating-point Number Representations Cheat Sheet
     -아래사진은, float의 예시로 1개의 sign ,8개의 지수, 그리고 23개의 가수 (mantissa) 가 있을때, NaN, Infinity, Lowest, Minimum,Largest등이 어떻게 표현되는지 나타냅니다.
     - 예를들어 infinity는 sign비트와 관계없이, 11111111 / 00000000000000000000000과 같이 표현됩니다. 
@@ -214,7 +216,7 @@
 - <img src="/images/CheatSheet2.png" width="400" height="300">
   
 
-### 3.11 Floating-point Arithmetic Properties
+### 2.8 Floating-point Arithmetic Properties
     :부동 소수점 연산의 성질
         - 개요
         부동 소수점은  실제 수학적인 연산과 다른 성질을 가지고있으므로, 이를 정확히 이해함으로써 오차를 최소화 할 수 있습니다.
@@ -243,7 +245,7 @@
             7. 오버플로우,언더플로가 없습니다. 
                 - inf,-inf에서 포화상태(Saturation)이 되며, 더하기 연산에서 inf나 -inf에 이르기 전에 포화될 수 있습니다.
 
-### 3.12 Detect Floating-point Errors
+### 2.9 Detect Floating-point Errors
     - C++11 의 <cfenv> 헤더는 부동소수점 관련 오류를 감지 및 처리하는 기능을 제공합니다.
     - 0으로 나눔연산, 부정확한 반올림,비유효 검사, 오버플로우, 언더플로우 등이 포함됩니다.
     ```
@@ -275,5 +277,41 @@
     std::cout << std::fetestexcept(FE_OVERFLOW); // print true
     }
     ``` 
+
+
+## 3 **Floating Point Issues**
+
+- ### 3.1 Catastrophic Cancellation
+    부동소수점 계산에서 되돌릴 수 없는(*자료에서 reversed가 오타난듯..revered로 해석이 안됨) 관련 정보 손실을 나타냅니다.
+    - 발생하는경우
+        1. 한 숫자가 다른 숫자에 비해 마우 클 때, 더 작은 숫자의 값이나 값의 일부가 손실될 수 있습니다.
+        2. 두 숫자가 서로 근사값일때, 두 숫자의 차는 결과의 중요한 부분의 대부분을 상쇄시킵니다. 즉, 절대오차는 작을 수 있으나, 상대오차는 매우 큽니다.
+    - Granularity
+        - 부동소수점의 값이 커짐에 따라 표현할 수 있는 값 사이의 간격이 점점 멀어지는 것을 알려줍니다.
+        - 즉 숫자가 서로 매우 비슷한 값일 경우, 부동 소수점 계산의 정밀도 한계를 고려해야 합니다.
+    - 사례
+        1.무한 루프 
+            아래와 같은경우 무한루프가 발생합니다.
+                - 부동소수점은 특정 범위가 넘어가면 더 작은 변화를 감지 할 수 없습니다.
+            ```
+            while (x > 0)
+            x = x - y  // 여기서 x가 30,000,000(float가 표현할 수 있는 최대치에 근접한 값),
+            ```
+        2. 점진적으로 값이 증가해도, 변화가 없어질 수 있습니다.
+        ```
+        float x =0.0f;
+        for (iint i=0; i<20000000000; i++)
+        x +=1.0f //print 1.67772e+07.
+        ```
+        3. 천장나눗셈 (ceiling division)의 경우,나눗셈에서 값이 손실되지않고 연산이 정확히 수행됩니다. 
+
+        4. 이차방정식의 해를 구할때, 숫자들의 차이가 너무커서 정확한 해를 구하지 못할 수 있습니다. 
+            - 예를들면 x^2 + 5000x + 0.25 = 0의 해를 구할때, 수학적으로는 0.00005 지만, 부동소수점 연산의 결과적으로 0으로 표현될 여지가 있습니다. 
+
+   
+
+        
+
+
        
 
