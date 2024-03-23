@@ -113,6 +113,36 @@ bool std::isnormal(T value);    // Normal 체크
 T std::ldexp(T x, p)            // 지수부 왼쪽으로 시프트
 int std::ilogb(T value)         // 지수부 값 추출
 ```
+# 산술 특성
+- 사칙 연산이 가능
+- 실제 연산이 다름
+- 비반사 관계
+    - NaN을 제외하면 반사 관계
+- 교환법칙 성립 X
+    - NaN을 제외하면 교환법칙 성립
+- 결합법칙 성립 X
+- 분배법칙 성립 X
+- 아래의 식과 같이 식의 값 보장 X
+    - $(k/a)*a≠k$
+- 오버플로우 / 언더플로우가 없음
+    - inf / -inf 존재
+<br></br>
+# 부동소수점 에러 탐지
+- `<cfenv>`를 통해 부동 소수점 예외 조건이 발생했는지 여부를 판단할 수 있음
+```
+#include <cfenv>
+// MACRO
+FE_DIVBYZERO    // division by zero
+FE_INEXACT      // rounding error
+FE_INVALID      // invalid operation, i.e. NaN
+FE_OVERFLOW     // overflow (reach saturation value +inf)
+FE_UNDERFLOW    // underflow (reach saturation value -inf)
+FE_ALL_EXCEPT   // all exceptions
+
+// functions
+std::feclearexcept(FE_ALL_EXCEPT);  // clear exception status
+std::fetestexcept(<macro>);         // returns a value != 0 if an exception has been detected
+```
 ## 자료
 - https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf
 - https://devocean.sk.com/blog/techBoardDetail.do?page=&boardType=undefined&query=&ID=165270&searchData=&subIndex=
