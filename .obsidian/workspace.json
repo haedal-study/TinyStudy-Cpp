@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStudy-CPP-3장/17. Floating-point Comparison.md",
+                "file": "TinyStudy-CPP-4장/Entities , Declaration and Definition.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-3장/17. Floating-point Comparison.md",
+                "file": "TinyStudy-CPP-4장/Entities , Declaration and Definition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-3장/17. Floating-point Comparison.md",
+                "file": "TinyStudy-CPP-4장/Entities , Declaration and Definition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-3장/17. Floating-point Comparison.md"
+                "file": "TinyStudy-CPP-4장/Entities , Declaration and Definition.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "7204a5925d9a62c0",
   "lastOpenFiles": [
-    "TinyStudy-CPP-3장/16. Catastrophic Cancellation.md",
     "TinyStudy-CPP-3장/17. Floating-point Comparison.md",
+    "TinyStudy-CPP-4장/Entities , Declaration and Definition.md",
+    "TinyStudy-CPP-4장",
+    "TinyStudy-CPP-3장/16. Catastrophic Cancellation.md",
     "TinyStudy-CPP-3장/15. Arithmetic Properties , Detect Floating-point Errors.md",
     "Pasted image 20240320103835.png",
     "Pasted image 20240320103613.png",
