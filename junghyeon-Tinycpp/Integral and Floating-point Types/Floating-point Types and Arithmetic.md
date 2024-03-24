@@ -143,7 +143,52 @@ FE_ALL_EXCEPT   // all exceptions
 std::feclearexcept(FE_ALL_EXCEPT);  // clear exception status
 std::fetestexcept(<macro>);         // returns a value != 0 if an exception has been detected
 ```
+# 부동 소수점 이슈
+- 정수형이 큰 수에 대해 부동 소수형보다 정확
+```
+cout << 16777217;           // print 16777217
+cout << (int) 16777217.0f;  // print 16777216!!
+cout << (int) 16777217.0;   // print 16777217, double ok
+```
+- `float`과 `double`은 다름
+```
+cout << (1.1 != 1.1f);      // print true
+```
+- 부동 소수점 정확도는 유한함
+```
+cout << setprecision(20);
+cout << 3.33333333f;                            // print 3.333333254
+cout << 3.33333333;                             // print 3.333333333
+cout << (0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1);    // print 0.59999999999999998
+```
+- 부동 소수점 산술은 연관성이 없음
+```
+cout << 0.1 + (0.2 + 0.3) == (0.1 + 0.2) + 0.3; // print false
+```
+- IEEE754에서 부동 소수점 계산이 순서가 같다면 동일한 값을 보장
+<br></br>
+# 부동 소수점 알고리즘
+- addition 알고리즘
+    - 두 수의 지수를 비교
+        - 지수가 더 큰 지수와 일치할 때까지 작은 수를 오른쪽으로 시프트
+    - 가수를 추가
+    - 필요한 경우 합계 정규화
+- multiplication 알고리즘
+    - 가수부들의 곱셈 결과의 비트 수는 피연산자의 2배 크기
+    - 필요한 경우 정규화
+    - 지수의 덧셈
+- fused multiply-add
+    - GPU는 하나의 명령어로 덧셈과 곱셈을 계한하는 fma를 제공
+    - $fma(x,y,z)$의 반올림 오차가 $(x*y)+z$보다 작음
+<br></br>
+# Catastrophic Cancellation
+- 부동 소수점 계산에서 신뢰할 수 없는 관련 정보의 손실을 말함
+    - $a ± b(a ≫ b or b ≫ a)$
+        - 두 수의 차이가 매우 클 경우, 더 작은 값이 손실됨
+    - $a − b(a ≈ b)$
+        - 정확도로 인해 결과의 일부분이 손실됨
+        - 작은 절대 오차지만 큰 상대 오차가 됨
+<br></br>
 ## 자료
 - https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf
 - https://devocean.sk.com/blog/techBoardDetail.do?page=&boardType=undefined&query=&ID=165270&searchData=&subIndex=
-
