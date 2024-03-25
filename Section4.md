@@ -1,6 +1,6 @@
 # 4.Basic Concepts III - Entities and Control Flow
 
-### 1.Entities 
+### 4.1Entities 
 - C++ 에서 사용되는 값,객체, 참조, 함수, 열거형, 타입, 클래스 멤버, 템플릿 또는 네임스페이스를 의미합니다.
 - 부연설명 
     - 템플릿(Template) 
@@ -13,7 +13,7 @@
             - 반대로 C+에서는 프로그램크기가 상대적으로 작지만, 컴파일 타임의 최적화는 C++에 비해 덜합니다. 
             - C++은 상대적으로 오류메세지가 상대적으로 길고 복잡하여 디버깅이 어려울때가 있습니다.  
         
-### 2.| Declaration and Definition
+### 4.2 Declaration and Definition
 - Declaration
     - 함수나 변수 같은 엔터티들을 컴파일에게 미리 알려주는 것을 선언이라고 합니다.
     - 엔터티는 여러번 선언될 수 있습니다.
@@ -41,6 +41,55 @@
         struct A { //정의
             char c;
         }
+        ```
+### 4.3 Enumerators 
+    - 열거형(enum)과 강타입 열거형(enum class)
+    - 기본열거형(enum)
+        - 서로 관련있는 값을 그룹으로 묶어 명명된 상수를 정의하는데 사용되는 타입을 말합니다.
+        - 주로 가독성을 높이고, 오류감소, 코드명확도 증가를 위해 사용합니다. 
+        -C 언어에서부터 제공되어왔습니다.
+        - 문제점
+            - 다른 enum타입과 혼동될 수 있는 문제 
+            - 예를들어 color와 fruit이라는 enum 타입이 있는경우, color와 fruit변수를 비교하면 둘이 같다고 판단될 수 있습니다
+            이를 해결해기 위해 enum class 가 도입되었습니다.
+    - 강타입 열거형
+        - 강력한 타입체크를 제공하여, 다른 열거타입의 값이나 정수값이로 암묵적 형변환이 일어나지 않습니다. 
+        - 기본 타입을 설정할 수 있어 더 효율적으로 메모리를 사용할 수 있습니다.
+    - 강타입 열거형의 버전별 개선된 점
+        - C++ 17
+            - 초기화 목록을 사용해 enum class를 초기화 할 수 있습니다.
+            - 속성 지정을 통해 컴파일러에게추가정보를 제공할 수 있습니다.
+        - C++ 20
+            -스위치문에서, enum class 이름없이 직접 맴버이름을 사용할 수 있게 되었습니다.
+            - 스위치문 안에서 using enum EnumName을 선언합니다. 
+    - 흔한 오류
+        - enum, enum class를 항상초기화해야합니다.
+        - 타입 범위 밖으로 캐스팅을하면 정의되지 않은 행동을 유발시킬 수 있습니다. 
+    -enum 특징
+        - enum/ enum class는 서로 비교연산 가능합니다.
+        ```
+        enum class Colr {RED, GREEN, BLUE};
+        cout << (Color::RED < Color::GREEN);// print true
+        ```
 
-
+        - enum/ enum class는 자동적으로 오름차순으로 증가합니다. 
+        ```
+        enum class Color {RED, GREEN = -1,BLUE, BLACK};
+        cout << (Color::RED <Color::GREEN); // print true
+        ```
+        - 여러 이름을 동일한 값에 할당가능합니다
+        ```
+        enum class Device{PC =0, COMPUTER=0, PRINTER};
+        ```
+        - C++ 11 부터 enum class는 기본타입으로 int8_t같은 정수타입을 사용할 수 있어, 메모리사용을 최적화 할수 있습니다.
+            - enum/enum class를 사용할 때 기본 정수타입은 구현에 따라 다를 수 있으나 기본적으로 int로 설정됩니다. 즉 32비트 크기를 가지기 때문에 때로 필요이상으로 큰 메모리 공간을 차지 할 수 있습니다.
+        - C++ 17부터 배열처럼 초기화 가능합니다
+        ```
+        enum class Color{RED,GREEN,BLUE}
+        Color a{2} 
+        ```
+        -C++17 부터 enum/enum class 에서 속성(attribute)를 사용하여 컴파일러에게 추가정보를 제공합니다. 
+        ```
+        enum class Color {RED, GREEN, BLUE[[deprecated]]};
+        auto x = Color::BLUE; //Compiler Warning
         ```
