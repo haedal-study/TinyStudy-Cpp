@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4장-Basic Concepts III - Entities and Control Flow/18일차-Entities, Declaration and Definition.md",
+                "file": "4장-Basic Concepts III - Entities and Control Flow/19일차-Enumerators.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4장-Basic Concepts III - Entities and Control Flow/18일차-Entities, Declaration and Definition.md",
+                "file": "4장-Basic Concepts III - Entities and Control Flow/19일차-Enumerators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4장-Basic Concepts III - Entities and Control Flow/18일차-Entities, Declaration and Definition.md",
+                "file": "4장-Basic Concepts III - Entities and Control Flow/19일차-Enumerators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4장-Basic Concepts III - Entities and Control Flow/18일차-Entities, Declaration and Definition.md"
+                "file": "4장-Basic Concepts III - Entities and Control Flow/19일차-Enumerators.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "189ef02a277fbf81",
   "lastOpenFiles": [
-    "3장-Basic Concepts II-Integral and Floating-point Types/17일차-Floating-point Comparison.md",
     "4장-Basic Concepts III - Entities and Control Flow/18일차-Entities, Declaration and Definition.md",
+    "4장-Basic Concepts III - Entities and Control Flow/19일차-Enumerators.md",
+    "4장-Basic Concepts III - Entities and Control Flow/Untitled",
+    "3장-Basic Concepts II-Integral and Floating-point Types/17일차-Floating-point Comparison.md",
     "4장-Basic Concepts III - Entities and Control Flow",
     "3장-Basic Concepts II-Integral and Floating-point Types/8일차-Fixed Width Integers, size_t and ptrdiff_t.md",
     "3장-Basic Concepts II-Integral and Floating-point Types/16일차-Catastrophic Cancellation.md",
