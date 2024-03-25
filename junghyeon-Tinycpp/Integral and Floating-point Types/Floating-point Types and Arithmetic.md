@@ -189,6 +189,38 @@ cout << 0.1 + (0.2 + 0.3) == (0.1 + 0.2) + 0.3; // print false
         - 정확도로 인해 결과의 일부분이 손실됨
         - 작은 절대 오차지만 큰 상대 오차가 됨
 <br></br>
+# 부동 소수점 비교
+- 부동 소수점 비교시, 문제가 발생할 수 있음
+    - 비교되는 숫자가 매우 작을 경우, 엡실론보다 작을 수 있음
+    - 비교한 수가 너무 클 경우, 엡실론이 가장 작은 반올림 오차보다 작아질 수 있음
+- 해결
+    - $\frac{|a-b|}{max(|a|,|b|)}$ $<$ $ε$
+```
+bool areFloatNearlyEqual(float a, float b) {
+    constexpr float normal_min = std::numeric_limits<float>::min();
+    constexpr float relative_error = <user_defined>
+    if (!std::isfinite(a) || !isfinite(b))      // a = ±∞, NaN or b = ±∞, NaN
+        return false;
+
+    float diff = std::abs(a - b);   // if "a" and "b" are near to zero, the relative error is less effective
+    if (diff <= normal_min)         // or also: user_epsilon * normal_min
+        return true;
+
+    float abs_a = std::abs(a);
+    float abs_b = std::abs(b);
+    return (diff / std::max(abs_a, abs_b)) <= relative_error;
+} 
+```
+# 오류 최소화
+- 덧셈/뺄셈보다 **곱셈/나눗셈**을 선호
+- 같은 규모의 수끼리 계산하도록 재구성
+- 0을 아주 작은 수로 두는 것을 고려
+- 2의 거듭제곱으로 배율하는 것은 안전
+- 로그 배율로 전환
+    - 곱셈이 덧셈이 되고, 나눗셈이 뺄셈이 됨
+- 보상 알고리즘을 사용 (Kahan summation, Dekker’s FastTwoSum,
+Rump’s AccSum)
+<br></br>
 ## 자료
 - https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf
 - https://devocean.sk.com/blog/techBoardDetail.do?page=&boardType=undefined&query=&ID=165270&searchData=&subIndex=
