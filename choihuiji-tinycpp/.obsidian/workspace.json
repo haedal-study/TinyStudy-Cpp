@@ -93,50 +93,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch3-Integral and Floating-point Types/8. Not a Number(NaN).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8884babd344a544b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ch3-Integral and Floating-point Types/10. Cheatsheet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "185cb63a73f8adf9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ch3-Integral and Floating-point Types/10. Cheatsheet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "660711f281834d43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ch3-Integral and Floating-point Types/13. Catastrophic Cancellation.md",
+                "file": "Ch3-Integral and Floating-point Types/14. Floating-point Comparison.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -202,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch3-Integral and Floating-point Types/13. Catastrophic Cancellation.md",
+                "file": "Ch3-Integral and Floating-point Types/14. Floating-point Comparison.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch3-Integral and Floating-point Types/13. Catastrophic Cancellation.md",
+                "file": "Ch3-Integral and Floating-point Types/14. Floating-point Comparison.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch3-Integral and Floating-point Types/13. Catastrophic Cancellation.md"
+                "file": "Ch3-Integral and Floating-point Types/14. Floating-point Comparison.md"
               }
             }
           }
@@ -263,10 +227,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "660711f281834d43",
+  "active": "71ae85600ee97a13",
   "lastOpenFiles": [
-    "Ch3-Integral and Floating-point Types/12. Detect Floating-point Errors.md",
     "Ch3-Integral and Floating-point Types/13. Catastrophic Cancellation.md",
+    "Ch3-Integral and Floating-point Types/14. Floating-point Comparison.md",
+    "Ch3-Integral and Floating-point Types/8. Not a Number(NaN).md",
+    "Ch3-Integral and Floating-point Types/12. Detect Floating-point Errors.md",
     "Ch3-Integral and Floating-point Types/11. Arithmetic Properties.md",
     "Ch3-Integral and Floating-point Types/10. Cheatsheet.md",
     "Pasted image 20240322152038.png",
@@ -276,7 +242,6 @@
     "Pasted image 20240322152420.png",
     "Pasted image 20240322152436.png",
     "Ch3-Integral and Floating-point Types/9. Machine Epsilon, ULP; Units at the Last Place.md",
-    "Ch3-Integral and Floating-point Types/8. Not a Number(NaN).md",
     "Ch3-Integral and Floating-point Types/7. Infinity.md",
     "Ch3-Integral and Floating-point Types/6. Normal, Denormal.md",
     "Ch3-Integral and Floating-point Types/5. IEEE Floating-point Standard and Other Representations.md",
