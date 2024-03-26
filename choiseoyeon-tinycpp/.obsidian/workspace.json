@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1202a6555cfdc36d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4장-Basic Concepts III - Entities and Control Flow/20일차-struct, Bitfield and union.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4장-Basic Concepts III - Entities and Control Flow/19일차-Enumerators.md",
+                "file": "4장-Basic Concepts III - Entities and Control Flow/20일차-struct, Bitfield and union.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4장-Basic Concepts III - Entities and Control Flow/19일차-Enumerators.md",
+                "file": "4장-Basic Concepts III - Entities and Control Flow/20일차-struct, Bitfield and union.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4장-Basic Concepts III - Entities and Control Flow/19일차-Enumerators.md"
+                "file": "4장-Basic Concepts III - Entities and Control Flow/20일차-struct, Bitfield and union.md"
               }
             }
           }
@@ -146,8 +159,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "189ef02a277fbf81",
+  "active": "1202a6555cfdc36d",
   "lastOpenFiles": [
+    "4장-Basic Concepts III - Entities and Control Flow/20일차-struct, Bitfield and union.md",
     "4장-Basic Concepts III - Entities and Control Flow/18일차-Entities, Declaration and Definition.md",
     "4장-Basic Concepts III - Entities and Control Flow/19일차-Enumerators.md",
     "4장-Basic Concepts III - Entities and Control Flow/Untitled",
