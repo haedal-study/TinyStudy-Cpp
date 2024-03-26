@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStudy-CPP-4장/19. Enumerators.md",
+                "file": "TinyStudy-CPP-4장/20. struct, Bitfield and union.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-4장/19. Enumerators.md",
+                "file": "TinyStudy-CPP-4장/20. struct, Bitfield and union.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-4장/19. Enumerators.md",
+                "file": "TinyStudy-CPP-4장/20. struct, Bitfield and union.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-4장/19. Enumerators.md"
+                "file": "TinyStudy-CPP-4장/20. struct, Bitfield and union.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "7204a5925d9a62c0",
   "lastOpenFiles": [
-    "TinyStudy-CPP-4장/18. Entities , Declaration and Definition.md",
     "TinyStudy-CPP-4장/19. Enumerators.md",
+    "TinyStudy-CPP-4장/20. struct, Bitfield and union.md",
+    "TinyStudy-CPP-4장/18. Entities , Declaration and Definition.md",
     "TinyStudy-CPP-3장/17. Floating-point Comparison.md",
     "TinyStudy-CPP-4장",
     "TinyStudy-CPP-3장/16. Catastrophic Cancellation.md",
