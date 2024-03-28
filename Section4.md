@@ -248,6 +248,20 @@
             }
           
           ```
+        - Fallthrough
+            - C와 마찬가지고 C++에서 Case 블록이 끝나도 break 문이 없으면 다음 case 블록으로 이어집니다. 이를 fall-through  현상이라고 합니다.
+            - C++ 17 이후 부터는 [[fallthrough]]속성을 사용하여 의도적인 fall-through를 명시 할 수 있습니다
+            ```
+            char x =... 
+            int y =0;
+            switch (x){
+                case 'a' x++;
+                    [[fallthrough]] // C++ 17 : avoid warning + notify intentional fallthrough
+                case 'b': return 0;
+                default: return -1;
+            }
+            ```
+
     - goto
         - 다른 파트의 프로그램 실행부분으로 점프 할 수 있습니다
         - 근데 대부분의 경우 유지보수와 코드가독성이 크게 떨어지므로 사용을 지양합니다. 
