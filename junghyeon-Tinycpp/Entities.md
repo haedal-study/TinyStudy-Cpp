@@ -117,6 +117,56 @@ int a3 = (int) Color::GREEN; //ok, explicit conversion
 ## const vs constexpr
 - `const`는 컴파일, 런타임 시간에 상수를 결정되는 값을 가질 수 있는 반면 `constexpr`은 컴파일 시간에 상수를 결정되는 값을 가짐
 - `const`와 관련된 오류는 런타임에 발생하는 반면 `constexpr`은 컴파일 시간에 발생
+# 구조체, 비트필드, 공용체
+- 구조체(struct)
+    - `struct`는 다양한 변수들을 하나의 유닛으로 모은 것
+    - 정의 후에 하나 이상의 변수를 선언할 수 있음
+    - 열거자는 이름 없이 선언할 수 있음
+    - 로컬 스코프에서 선언할 수 있음
+    - Unnamed `struct` : 이름이 없지만 연관된 타입이 있는 `struct`
+    - Anonymous `struct` : 이름과 타입이 없는 `struct`
+    - C++ 표준에서 unnamed `struct`는 허용하지만, anonymous `struct`는 허용하지 않음
+    ```
+    struct {
+        int x;
+    } my_struct;            // unnamed struct, ok
+    
+    struct S {
+        int x;
+        struct { int y; };  // anonymous struct, compiler warning with -Wpedantic
+    };                      // -Wpedantic: diagnose use of non-strict ISO C++ extensions
+    ```
+- 비트필드(Bitfield)
+    - 미리 정의된 비트폭을 가진 구조의 변수
+    - 바이트 대신 비트를 저장할 수 있음
+    ```
+    struct S1 {
+        int b1 : 10;    // range [0, 1023]
+        int b2 : 10;    // range [0, 1023]
+        int b3 : 8;     // range [0, 255]
+    };                  // sizeof(S1): 4 bytes
+    
+    struct S2 {
+        int b1 : 10;
+        int : 0;        // reset: force the next field
+        int b2 : 10;    // to start at bit 32
+    };                  // sizeof(S2): 8 bytes
+    ```
+- 공용체(Union)
+    - 동일한 메모리 위치에 서로 다른 데이터 타입을 저장할 수 있는 특수 데이터 타입
+    ```
+    union A {
+        int x;
+        char y;
+    };              // sizeof(A): 4
+    
+    A a;
+    a.x = 1023;     // bits: 00..000001111111111
+    a.y = 0;        // bits: 00..000001100000000
+    cout << a.x;    // print 512 + 256 = 768
+    ```
+    - C++에서 anonymous `union`을 허용
+    - C++17에서 타입 안전 공용체를 나타내는 `std::variant`를 도입
 ## 자료
 - https://github.com/federico-busato/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf
 - https://stackoverflow.com/questions/41125651/constexpr-vs-static-const-which-one-to-prefer
