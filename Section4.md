@@ -119,6 +119,44 @@
     - 구조체 변수내에 특정 비트폭을 미리정의하는 방식입니다.
     - 필요한 비트 수 만큼만 데이터를 사용하여 데이터를 압축할 수 있습니다.
     - 비트필드를 사용하면 자동으로 모듈로 연산 효과를 낼 수 있습니다.
+    -예시
+        ```
+            struct S1{
+                int b1 : 10; //범위 [0,1023]
+                int b2 : 10;
+                int b3 :  8; //범위 [0,255]
+            }
+            
+            struct S2{
+                int b1 : 10;
+                int : 0; //새로운 32bit 경계를 맞추기위해 reset합니다. 
+                int b2;
+            }//8byte
+            // b1은 10비트를 사용하고, b2도 10비트를 사용합니다
+            // 다만 int :0 으로 인해 32bit경계가 맞춰져있습니다. 
+        ```
+
+    - 참고 :
+        - 기본 자료형보다 비트 범위가 크면 컴파일 에러가 납니다
+
+    ```
+    	struct S4 {
+		int b1 : 1500;  // 컴파일에러
+		int b2 : 10;
+		char c2 : 4; 참고로 혼용할경우 32 + 4bit처럼 계산되고, 결과는 8바이트가 됩니다.
+	};
+	std::cout << sizeof(S4);
+
+    ```
+        - 최소 메모리는, 비트필드가 선언된 기본타입에 따라 결정됩니다 
+        ```
+        	struct S4 {
+		char a : 3;
+		char b : 1;
+		char C : 1;
+        };
+        std::cout << sizeof(S4); // 1 출력
+        ```
 
 - union
     개요
@@ -197,4 +235,35 @@
             cout << x1 << "," << y1 << " "; // print: 1,2 5,6 7,1
             ```
 
-            
+- ### 4.5 switch | goto | Avoid Unused Variable Warning 
+    - switch
+        - switch는 블럭을 돌며 특정 조건에 맞는 블럭을 실행할 수 있게 합니다
+          ```
+           
+            int x = 2;
+            switch (x) {
+            case 0:  x; // nearest scope
+            case 1: std::cout << x; // undefined!!
+            case 2: { int y=3; std::cout << y; } // ok
+            }
+          
+          ```
+    - goto
+        - 다른 파트의 프로그램 실행부분으로 점프 할 수 있습니다
+        - 근데 대부분의 경우 유지보수와 코드가독성이 크게 떨어지므로 사용을 지양합니다. 
+            - 스파게티 코드의 원흉이되기도 합니다
+        - 최신 C++에서는 조건문과 return을 적절히 사용하여, 루프혹은 함수를 조기종료 합니다.
+    
+    - Avoid Unused Variable Warning [[baybe_unused]]
+        - C++ 17이후부터 (왠지~) 사용안할 것같으면 '[[maybe_unused]]라는 키워드를 사용해서 컴파일러 경고를 방지할 수 있습니다.특정 컴파일러만 지원하는 것이 아닌 standard-compliant C++ 컴파일러라면 전부 지원합니다.(in a portable way) 
+        ```
+        int foo(int value){
+            [[maybe_unused]] int x = value;
+        #if defined (ENABLE_SQUARE_PATH)
+            return x * x;
+        #else
+        // static_cast<void>(x) //before C++ 17
+            return 0;
+        #endif
+        }
+        ```
