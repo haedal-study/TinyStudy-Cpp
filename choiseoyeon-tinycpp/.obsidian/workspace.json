@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/23일차-Stack Memory.md",
+                "file": "5장-Basic Concepts IV - Memory Management/24일차-new, delete.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/23일차-Stack Memory.md",
+                "file": "5장-Basic Concepts IV - Memory Management/24일차-new, delete.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/23일차-Stack Memory.md",
+                "file": "5장-Basic Concepts IV - Memory Management/24일차-new, delete.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/23일차-Stack Memory.md"
+                "file": "5장-Basic Concepts IV - Memory Management/24일차-new, delete.md"
               }
             }
           }
@@ -161,8 +161,9 @@
   },
   "active": "2adc7cd12cbdd14b",
   "lastOpenFiles": [
-    "4장-Basic Concepts III - Entities and Control Flow/22일차-switch, goto, Avoid Unsed Variable Warning.md",
     "5장-Basic Concepts IV - Memory Management/23일차-Stack Memory.md",
+    "5장-Basic Concepts IV - Memory Management/24일차-new, delete.md",
+    "4장-Basic Concepts III - Entities and Control Flow/22일차-switch, goto, Avoid Unsed Variable Warning.md",
     "5장-Basic Concepts IV - Memory Management",
     "4장-Basic Concepts III - Entities and Control Flow/21일차-if statement, for and while loops, Range-based for loop.md",
     "4장-Basic Concepts III - Entities and Control Flow/20일차-struct, Bitfield and union.md",
