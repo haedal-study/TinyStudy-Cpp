@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStudy-CPP-4장/22. switch, goto and Avoid Unused Variable Warning.md",
+                "file": "TinyStudy-CPP-5장/23. Stack Memory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-4장/22. switch, goto and Avoid Unused Variable Warning.md",
+                "file": "TinyStudy-CPP-5장/23. Stack Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-4장/22. switch, goto and Avoid Unused Variable Warning.md",
+                "file": "TinyStudy-CPP-5장/23. Stack Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-4장/22. switch, goto and Avoid Unused Variable Warning.md"
+                "file": "TinyStudy-CPP-5장/23. Stack Memory.md"
               }
             }
           }
@@ -149,8 +149,11 @@
   },
   "active": "7204a5925d9a62c0",
   "lastOpenFiles": [
-    "maybe_unused.md",
+    "Pasted image 20240317212545.png",
+    "TinyStudy-CPP-5장/23. Stack Memory.md",
     "TinyStudy-CPP-4장/22. switch, goto and Avoid Unused Variable Warning.md",
+    "TinyStudy-CPP-5장",
+    "maybe_unused.md",
     "TinyStudy-CPP-4장/21. if, for, while and Range-based for Loop.md",
     "TinyStudy-CPP-2장/7. C++ Operators.md",
     "TinyStudy-CPP-2장/6. Conversion Rules and auto Declaration.md",
@@ -168,7 +171,6 @@
     "TinyStudy-CPP-3장/12. Normal and Denormal , Infinity , NaN; Not a Number.md",
     "TinyStudy-CPP-3장/9. Signed and Unsigned Integer Characteristics.md",
     "TinyStudy-CPP-3장/13. Machine Epsilon , ULP.md",
-    "Pasted image 20240317212545.png",
     "README.md",
     "TinyStudy-CPP-3장/10. Undefined Behavior.md",
     "TinyStudy-CPP-3장/8. Fixed Width Integers, size_t and ptrdiff_t.md",
