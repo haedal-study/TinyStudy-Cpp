@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "84bb5f7e25d7c623",
+    "id": "4d0f5cf71525fec7",
     "type": "split",
     "children": [
       {
-        "id": "7ab6d7a241de8a8e",
+        "id": "ac7ee783699d2a94",
         "type": "tabs",
         "children": [
           {
-            "id": "7204a5925d9a62c0",
+            "id": "20634eb9ef7a0133",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TinyStudy-CPP-5장/23. Stack Memory.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "35f51e716997c95c",
+    "id": "e9b4467b8377c8d3",
     "type": "split",
     "children": [
       {
-        "id": "ce86f3b8491e99e3",
+        "id": "c6d143c68eae9ac0",
         "type": "tabs",
         "children": [
           {
-            "id": "ce3574058efd2c67",
+            "id": "402363e53c464961",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "7980d9cd8923acef",
+            "id": "aeffe1214155763a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "1547e1620f05c272",
+            "id": "b820d72edfd41a52",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 300
   },
   "right": {
-    "id": "c89468e758f01abc",
+    "id": "7461ebc39c6f0acd",
     "type": "split",
     "children": [
       {
-        "id": "9d2d541e19360e75",
+        "id": "6bfa24a3f6057506",
         "type": "tabs",
         "children": [
           {
-            "id": "9cc241e76ea9a7ca",
+            "id": "f6974c31d60d12c6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-5장/23. Stack Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "409a2319ee31cdc3",
+            "id": "db710f2f2c02df57",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-5장/23. Stack Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1334c555a7ba05c7",
+            "id": "a1dc3a30c66bc036",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,17 +114,14 @@
             }
           },
           {
-            "id": "820fe3f57d80b54c",
+            "id": "175c97d284499522",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "TinyStudy-CPP-5장/23. Stack Memory.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,40 +138,6 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7204a5925d9a62c0",
-  "lastOpenFiles": [
-    "Pasted image 20240317212545.png",
-    "TinyStudy-CPP-5장/23. Stack Memory.md",
-    "TinyStudy-CPP-4장/22. switch, goto and Avoid Unused Variable Warning.md",
-    "TinyStudy-CPP-5장",
-    "maybe_unused.md",
-    "TinyStudy-CPP-4장/21. if, for, while and Range-based for Loop.md",
-    "TinyStudy-CPP-2장/7. C++ Operators.md",
-    "TinyStudy-CPP-2장/6. Conversion Rules and auto Declaration.md",
-    "TinyStudy-CPP-3장/11. IEEE Floating-point Standard and Other Representations.md",
-    "TinyStudy-CPP-4장/20. struct, Bitfield and union.md",
-    "TinyStudy-CPP-4장/19. Enumerators.md",
-    "TinyStudy-CPP-4장/18. Entities , Declaration and Definition.md",
-    "TinyStudy-CPP-3장/17. Floating-point Comparison.md",
-    "TinyStudy-CPP-4장",
-    "TinyStudy-CPP-3장/16. Catastrophic Cancellation.md",
-    "TinyStudy-CPP-3장/15. Arithmetic Properties , Detect Floating-point Errors.md",
-    "Pasted image 20240320103835.png",
-    "Pasted image 20240320103613.png",
-    "TinyStudy-CPP-3장/Cheatsheet.md",
-    "TinyStudy-CPP-3장/12. Normal and Denormal , Infinity , NaN; Not a Number.md",
-    "TinyStudy-CPP-3장/9. Signed and Unsigned Integer Characteristics.md",
-    "TinyStudy-CPP-3장/13. Machine Epsilon , ULP.md",
-    "README.md",
-    "TinyStudy-CPP-3장/10. Undefined Behavior.md",
-    "TinyStudy-CPP-3장/8. Fixed Width Integers, size_t and ptrdiff_t.md",
-    "Pasted image 20240317213213.png",
-    "TinyStudy-CPP-3장",
-    "TinyStudy-CPP-2장/5. Fundamental Types Overview.md",
-    "TinyStudy-CPP-2장/4. Hello World.md",
-    "TinyStudy-CPP-2장",
-    "TinyStude-CPP-1장/3. C++ Weaknesses.md",
-    "TinyStude-CPP-1장/2. C++ Philosophy.md",
-    "TinyStude-CPP-1장/1. Area of Application and Popularity.md"
-  ]
+  "active": "20634eb9ef7a0133",
+  "lastOpenFiles": []
 }
