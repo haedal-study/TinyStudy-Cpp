@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch4-Entities and Control Flow/6. Avoid Unused Variable Warning.md",
+                "file": "Ch5-Memory Management/1. Stack Memory.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch4-Entities and Control Flow/6. Avoid Unused Variable Warning.md",
+                "file": "Ch5-Memory Management/1. Stack Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch4-Entities and Control Flow/6. Avoid Unused Variable Warning.md",
+                "file": "Ch5-Memory Management/1. Stack Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch4-Entities and Control Flow/6. Avoid Unused Variable Warning.md"
+                "file": "Ch5-Memory Management/1. Stack Memory.md"
               }
             }
           }
@@ -229,8 +229,11 @@
   },
   "active": "71ae85600ee97a13",
   "lastOpenFiles": [
-    "Ch4-Entities and Control Flow/5. switch, goto.md",
+    "무제 파일.md",
+    "Ch5-Memory Management/1. Stack Memory.md",
+    "Ch5-Memory Management",
     "Ch4-Entities and Control Flow/6. Avoid Unused Variable Warning.md",
+    "Ch4-Entities and Control Flow/5. switch, goto.md",
     "Ch4-Entities and Control Flow/4. if statement, for and while Loops, Range-based for Loop.md",
     "Ch4-Entities and Control Flow/3. struct, Bitfield and union.md",
     "Ch4-Entities and Control Flow/2. Enumerators.md",
@@ -261,9 +264,7 @@
     "Ch2-Fundamental Types/4. Auto Declaration.md",
     "Ch2-Fundamental Types/3. Conversion Rules.md",
     "Ch2-Fundamental Types/2. Fundamental Types Overview.md",
-    "Ch2-Fundamental Types/1. Hello World.md",
     "Ch2-Fundamental Types",
-    "Ch1-Introduction/3. C++ Weaknesses.md",
     "Ch1-Introduction",
     "choihuiji-tinycpp"
   ]
