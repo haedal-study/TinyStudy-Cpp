@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch4-Entities and Control Flow/4. if statement, for and while Loops, Range-based for Loop.md",
+                "file": "Ch4-Entities and Control Flow/6. Avoid Unused Variable Warning.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch4-Entities and Control Flow/4. if statement, for and while Loops, Range-based for Loop.md",
+                "file": "Ch4-Entities and Control Flow/6. Avoid Unused Variable Warning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch4-Entities and Control Flow/4. if statement, for and while Loops, Range-based for Loop.md",
+                "file": "Ch4-Entities and Control Flow/6. Avoid Unused Variable Warning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch4-Entities and Control Flow/4. if statement, for and while Loops, Range-based for Loop.md"
+                "file": "Ch4-Entities and Control Flow/6. Avoid Unused Variable Warning.md"
               }
             }
           }
@@ -229,8 +229,10 @@
   },
   "active": "71ae85600ee97a13",
   "lastOpenFiles": [
-    "Ch4-Entities and Control Flow/3. struct, Bitfield and union.md",
+    "Ch4-Entities and Control Flow/5. switch, goto.md",
+    "Ch4-Entities and Control Flow/6. Avoid Unused Variable Warning.md",
     "Ch4-Entities and Control Flow/4. if statement, for and while Loops, Range-based for Loop.md",
+    "Ch4-Entities and Control Flow/3. struct, Bitfield and union.md",
     "Ch4-Entities and Control Flow/2. Enumerators.md",
     "Ch4-Entities and Control Flow/1. Entities, Declaration and Definition.md",
     "Ch3-Integral and Floating-point Types/14. Floating-point Comparison.md",
@@ -262,8 +264,6 @@
     "Ch2-Fundamental Types/1. Hello World.md",
     "Ch2-Fundamental Types",
     "Ch1-Introduction/3. C++ Weaknesses.md",
-    "Ch1-Introduction/2. C++ Philosophy.md",
-    "Ch1-Introduction/1. Areas Of Application and Popularity.md",
     "Ch1-Introduction",
     "choihuiji-tinycpp"
   ]
