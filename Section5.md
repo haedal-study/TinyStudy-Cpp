@@ -6,7 +6,7 @@
     - () parentheses -> round brackets,
     - <>                angle brackets,
 
-**Heap and Stack**
+##5.1 **Heap and Stack**
 
    <img src="/images/MemoryStructure.png" width="320" height="180">
 
@@ -53,5 +53,95 @@
         }
         ```
 
+
 - heap의 메모리할당 키워드
-    - new/new[] , delete/delete[]는 동적 메모리 할당/해제를 나타내는 키워드입니다 
+    - new/new[] , delete/delete[]는 동적 메모리 할당/해제를 나타내는 키워드입니다.
+## 5.2 new,delete new[], delete
+    - C언어에서 malloc과 free로 힙영역의 할당되 메모리를 해제하고 객체 생성, 메모리 블럭의 소멸등을 제어했습니다.
+    - C++에서는 이를 new와 delete 키워드로 제어하게됩니다.
+    - new 와 delete의 장점들
+        - 언어 키워드 이므로 함수보다 안전합니다.
+        - new는 정확한 데이터타입을 반환하는 반면, malloc()은 void*타입을 반환합니다.
+        - 실패처리시, new는 예외를 발생시키나, malloc()은 널포인터를 반환합니다. 이는 무시할 수 없으며, 크기가 0인 할당에 대한 특별한 코드가 필요하지 않습니다.
+        - 할당크기; new 키워드를 사용하면 컴파일러가 바이트 수를 계산해주지만, malloc을 사용하는 경우 사용자가 직접크기를 정해줘야합니다.
+        - 다형성: 가상 함수를 가진 객체는 가상 테이블 포인터를 초기화 하기위해 new 로 할당되어야합니다
+    - 동적 메모리할당 사용예시
+    ```
+    int* value = (int*) malloc(sizeof(int));
+    int* value = new int;
+    int* array = (int*) malloc(N * sizeof(int));
+    int* array = new int[N]
+    //N개 구조체 할당
+    MyStruct* array = (MyStruct*)malloc(N*sizeof(MyStruct));
+    MyStruct* array = new MyStruct[N]
+    //N개 요소 할당 후 0으로 초기화
+    int* array = (int*) calloc(N,sizeof(int));
+    int* array = new int[N](); C++
+
+        // 단일객체(원소) 메모리 해제
+    int* value = (int*)malloc(sizeof(int));
+    free(value);
+    
+    int* value = new int;
+    delete value
+    
+    // N개 원소 해제
+    int* value = (int*) malloc(sizeof(int));
+    free(value);
+
+    int* value = (int*)malloc(N*sizeof(int));
+    free(value);
+
+    int* value = new int[N];
+    delete[] value;
+
+    //배열
+    int** A = new int*[3];
+    for (int i=0; i<3; i++)
+    A[i] = new int[4];
+
+## 5.3 Non-Allocationg Placement
+    - Non-Allocation Placement를 통해서, 메모리의 위치를 지정할 수 있습니다. 이는, 사용자가 직접적으로 메모리 사용을 관리하고 싶을때 매우 유용합니다.
+    - 코드예시
+        ```
+        //Stack Memory
+        // buffer array를 활용하여, 스택메모리의 공간을 할당 할 수 있습니다.
+        char buffer[8];
+        int* x = new(buffer) int;
+        short* y = new(x+1) short[2];
+        // no need to deallocatie x,y
+
+        //Heap Memory
+        //힙메모리에도 메모리를 할당할 수 있으나 사용된 메모리는 **반드시** 해제해주야 합니다.
+        //이를 제대로 하지 않을때 메모리 누수가 발생합니다. 
+        unsigned* buffer2 = new unsigned[2];
+        double* z = new (buffer2) double;
+        delete[] buffer2;
+        //delete[] z; // ok, but bad practice
+
+##5.4 Non-Throwing Allocation:
+    - 일반적으로, 메모리 할당이 실패하는경우에, 예외처리에러를 발생시킵니다.
+    - 하지만 new (std::nothrow)를 사용하여 널포인터를 예외처리 에러가 발생하는 대신 사용할 수 있습니다.
+    - **주의** 생성자에서는 여전히 예외 처리 에러를 발생시킨다는 것을 유의합니다. 
+
+## 5.5 Memory Leak
+    - 힙영역에 동적으로 할당된 메모리가 프로그램에 사용되지않음에도 불구하고 실행시간동안 계속 남아잇는 것을 의미합니다.
+    - 메모리 누수의 문제점 
+        - illegal access로 인해 예기치 못한 동작이 발생합니다.
+        - 정의되지 않은 값의 사용과 전이(전파), 세그멘테이션 오류, 잘못된 결과 발생가능
+            - 변수를 초기화 하지 않고 사용하게 되면 불규칙 랜덤값이 발생하는 경우나, 잘못된 포인터의 사용으로 인해 배열의 범위를 넘어서는 접근등으로 발생할 수 있습니다. 
+            - 참고:
+                -Segmetation fault
+                    - a segmentation fault (often shortened to segfault) or access violation is a fault, or failure condition, raised by hardware with memory protection, notifying an operating system (OS) the software has attempted to access a restricted area of memory (a memory access violation)
+                    - Many programming languages have mechanisms designed to avoid segmentation faults and improve memory safety. For example, Rust employs an ownership-based[2] model to ensure memory safety.[3] Other languages, such as Lisp and Java, employ garbage collection,[4] which avoids certain classes of memory errors that could lead to segmentation faults.
+        - 추가 메모리 소요 (잠재적 문제)
+        - 참고로 복잡한 응용프로그램에서 더 발견하기 어려운 특징이 있습니다. 
+    - 메모리 누수 예시
+        ```
+        int main(){
+            int* array = new int[10];
+            array = nullptr; //memory leak!
+        }
+        ```
+
+        
