@@ -11,8 +11,12 @@
             "id": "20634eb9ef7a0133",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "TinyStudy-CPP-5장/25. Non-allocating Placement Allocation, Non-throwing Allocation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 233.5
   },
   "right": {
     "id": "7461ebc39c6f0acd",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "TinyStudy-CPP-5장/25. Non-allocating Placement Allocation, Non-throwing Allocation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "TinyStudy-CPP-5장/25. Non-allocating Placement Allocation, Non-throwing Allocation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TinyStudy-CPP-5장/25. Non-allocating Placement Allocation, Non-throwing Allocation.md"
+              }
             }
           }
         ]
@@ -139,5 +147,10 @@
     }
   },
   "active": "20634eb9ef7a0133",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "TinyStudy-CPP-5장/24. new, delete.md",
+    "TinyStudy-CPP-5장/25. Non-allocating Placement Allocation, Non-throwing Allocation.md",
+    "TinyStudy-CPP-5장/23. Stack Memory.md",
+    "TinyStudy-CPP-5장"
+  ]
 }
