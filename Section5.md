@@ -131,7 +131,7 @@
         - 정의되지 않은 값의 사용과 전이(전파), 세그멘테이션 오류, 잘못된 결과 발생가능
             - 변수를 초기화 하지 않고 사용하게 되면 불규칙 랜덤값이 발생하는 경우나, 잘못된 포인터의 사용으로 인해 배열의 범위를 넘어서는 접근등으로 발생할 수 있습니다. 
             - 참고:
-                -Segmetation fault
+                -Segmentation fault
                     - a segmentation fault (often shortened to segfault) or access violation is a fault, or failure condition, raised by hardware with memory protection, notifying an operating system (OS) the software has attempted to access a restricted area of memory (a memory access violation)
                     - Many programming languages have mechanisms designed to avoid segmentation faults and improve memory safety. For example, Rust employs an ownership-based[2] model to ensure memory safety.[3] Other languages, such as Lisp and Java, employ garbage collection,[4] which avoids certain classes of memory errors that could lead to segmentation faults.
         - 추가 메모리 소요 (잠재적 문제)
@@ -143,5 +143,69 @@
             array = nullptr; //memory leak!
         }
         ```
+## 5.6 Initialization
+    - C++에서는 다양한 방식으로 변수를 초기화 할 수 있습니다
+        - Variable Initialization
+            - C++ 03에서는 기본초기화 (정의되지 않은 디폴트값), 직접 초기화, 복사 초기화 등 다양한 방법이 존재합니다.
+            코드예시
+            - 기본 초기화는 객체가 직접 초기값을 사용하여 생성됩니다. 복사초기화는 객체가 다른객로 부터 복사됩니다.
+            ```
+            //직접 초기화
+            int a2(2); 
+            int a3(0);
+
+            // 복사초기화
+            int a6 = 2; 
+            int a4 = 2u 
+            ```
+        - Uniform Initialization (brace-initialization)
+            - C++ 11 이후에 도입되었으며, 변수, 객체, 구조체등 여러 엔터티를 일관된 방식으로 초기화 할 수 있게 해줍니다.
+            - 장점
+                - 안전한 산술 연산 및 암시적 형변환에서 발생할 수 있는 값손실을 방지합니다.
+                - 현대적인 형변환(캐스팅)보다 문법이 더간단합니다.
+            ```
+            //직접초기화
+            int b1{2};
+            int b2{};
+
+            //복사초기화
+            int b3 = int{}; //zero-initialization
+            int b4 = int{4};
+            int b5  = {};
+
+            unsigned b6 = -1 
+            unsigned b7{-1} // compile error
+
+            float f2 = 10e40; // ok, "inf" value
+            //float f3{10e40}; // compile error
+            ```
+            
+        - Fixed-Size Array Initialization
+            - 일차원 배열의 경우 명시적 또는 암시적(explicit or implicit size assignment) 크기 지정이 가능합니다.
+            - 초기화 되지 않은 요소는 0으로 설정됩니다.
+            - 이차원 배열의 경우는 각 차원의 크기를 명시하거나 일부 차원에 대해 암시적으로 크기를 결정할 수 있으나, 모든 차원의 크기를 생략하는 것은 허용되지 않습니다.
+            -코드예시
+            ```
+            int a[3] = {1, 2, 3}; // explicit size
+            int b[] = {1, 2, 3}; // implicit size
+            char c[] = "abcd"; // implicit size
+            int d[3] = {1, 2}; // d[2] = 0 -> zero/default value
+            int e[4] = {0}; // all values are initialized to 0
+            int f[3] = {}; // all values are initialized to 0 (C++11)
+            int g[3] {}; // all values are initialized to 0 (C++11)
+
+            int a[][2] = { {1,2}, {3,4}, {5,6} }; // ok
+            int b[][2] = { 1, 2, 3, 4 }; // ok
+            // the type of "a" and "b" is an array of type int[]
+            // int c[][] = ...; // compile error
+            // int d[2][] = ...; // compile error
+            ```
+### structure Initialization
+    - 구조체와 동적메모리 초기화는 버전에 따라 다양한 방법으로 진행됩니다.
+    - 코드예시
+    ```
+    
+    ```
+
 
         
