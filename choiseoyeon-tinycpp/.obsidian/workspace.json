@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/24일차-new, delete.md",
+                "file": "5장-Basic Concepts IV - Memory Management/26일차-Memory Leak.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/24일차-new, delete.md",
+                "file": "5장-Basic Concepts IV - Memory Management/26일차-Memory Leak.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/24일차-new, delete.md",
+                "file": "5장-Basic Concepts IV - Memory Management/26일차-Memory Leak.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/24일차-new, delete.md"
+                "file": "5장-Basic Concepts IV - Memory Management/26일차-Memory Leak.md"
               }
             }
           }
@@ -161,8 +161,10 @@
   },
   "active": "2adc7cd12cbdd14b",
   "lastOpenFiles": [
-    "5장-Basic Concepts IV - Memory Management/23일차-Stack Memory.md",
+    "5장-Basic Concepts IV - Memory Management/25일차-Non-allocating Placement Allocation, Non-throwing Allocation.md",
+    "5장-Basic Concepts IV - Memory Management/26일차-Memory Leak.md",
     "5장-Basic Concepts IV - Memory Management/24일차-new, delete.md",
+    "5장-Basic Concepts IV - Memory Management/23일차-Stack Memory.md",
     "4장-Basic Concepts III - Entities and Control Flow/22일차-switch, goto, Avoid Unsed Variable Warning.md",
     "5장-Basic Concepts IV - Memory Management",
     "4장-Basic Concepts III - Entities and Control Flow/21일차-if statement, for and while loops, Range-based for loop.md",
@@ -195,7 +197,6 @@
     "2장-Basic Concepts I-Fundamental Types/4일차-Hello World.md",
     "1장-Introduction/3일차-C++ Weaknesses.md",
     "2장-Basic Concepts I-Fundamental Types",
-    "1장-Introduction/2일차-C++Philosophy.md",
-    "1장-Introduction/1일차-Area of Application and Popularity.md"
+    "1장-Introduction/2일차-C++Philosophy.md"
   ]
 }
