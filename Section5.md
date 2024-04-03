@@ -202,10 +202,101 @@
             ```
 ### structure Initialization
     - 구조체와 동적메모리 초기화는 버전에 따라 다양한 방법으로 진행됩니다.
-    - 코드예시
+    - 코드예시 C++ 03
     ```
+    struct S {
+        unsigned x;
+        unsigned y;
+    };
+
+    S s1;
+    S s2 = {};
+    S s3 = {1,2};
+    S s4 = {1};
+    S s5(3,5); //컴파일 에러
+
+    S f() {
+        S s6 = {1,2};//verbose (C++11보다 장황하다)
+        return s6; 
+    }
+    ```
+
+    - 코드예시 C++11
+    ```
+    struct S {
+        unsigned x;
+        unsigned y;
+        void* ptr;
+    };
+    S a1;
+
+    S f() { return { 3, 2 }; }// less(or non) verbose than C++03 structure initialization
+
+    int main() {
     
+        S a1{ 2,3 };
+        a1 = f();
+        std::cout << a1.x << "   " << a1.y;
+    }
     ```
+    - Non-Static Data Member Initialization (NSDMI)
+        - 비스태틱 를 맴버를 curly braces('{}')와 eqauls('=')를 사용하여 직접 정의하여 초기화 하는 방식입니다.
+        ```
+            struct S
+                unsigned x = 3;
+                unsigned y = 2;
+            struct S1{
+                unsigned x{3};
+            };
+        ```
+    - Designated Initializer List
+        - C++20 부터 맴버를 직접 지정하여 초기화하는 방식을 지원합니다
+        - 코드 가독성을 높이는데 도움이 됩니다.
+        ```
+        struct A{
+            int x,y,z;
+        };
+
+        A a1{1,2,3};
+        A a2{.x =1, .y =2, .z =3};
+        ``` 
+
+        void f1(bool a, bool b, bool c, bool d, bool e){}
+
+        struct B {
+            bool a, b, c, d, e;
+        };
+
+        struct B {
+            bool a,b,c,d,e;
+        };
+        f2({.a=true, .b= true})
+    - Structure Binding (구조체 바인딩)
+        - C++17에서, 구조체,배열튜불등의 복합 데이터 타입의 요소를 변수에 직접 바인딩 하는 간편한 방법을 제공합니다.
+        ```
+        struct A {
+        int x = 1;
+        int y = 2;
+        } a;
+
+        auto [x1,y1] = a; // auto는 컴파일러가 자동으로 A타입으로 결정
+        ```
+    - Dynamic Memory Initialization(동적 메모리 초기화)
+        - new 연산자를 사용하여, 힙 메모리에 동적(런타임)으로 메모리를 할당하고 초기화합니다
+        - C++11부터 더 간결하게 초기화를 할 수 있는 기능이 추가되었습니다
+        ```
+        C++03:
+        int* a1 = new int; // undefined
+        int* a2 = new int(); // zero-initialization, call "= int()"
+        int* a3 = new int(4); // allocate a single value equal to 4
+        int* a4 = new int[4]; // allocate 4 elements with undefined values
+        int* a5 = new int[4](); // allocate 4 elements zero-initialized, call "= int()"
+        // int* a6 = new int[4](3); // not valid
+       
+        C++11:
+        int* b1 = new int[4]{}; // allocate 4 elements zero-initialized, call "= int{}"
+        int* b2 = new int[4]{1, 2}; // set first, second, zero-initialized
+        ```
 
 
-        
+    
