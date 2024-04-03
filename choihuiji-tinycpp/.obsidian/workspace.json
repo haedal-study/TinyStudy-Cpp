@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch5-Memory Management/3. Non-allocating Placement Allocation, Non-throwing Allocation.md",
+                "file": "Ch5-Memory Management/4. Memory Leak.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch5-Memory Management/3. Non-allocating Placement Allocation, Non-throwing Allocation.md",
+                "file": "Ch5-Memory Management/4. Memory Leak.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch5-Memory Management/3. Non-allocating Placement Allocation, Non-throwing Allocation.md",
+                "file": "Ch5-Memory Management/4. Memory Leak.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch5-Memory Management/3. Non-allocating Placement Allocation, Non-throwing Allocation.md"
+                "file": "Ch5-Memory Management/4. Memory Leak.md"
               }
             }
           }
@@ -229,8 +229,9 @@
   },
   "active": "71ae85600ee97a13",
   "lastOpenFiles": [
-    "Ch5-Memory Management/2. new, delete.md",
     "Ch5-Memory Management/3. Non-allocating Placement Allocation, Non-throwing Allocation.md",
+    "Ch5-Memory Management/4. Memory Leak.md",
+    "Ch5-Memory Management/2. new, delete.md",
     "Ch5-Memory Management/1. Stack Memory.md",
     "무제 파일.md",
     "Ch5-Memory Management",
@@ -263,7 +264,6 @@
     "Ch3-Integral and Floating-point Types/1. Fixed Width Integers.md",
     "Ch2-Fundamental Types/5. C++ Operators.md",
     "Ch3-Integral and Floating-point Types",
-    "Ch2-Fundamental Types/4. Auto Declaration.md",
     "Ch2-Fundamental Types",
     "Ch1-Introduction",
     "choihuiji-tinycpp"
