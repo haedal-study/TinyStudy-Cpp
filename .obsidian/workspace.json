@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStudy-CPP-5장/27. Variable, Uniform, Fixed-size Array Initialization.md",
+                "file": "TinyStudy-CPP-5장/28. Structure Initialization, Dynamic Memory Initialization.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-5장/27. Variable, Uniform, Fixed-size Array Initialization.md",
+                "file": "TinyStudy-CPP-5장/28. Structure Initialization, Dynamic Memory Initialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-5장/27. Variable, Uniform, Fixed-size Array Initialization.md",
+                "file": "TinyStudy-CPP-5장/28. Structure Initialization, Dynamic Memory Initialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-5장/27. Variable, Uniform, Fixed-size Array Initialization.md"
+                "file": "TinyStudy-CPP-5장/28. Structure Initialization, Dynamic Memory Initialization.md"
               }
             }
           }
@@ -148,13 +148,14 @@
   },
   "active": "20634eb9ef7a0133",
   "lastOpenFiles": [
-    "TinyStudy-CPP-2장/7. C++ Operators.md",
     "TinyStudy-CPP-5장/27. Variable, Uniform, Fixed-size Array Initialization.md",
+    "TinyStudy-CPP-5장/26. Memory Leak.md",
+    "TinyStudy-CPP-5장/28. Structure Initialization, Dynamic Memory Initialization.md",
+    "TinyStudy-CPP-2장/7. C++ Operators.md",
     "TinyStudy-CPP-2장/6. Conversion Rules and auto Declaration.md",
     "TinyStudy-CPP-2장/5. Fundamental Types Overview.md",
     "TinyStudy-CPP-2장/4. Hello World.md",
     "TinyStudy-CPP-1장/3. C++ Weaknesses.md",
-    "TinyStudy-CPP-5장/26. Memory Leak.md",
     "TinyStudy-CPP-5장/25. Non-allocating Placement Allocation, Non-throwing Allocation.md",
     "TinyStudy-CPP-5장/24. new, delete.md",
     "TinyStudy-CPP-5장/23. Stack Memory.md",
