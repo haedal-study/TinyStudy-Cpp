@@ -4,103 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a7b83cac64a44827",
+        "id": "7790333045fd8d57",
         "type": "tabs",
         "children": [
           {
-            "id": "502959b7874c8375",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "9b4681a5a22c6610",
+            "id": "6710905ca02701c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch1-Introduction/1. Areas Of Application and Popularity.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bb4eea1db6ed9ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ch1-Introduction/2. C++ Philosophy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ac701e5c9c7c1ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ch1-Introduction/3. C++ Weaknesses.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b0f0483ce4a19cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ch2-Fundamental Types/1. Hello World.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de0917cfc8224498",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ch2-Fundamental Types/2. Fundamental Types Overview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "867dc1954cba983c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ch2-Fundamental Types/3. Conversion Rules.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71ae85600ee97a13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ch5-Memory Management/4. Memory Leak.md",
+                "file": "Ch5-Memory Management/Initialization/1. Variable Initialization, Uniform Initialization.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch5-Memory Management/4. Memory Leak.md",
+                "file": "Ch5-Memory Management/Initialization/1. Variable Initialization, Uniform Initialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch5-Memory Management/4. Memory Leak.md",
+                "file": "Ch5-Memory Management/Initialization/1. Variable Initialization, Uniform Initialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch5-Memory Management/4. Memory Leak.md"
+                "file": "Ch5-Memory Management/Initialization/1. Variable Initialization, Uniform Initialization.md"
               }
             }
           }
@@ -227,12 +146,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "71ae85600ee97a13",
+  "active": "6710905ca02701c8",
   "lastOpenFiles": [
-    "Ch5-Memory Management/3. Non-allocating Placement Allocation, Non-throwing Allocation.md",
-    "Ch5-Memory Management/4. Memory Leak.md",
-    "Ch5-Memory Management/2. new, delete.md",
-    "Ch5-Memory Management/1. Stack Memory.md",
+    "Ch5-Memory Management/Heap and Stack/1. Stack Memory.md",
+    "Ch5-Memory Management/Heap and Stack/4. Memory Leak.md",
+    "Ch5-Memory Management/Heap and Stack",
+    "Ch5-Memory Management/Initialization/1. Variable Initialization, Uniform Initialization.md",
+    "Ch5-Memory Management/Initialization",
+    "Ch5-Memory Management/Heap and Stack/3. Non-allocating Placement Allocation, Non-throwing Allocation.md",
+    "Ch5-Memory Management/Heap and Stack/2. new, delete.md",
     "무제 파일.md",
     "Ch5-Memory Management",
     "Ch4-Entities and Control Flow/6. Avoid Unused Variable Warning.md",
@@ -261,8 +183,6 @@
     "Ch3-Integral and Floating-point Types/4. Undefined Behaviour.md",
     "Ch3-Integral and Floating-point Types/3. Promotion and Truncation.md",
     "Ch3-Integral and Floating-point Types/2. Signed, Unsigned Integer Characteristics.md",
-    "Ch3-Integral and Floating-point Types/1. Fixed Width Integers.md",
-    "Ch2-Fundamental Types/5. C++ Operators.md",
     "Ch3-Integral and Floating-point Types",
     "Ch2-Fundamental Types",
     "Ch1-Introduction",
