@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/28일차-Structure Initialization, Dynamic Memory Initialization.md",
+                "file": "5장-Basic Concepts IV - Memory Management/29일차-Pointer Operations.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/28일차-Structure Initialization, Dynamic Memory Initialization.md",
+                "file": "5장-Basic Concepts IV - Memory Management/29일차-Pointer Operations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/28일차-Structure Initialization, Dynamic Memory Initialization.md",
+                "file": "5장-Basic Concepts IV - Memory Management/29일차-Pointer Operations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/28일차-Structure Initialization, Dynamic Memory Initialization.md"
+                "file": "5장-Basic Concepts IV - Memory Management/29일차-Pointer Operations.md"
               }
             }
           }
@@ -161,8 +161,9 @@
   },
   "active": "2adc7cd12cbdd14b",
   "lastOpenFiles": [
-    "5장-Basic Concepts IV - Memory Management/27일차-Variable Initialization, Uniform Initialization, Fixed-size Array Initialization.md",
     "5장-Basic Concepts IV - Memory Management/28일차-Structure Initialization, Dynamic Memory Initialization.md",
+    "5장-Basic Concepts IV - Memory Management/29일차-Pointer Operations.md",
+    "5장-Basic Concepts IV - Memory Management/27일차-Variable Initialization, Uniform Initialization, Fixed-size Array Initialization.md",
     "5장-Basic Concepts IV - Memory Management/26일차-Memory Leak.md",
     "5장-Basic Concepts IV - Memory Management/25일차-Non-allocating Placement Allocation, Non-throwing Allocation.md",
     "5장-Basic Concepts IV - Memory Management/24일차-new, delete.md",
@@ -196,7 +197,6 @@
     "2장-Basic Concepts I-Fundamental Types/6일차-Conversion Rules, auto Declaration.md",
     "2장-Basic Concepts I-Fundamental Types/5일차-Fundamental Types Overview.md",
     "Pasted image 20240311075415.png",
-    "2장-Basic Concepts I-Fundamental Types/4일차-Hello World.md",
     "2장-Basic Concepts I-Fundamental Types"
   ]
 }
