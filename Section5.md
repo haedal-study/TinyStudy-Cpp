@@ -6,10 +6,11 @@
     - () parentheses -> round brackets,
     - <>                angle brackets,
 
-##5.1 **Heap and Stack**
+## 5.1 **Heap and Stack**
 
    <img src="/images/MemoryStructure.png" width="320" height="180">
 
+### 5.1.1 StackMemory
    - stack과 heap의 차이를 요약하면 다음과같습니다
     - 정렬방식
          -둘다 인접(contigous)메모리 방식입니다.(메모리 공간을 순서대로 정렬하는 방식을 말합니다.)
@@ -56,7 +57,7 @@
 
 - heap의 메모리할당 키워드
     - new/new[] , delete/delete[]는 동적 메모리 할당/해제를 나타내는 키워드입니다.
-## 5.2 new,delete new[], delete
+### 5.1.2 new,delete new[], delete
     - C언어에서 malloc과 free로 힙영역의 할당되 메모리를 해제하고 객체 생성, 메모리 블럭의 소멸등을 제어했습니다.
     - C++에서는 이를 new와 delete 키워드로 제어하게됩니다.
     - new 와 delete의 장점들
@@ -100,7 +101,7 @@
     for (int i=0; i<3; i++)
     A[i] = new int[4];
 
-## 5.3 Non-Allocationg Placement
+### 5.1.3 Non-Allocationg Placement
     - Non-Allocation Placement를 통해서, 메모리의 위치를 지정할 수 있습니다. 이는, 사용자가 직접적으로 메모리 사용을 관리하고 싶을때 매우 유용합니다.
     - 코드예시
         ```
@@ -119,12 +120,12 @@
         delete[] buffer2;
         //delete[] z; // ok, but bad practice
 
-##5.4 Non-Throwing Allocation:
+### 5.1.4 Non-Throwing Allocation:
     - 일반적으로, 메모리 할당이 실패하는경우에, 예외처리에러를 발생시킵니다.
     - 하지만 new (std::nothrow)를 사용하여 널포인터를 예외처리 에러가 발생하는 대신 사용할 수 있습니다.
     - **주의** 생성자에서는 여전히 예외 처리 에러를 발생시킨다는 것을 유의합니다. 
 
-## 5.5 Memory Leak
+### 5.1.5 Memory Leak
     - 힙영역에 동적으로 할당된 메모리가 프로그램에 사용되지않음에도 불구하고 실행시간동안 계속 남아잇는 것을 의미합니다.
     - 메모리 누수의 문제점 
         - illegal access로 인해 예기치 못한 동작이 발생합니다.
@@ -143,9 +144,10 @@
             array = nullptr; //memory leak!
         }
         ```
-## 5.6 Initialization
+## 5.2 Initialization
+
     - C++에서는 다양한 방식으로 변수를 초기화 할 수 있습니다
-        - Variable Initialization
+            - Variable Initialization
             - C++ 03에서는 기본초기화 (정의되지 않은 디폴트값), 직접 초기화, 복사 초기화 등 다양한 방법이 존재합니다.
             코드예시
             - 기본 초기화는 객체가 직접 초기값을 사용하여 생성됩니다. 복사초기화는 객체가 다른객로 부터 복사됩니다.
@@ -158,7 +160,7 @@
             int a6 = 2; 
             int a4 = 2u 
             ```
-        - Uniform Initialization (brace-initialization)
+            -  Uniform Initialization (brace-initialization)
             - C++ 11 이후에 도입되었으며, 변수, 객체, 구조체등 여러 엔터티를 일관된 방식으로 초기화 할 수 있게 해줍니다.
             - 장점
                 - 안전한 산술 연산 및 암시적 형변환에서 발생할 수 있는 값손실을 방지합니다.
@@ -200,7 +202,7 @@
             // int c[][] = ...; // compile error
             // int d[2][] = ...; // compile error
             ```
-### structure Initialization
+### 5.2.2 structure Initialization
     - 구조체와 동적메모리 초기화는 버전에 따라 다양한 방법으로 진행됩니다.
     - 코드예시 C++ 03
     ```
@@ -239,7 +241,7 @@
         std::cout << a1.x << "   " << a1.y;
     }
     ```
-    - Non-Static Data Member Initialization (NSDMI)
+###  5.2.3 Non-Static Data Member Initialization (NSDMI)
         - 비스태틱 를 맴버를 curly braces('{}')와 eqauls('=')를 사용하여 직접 정의하여 초기화 하는 방식입니다.
         ```
             struct S
@@ -249,7 +251,7 @@
                 unsigned x{3};
             };
         ```
-    - Designated Initializer List
+### 5.2.2 Designated Initializer List
         - C++20 부터 맴버를 직접 지정하여 초기화하는 방식을 지원합니다
         - 코드 가독성을 높이는데 도움이 됩니다.
         ```
@@ -271,7 +273,7 @@
             bool a,b,c,d,e;
         };
         f2({.a=true, .b= true})
-    - Structure Binding (구조체 바인딩)
+### 5.2.3 Structure Binding (구조체 바인딩)
         - C++17에서, 구조체,배열튜불등의 복합 데이터 타입의 요소를 변수에 직접 바인딩 하는 간편한 방법을 제공합니다.
         ```
         struct A {
@@ -281,7 +283,7 @@
 
         auto [x1,y1] = a; // auto는 컴파일러가 자동으로 A타입으로 결정
         ```
-    - Dynamic Memory Initialization(동적 메모리 초기화)
+### 5.2.4 Dynamic Memory Initialization(동적 메모리 초기화)
         - new 연산자를 사용하여, 힙 메모리에 동적(런타임)으로 메모리를 할당하고 초기화합니다
         - C++11부터 더 간결하게 초기화를 할 수 있는 기능이 추가되었습니다
         ```
@@ -298,5 +300,58 @@
         int* b2 = new int[4]{1, 2}; // set first, second, zero-initialized
         ```
 
+### 5.3 Pointers and Reference
+    - What are Pointers?
+        - 포인터는 (T*) 는 메모리의 주소를 나타냅니다
+        - Pointer Dereferencing (역참조)
+            - 포인터 역참조란, 포인터가 가리키는 배열의 주어진 위치에 있는 요소에 접근할 수 있도록 해줍니다. 
+        - Subscript Operater[] (서브스크립트 연산자)
+            - 서브스크립트 연산자는 'ptr[index]'로 사용되며, 포인터가 가리키는 배열의 위치(주소)의 값(요소)에 접근할 수 있도록 합니다
+                - 이는 *(ptr + index)와 동일합니다
+                - 즉 ptr[index]를 사용해서 인덱스의 요소에 접근할 수 있다는 뜻 입니다.
+        -Pointer Operations
+            - 포인터(e.g. void*) 의타입은 unsigned integer이며, 컴퓨터 아키텍쳐에 따라 32 혹은 64 비트로 결정됩니다.
+            - 덧셈,뺄셈,증감 연산을 지원하여, 메모리간 위치이동을 쉽게 할 수 있습니다.
+            - 추가로 동등, 관계연산자를 사용하여, 같은위치를 가리키는지, 메모리 주소예따라 순서를 정하는 등의 작업을 수행할 수 있습니다.
+            - ```size_t y = (size_t) x; // (explicit conversion)``` 와 같이 명시적 변환으로 오프셋 계산에 활용할 수 있는 정수타입으로 변환할 수 있습니다. 암시적 변환은 지원되지 않습니다.      
+        - pointer Conversion
+            - 모든 포인터 타입은 모두 암시적으로 void*타입으로 변환 될 수 있습니다.
+            - void 타입이 아닌경우(int*,char*같은 것들), 반드시 명시적으로 변환되어야 합니다. 
+            - 예를들어 
+            ```
+            int* ptr5=;
+            char* ptr6 = (char*) ptr5;// 이런경우 명시적 변환이 필요합니다 . 
+            // 다만 static_cast로 수행할 수 없으며(static_cast<char*>(ptr5)), 타입안전성에 위배되기 떄문입니다. 
+            ```
+    - Address of operator `&`
+        - address of operator ('&')는 , 메모리주소를 변수로서 저장하기위해 사용됩니다
+        ```
+        int a= 3;
+        int* b = &a;
+        a++;
+        cout << *b // 4 출력
+        ```
+    Wild & Dangling Pointer
+        - wild pointer
+        ```int main(){int* ptr;}```와 같이, 선언은 되었으나 확실한 주소로 초기화 되지않은 포인터를 말합니다.  
+        - dangling pointer
+        ```
+        int* array = new int[10];
+        delete[] array;
+        delete[] array; // double free, or corruption에러가 발생합니다.  
+        ```할당이 해제된 메모리 위치를 가리키는 포인터를 의미합니다, 예를들어 삭제된 배열을 접근하고있다면, 댕글링 포인터를 다루고 있는 것 입니다.
+        
+    - ### Reference
 
+    - Constraints, Literals, const, constexpr, consteval,constinit**
+        - Constant and Literals | const
+        - constexpr
+        - consteval, constinit, if constexpr
+        - std::is_constant_evaluated() | if consteval
+        - volatile keyword
+
+    - Explicit Type Conversion
+        -static_cast,const_cast, reinterpret_ cast
+        -Type Punning
+        -sizeof operater
     
