@@ -340,8 +340,101 @@
         delete[] array;
         delete[] array; // double free, or corruption에러가 발생합니다.  
         ```할당이 해제된 메모리 위치를 가리키는 포인터를 의미합니다, 예를들어 삭제된 배열을 접근하고있다면, 댕글링 포인터를 다루고 있는 것 입니다.
-        
+
     - ### Reference
+        - 참조의 안전성
+            - 예를들어 int&는 정수형 변수에 대한 참조이며, 다시말해 다른 변수의 별명이라고도 생각할 수 있습니ㅏㄷ. 또한 그 변수를 직접  가리킵니다.
+            - 참조는 포인터보다 안전한 방식으로 여겨지는데, 이유는 다음과 같습니다
+                - NULL 불가:  
+                    - 참조는 NULL값을 가질 수 없기 때문입니다.
+                    - 즉 참조가 항상 유효한 메모리에 연결되어 있다고 간주할 수 있습니다.
+                - 불변성
+                    - 즉 한번 객체에 대한 참조로 초기화 된다면, 다른 객체로도 변경될 수없습니다
+                    - 반면 포인터는 가리키는 참조객체를 언제든지 변경할 수 있습니다.
+                - 초기화 강제
+                    - 생성시 반드시 초기화가 되어야합니다
+                    - 반면 포인터는 그렇지 않습니다.
+                    ```
+                    int c = 2;
+                    int& d = c;
+                    int& d = 
+                    ```
+        - 참조 관련 문법 `T& var = ...`
+            ```
+            // int& a;     // 컴파일 에러, 반드시 초기화 되어야합니다.
+            // int& b = 3; // compile error "3"은 변수가 아닙니다.   
+            int c = 2;
+            int& d = c;    // reference, ok vaild initialization 
+            int& e = d;    // 참조의 참조또한 올바른 초기화 입니다. ok the reference of a reference is a reference. 
+            ++d;
+            ++e;
+            cout << c      // 4가 출력됩니다.     
+            ```
+        - 참조와 포인터 인수에 관련한 차이
+            ```
+            void f(int* value) {}// value는 NULL 포인터가 될 수 있습니다
+            void g(int& value) {}// value는 절대 NULL 포인터가 될 수 없습니다.
+
+            int a = 3; 
+            f(&a); // 
+            f(0); // 위험하긴 하나 동작은 합니다, 다른 숫자로는 동작하지 않습니다
+            f(nullptr)//f(0)과 같습니다
+            //f(a) // 컴파일에러가 발생합니다, a는 포인터가 아니기 때문입니다.
+            
+            g(a);
+            ```
+        - 참조로 고정길이 배열을 가리킬 수도 있습니다
+        ```
+        void f(int (&array)[3]) { // size가 3이아니면 받을 수 없다!
+        cout << sizeof(array);
+        }
+        
+        int A[3], B[4];
+        int* C = A;
+        //------------------------------------------------------
+        f(A); // ok..12출력
+        // f(B); // compile error B has size 4
+        // f(C); // compile error C is a pointer
+        ```
+    - 배열에서의 참조
+        - 배열의 참조, 포인터 그리고 배열의 크기를 계산하는 여러가지 방법에 대한 예시
+        ```
+        int A[4];
+        int (&B)[4] = A; // ok, reference to array , B는 A배열과 동일한 데이터를 가리킵니다.  
+        int C[10][3];
+        int (&D)[10][3] = C; // ok, reference to 2D array
+        auto c = new int[3][4]; // type is int (*)[4]
+        // read as "pointer to arrays of 4 int"
+
+        // int (&d)[3][4] = c; // compile error, c는 배열에 대한 포인터이지만, d는 참조이기에 타입 불일치
+        // int (*e)[3] = c; // compile error, c의 타입과 e타입(int(*)[4])은 서로 다릅니다 .
+
+        int (*f)[4] = c; // ok
+        int array[4];
+        // &array is a pointer to an array of size 4
+        int size1 = (&array)[1] - array; // 배열 다음주소에서 , 배열 시작주소를 뺌으로써, 배열의 크기를 계산
+        int size2 = *(&array + 1) - array;
+        cout << size1; // print 4
+        cout << size2; // print 4
+        see also www3.ntu.edu.sg/home
+        ```
+    -구조체 멤버 접근   
+        - 지역변수와 참조로 구조체 멤버에 접근할땐 `dot(.)`을 사용합니다
+        - 포인터에서 구조체로 접근할땐, arrow(->)를 사용합니다.
+        ```
+        Struct A{
+            int x;
+        };
+
+        A a;
+        a.x;
+
+        A& ref = a;
+        ref.x;
+        A* ptr = &a;
+        ptr ->x;
+        ```
+
 
     - Constraints, Literals, const, constexpr, consteval,constinit**
         - Constant and Literals | const
