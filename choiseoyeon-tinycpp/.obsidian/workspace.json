@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/30일차-Address-of operator &.md",
+                "file": "5장-Basic Concepts IV - Memory Management/31일차-Reference.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/30일차-Address-of operator &.md",
+                "file": "5장-Basic Concepts IV - Memory Management/31일차-Reference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/30일차-Address-of operator &.md",
+                "file": "5장-Basic Concepts IV - Memory Management/31일차-Reference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/30일차-Address-of operator &.md"
+                "file": "5장-Basic Concepts IV - Memory Management/31일차-Reference.md"
               }
             }
           }
@@ -161,8 +161,9 @@
   },
   "active": "2adc7cd12cbdd14b",
   "lastOpenFiles": [
-    "5장-Basic Concepts IV - Memory Management/29일차-Pointer Operations.md",
     "5장-Basic Concepts IV - Memory Management/30일차-Address-of operator &.md",
+    "5장-Basic Concepts IV - Memory Management/31일차-Reference.md",
+    "5장-Basic Concepts IV - Memory Management/29일차-Pointer Operations.md",
     "5장-Basic Concepts IV - Memory Management/28일차-Structure Initialization, Dynamic Memory Initialization.md",
     "5장-Basic Concepts IV - Memory Management/27일차-Variable Initialization, Uniform Initialization, Fixed-size Array Initialization.md",
     "5장-Basic Concepts IV - Memory Management/26일차-Memory Leak.md",
@@ -195,7 +196,6 @@
     "3장-Basic Concepts II-Integral and Floating-point Types/9일차-Signed,Unsigned Integer Characteristics, Promotion,Truncation.md",
     "2장-Basic Concepts I-Fundamental Types/7일차-C++ Operators.md",
     "3장-Basic Concepts II-Integral and Floating-point Types",
-    "2장-Basic Concepts I-Fundamental Types/6일차-Conversion Rules, auto Declaration.md",
     "Pasted image 20240311075415.png",
     "2장-Basic Concepts I-Fundamental Types"
   ]
