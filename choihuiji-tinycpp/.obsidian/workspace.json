@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch5-Memory Management/Initialization/1. Variable Initialization, Uniform Initialization.md",
+                "file": "Ch5-Memory Management/Initialization/2. Structure Initialization, Dynamic Memory Initialization.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch5-Memory Management/Initialization/1. Variable Initialization, Uniform Initialization.md",
+                "file": "Ch5-Memory Management/Initialization/2. Structure Initialization, Dynamic Memory Initialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch5-Memory Management/Initialization/1. Variable Initialization, Uniform Initialization.md",
+                "file": "Ch5-Memory Management/Initialization/2. Structure Initialization, Dynamic Memory Initialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch5-Memory Management/Initialization/1. Variable Initialization, Uniform Initialization.md"
+                "file": "Ch5-Memory Management/Initialization/2. Structure Initialization, Dynamic Memory Initialization.md"
               }
             }
           }
@@ -148,10 +148,11 @@
   },
   "active": "6710905ca02701c8",
   "lastOpenFiles": [
+    "Ch5-Memory Management/Initialization/1. Variable Initialization, Uniform Initialization.md",
+    "Ch5-Memory Management/Initialization/2. Structure Initialization, Dynamic Memory Initialization.md",
     "Ch5-Memory Management/Heap and Stack/1. Stack Memory.md",
     "Ch5-Memory Management/Heap and Stack/4. Memory Leak.md",
     "Ch5-Memory Management/Heap and Stack",
-    "Ch5-Memory Management/Initialization/1. Variable Initialization, Uniform Initialization.md",
     "Ch5-Memory Management/Initialization",
     "Ch5-Memory Management/Heap and Stack/3. Non-allocating Placement Allocation, Non-throwing Allocation.md",
     "Ch5-Memory Management/Heap and Stack/2. new, delete.md",
