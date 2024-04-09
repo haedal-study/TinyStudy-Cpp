@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStudy-CPP-5장/33. constexpr.md",
+                "file": "TinyStudy-CPP-5장/34. consteval, constinit, if constexpr.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-5장/33. constexpr.md",
+                "file": "TinyStudy-CPP-5장/34. consteval, constinit, if constexpr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-5장/33. constexpr.md",
+                "file": "TinyStudy-CPP-5장/34. consteval, constinit, if constexpr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-5장/33. constexpr.md"
+                "file": "TinyStudy-CPP-5장/34. consteval, constinit, if constexpr.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "20634eb9ef7a0133",
   "lastOpenFiles": [
-    "TinyStudy-CPP-5장/32. Constants and Literals, const.md",
     "TinyStudy-CPP-5장/33. constexpr.md",
+    "TinyStudy-CPP-5장/34. consteval, constinit, if constexpr.md",
+    "TinyStudy-CPP-5장/32. Constants and Literals, const.md",
     "TinyStudy-CPP-5장/31. Reference.md",
     "TinyStudy-CPP-5장/30. Address-of Operator &.md",
     "TinyStudy-CPP-5장/29. Pointer Operation.md",
