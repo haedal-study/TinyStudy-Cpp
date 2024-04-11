@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/35일차-std_is_constant_evaluated(), if consteval.md",
+                "file": "5장-Basic Concepts IV - Memory Management/36일차-volatile keyword.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/35일차-std_is_constant_evaluated(), if consteval.md",
+                "file": "5장-Basic Concepts IV - Memory Management/36일차-volatile keyword.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/35일차-std_is_constant_evaluated(), if consteval.md",
+                "file": "5장-Basic Concepts IV - Memory Management/36일차-volatile keyword.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5장-Basic Concepts IV - Memory Management/35일차-std_is_constant_evaluated(), if consteval.md"
+                "file": "5장-Basic Concepts IV - Memory Management/36일차-volatile keyword.md"
               }
             }
           }
@@ -173,8 +173,9 @@
   },
   "active": "70ff48e9b75ffc90",
   "lastOpenFiles": [
-    "5장-Basic Concepts IV - Memory Management/34일차-consteval, constinit, if constexpr.md",
     "5장-Basic Concepts IV - Memory Management/35일차-std_is_constant_evaluated(), if consteval.md",
+    "5장-Basic Concepts IV - Memory Management/36일차-volatile keyword.md",
+    "5장-Basic Concepts IV - Memory Management/34일차-consteval, constinit, if constexpr.md",
     "5장-Basic Concepts IV - Memory Management/33일차-constexpr.md",
     "5장-Basic Concepts IV - Memory Management/32일차-Constants and Literals, const.md",
     "5장-Basic Concepts IV - Memory Management/31일차-Reference.md",
@@ -204,7 +205,6 @@
     "Pasted image 20240320112056.png",
     "Pasted image 20240320112001.png",
     "3장-Basic Concepts II-Integral and Floating-point Types/13일차-Machine Epsilon, ULP; Units at the Last Place.md",
-    "3장-Basic Concepts II-Integral and Floating-point Types/12일차-Normal,Denormal, Infinity, NaN; Not a Number.md",
     "Pasted image 20240313075240.png",
     "Untitled.canvas",
     "3장-Basic Concepts II-Integral and Floating-point Types",
