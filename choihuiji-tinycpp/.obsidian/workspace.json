@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch5-Memory Management/Pointers and References/3. Reference.md",
+                "file": "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/1. Constants and Literals, const.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch5-Memory Management/Pointers and References/3. Reference.md",
+                "file": "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/1. Constants and Literals, const.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch5-Memory Management/Pointers and References/3. Reference.md",
+                "file": "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/1. Constants and Literals, const.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch5-Memory Management/Pointers and References/3. Reference.md"
+                "file": "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/1. Constants and Literals, const.md"
               }
             }
           }
@@ -148,9 +148,11 @@
   },
   "active": "6710905ca02701c8",
   "lastOpenFiles": [
+    "Ch5-Memory Management/Pointers and References/3. Reference.md",
+    "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/1. Constants and Literals, const.md",
+    "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit",
     "Ch5-Memory Management/Pointers and References/2. Address-of operator &.md",
     "Ch5-Memory Management/Pointers and References/1. Pointer Operations.md",
-    "Ch5-Memory Management/Pointers and References/3. Reference.md",
     "Ch5-Memory Management/Initialization/2. Structure Initialization, Dynamic Memory Initialization.md",
     "Ch5-Memory Management/Pointers and References",
     "Ch5-Memory Management/Initialization/1. Variable Initialization, Uniform Initialization.md",
@@ -184,7 +186,6 @@
     "Ch3-Integral and Floating-point Types/9. Machine Epsilon, ULP; Units at the Last Place.md",
     "Ch3-Integral and Floating-point Types/7. Infinity.md",
     "Ch3-Integral and Floating-point Types/6. Normal, Denormal.md",
-    "Ch3-Integral and Floating-point Types/5. IEEE Floating-point Standard and Other Representations.md",
     "Ch3-Integral and Floating-point Types",
     "Ch2-Fundamental Types",
     "Ch1-Introduction",
