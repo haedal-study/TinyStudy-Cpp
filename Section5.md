@@ -331,7 +331,7 @@
         a++;
         cout << *b // 4 출력
         ```
-    Wild & Dangling Pointer
+    - Wild & Dangling Pointer
         - wild pointer
         ```int main(){int* ptr;}```와 같이, 선언은 되었으나 확실한 주소로 초기화 되지않은 포인터를 말합니다.  
         - dangling pointer
@@ -343,7 +343,7 @@
 
     - ### Reference
         - 참조의 안전성
-            - 예를들어 int&는 정수형 변수에 대한 참조이며, 다시말해 다른 변수의 별명이라고도 생각할 수 있습니ㅏㄷ. 또한 그 변수를 직접  가리킵니다.
+            - 예를들어 int&는 정수형 변수에 대한 참조이며, 다시말해 다른 변수의 별명(alias)이라고도 생각할 수 있습니다. 또한 그 변수를 직접  가리킵니다.
             - 참조는 포인터보다 안전한 방식으로 여겨지는데, 이유는 다음과 같습니다
                 - NULL 불가:  
                     - 참조는 NULL값을 가질 수 없기 때문입니다.
@@ -448,3 +448,135 @@
         -Type Punning
         -sizeof operater
     
+## Constants and Literals | const
+- 상수 
+    - 한번 초기화 되었다면, 값이 변할 수 없는 변수를 말합니다.
+    - 즉 런타임에 한번 초기화 되면 절대 바뀌지 않는 값이라고도 할 수 있습니다.
+- 리터럴
+    - 코드에 직접적으로 저장된 고정된 값이라고 할 수 있습니다.
+    - 42,3.14,"Hello World" 이런값들을 리터럴이라고 부를 수 있습니다
+    - 상수와 상응하는 면이 있으나, 힙이나 스택이 아닌 데이터 영역에 저장되며, 반드시 전역변수라는 특징이 있습니다. 
+- const 
+    - const라는 키워드를 사용해서 상수를 선언할 수 있습니다.
+    - ``` const in maxScore = 100; ```
+## constexpr (Constant Expression, Integral constant expression)
+- C++ 11에서 새롭게 도입된 키워드로, 키워드나 객체,     함수 앞에 붙여 해당 객체나 함수의 리턴값을 컴파일 타임에 알 수 있다 라는 의미를 전달하게 됩니다.
+- 컴파일 타임에 상수를 확실히 사용하고싶다면 constexpr 키워드를 꼭 사용해야 합니다. 
+- constexpr vs const
+    1. const로 정의된 상수는 굳이 컴파일 타임에 그 값을 알 필요는 없습니다.
+    2. 하지만 constexpr 의 경우 반드시 오른쪽에 다른 상수식에 와야합니다. 다시말해, 반드시 컴파일 타임에 
+    값을 명시해야합니다.
+    3. constexpr의 경우 반드시, const이지만, 반대로 
+    const의경우 반드시 constexpr이라고 할 수 없습니다.
+    ```
+
+    ```
+## consteval | constinit | if constexpr
+- consteval 
+    - 함수가 반드시 컴파일 타임에 평가되도록 합니다. 만약에 컴파일타임에 평가가 이루어 질 수 없다면 컴파일 에러를 발생시킵니다
+    - constexpr과 달리, 상수표현식 체크가 엄격합니다. 
+    ```
+    
+    ```
+- ConstInit
+    - C++ 20 부터 지원하며, 변수가 컴파일 타임에 변수가 초기화 되는 것을 보장하는 역할을 합니다.
+    - const constinit은 constexpr을 암시하지 않습니다. 반면, constexpr인경우는 const constinit을 보장합니다. 
+- if constexpr 
+    - C++17 이후 부터 지원하며, 컴파일 시간에 조건을 확인 할 수 있게 해줍니다.
+    - 내의 조건은 상수 표현식이어야 하며, 조건이 참인 경에만 컴파일 됩니다. 
+    -참고로 constexpr의 인수가 런타임에 돌아가도 함수자체는 동작합니다. (즉, 강제성 없음)
+        - 코드예시
+        ```
+        constexpr int fuctionA(int x)
+        {
+        return x * x;
+        }
+
+        int main() {
+
+        int a = 5;
+        a= fuctionA(a);
+        std::cout << a;
+
+        }
+            ```
+
+
+## std::is_constant_evaluated() | if consteval
+
+- std::is_constant_evaluated()
+    - 컴파일타임에, 상수표현식으로 평가되는지 체크합니다
+    - if constexpr과 다르게, 런타임과 컴파일 타임 모두 사용가능합니다.
+
+- if consteval
+    - if consteval을 사용함으로서, consteval, constexpr등이 가지고 있는 
+    잠재적 코드오류를 해결할 수 있습니다.
+    - 예시1
+    ```
+    // 함수f가 함수g를 실행하는 경우, 컴파일 타임에 실행되더라도 n 이 컴파일 타임 상수가 아니라면 undefined behavior에러가 발생합니다.
+    consteval int g(int n) { return n * 3; }
+    constexpr int f(int n) {
+        if (std::is_constant_evaluated())
+            return g(n); // This is problematic if n is not a compile-time constant.
+        return 4;
+}
+
+    // 이렇게 if consteval을 활용하는 경우, n까지 검사해서 모두 constant 맥락인 경우에만 실행되므로 (아닌경우 컴파일에러) 안전합니다. 
+    consteval int g(int n) { return n * 3; }
+    constexpr int f(int n) {
+        if consteval
+            return g(n); // Always safe, executes only if the entire call chain is constexpr.
+        return 4;
+        }   
+    ```
+
+
+ ### volatile Keyword
+    - 컴파일러 최적화를 방지하기 위한 type qualifer(타입한정자) 입니다.
+    - 컴파일러에게, 변수의 값이 **프로그램의 다른부분** (하드웨어 등)에 의해 언제든지 변경될 수있다는 것을 알려줍니다. 
+    - 사용예시
+        - Hardware I/O Operation 
+            - 어셈블리나 드라이버 개발 등에서 로우레벨 프로그래밍 시, 특정 명령하는 코드가 최적화 되어 실행이 안되버리는 상황을 방지할 수 있습니다.
+        - inter-thread(multi-thread) communication
+            - 스레드간 공유되는 자원인 경우, 스레드간 통신을 위하는경우
+        - 그외에 최적화를 하고싶지 않은 경우에 사용가능합니다. 
+    - volatile 키워드와 최적화 레벨 '-03'(전체 최적화)
+
+    ```
+    /*
+     오히려 최적화를 방지해서, 의도하지않은 동작을 할 수 있습니다. volatile은 최적화 방지용이 아닌, 변수가 외부이벤트(하드웨어 인터럽트 등)에 변경 될 수 있는 경우에 사용되는 것이라고 할 수 있습니다.즉 밑의 코드같은 사용은 프로그래밍 오류라고 할수 있습니다.
+     */
+    volatile int* ptr = new int[i];
+    int           pos = 128 * 1024 / sizeof(int);
+    ptr[pst]          = 4; //세그먼트 오류 발생,,(오버플로우)
+    ``` 
+
+**Explicit Type Conversion**
+- static_cast, const_cast, reintepret_cast
+
+    - static_cast
+        - 컴파일 타임에서 타입체크를 합니다. 
+        - 안전하지않거나 우연하게 발생할 수 있는 타입간 변환을 방지할 수 있습니다
+    - const_cast
+        - 참조나 포인터가 가리키는 값의 상수성(constantness)를 제거합니다
+        ```
+        // 레거시 코드가 const를 올바르게 쓰지않은경우 const_cast를 사용할 수 있습니다. 
+        const int c1 = 10;
+        int* midfiable = const_cast<int*>(&c1);
+        ```
+    - _reinterpret_cast
+        - 가장 위험한 방식의 캐스팅인데, 다양한 타입을 다룰 수 있게 해주는 만큼 디버깅이 어려워질 수 있기 때문입니다.
+        - 사용예시
+            ```
+            // char -> float -> uintptr_t 타입으로 바꿔볼 수있습니다.
+            char* bytes = new char[10];
+            float* float_ptr = reinterpret_cast<float*>(bytes);
+            *float_ptr = 3.14;
+    
+            std::uintprt_t address = reinterpret_cast<std::uintptr_t>(float_ptr); //메모리 주소값이 커도 충분히 표현됨
+            ```
+    - const_cast와 reinterpret_cast는 CPU 명령어로 컴파일 되지 않는데, 이는 이러한 캐스팅 방식이 런타임에 추가적인 요구를 하지않는다는 것을 의미합니다. 즉 실제로 메모리의 데이터를 변형시키거나, 변환하는게 아니라, 컴파일러가 코드를 해석하는 방식을 변경합니다. 
+
+
+- Type Punning
+- sizeof Operator
