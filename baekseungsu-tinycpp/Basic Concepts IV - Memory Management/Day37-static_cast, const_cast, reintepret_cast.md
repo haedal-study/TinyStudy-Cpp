@@ -1,7 +1,7 @@
 # Day-37
 
-## **Explicit Type Conversion
-static_cast, const_cast, reintepret_cast**
+## Explicit Type Conversion
+## static_cast, const_cast, reintepret_cast
 
 ### Cast
 
