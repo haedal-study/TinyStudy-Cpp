@@ -448,7 +448,7 @@
         -Type Punning
         -sizeof operater
     
-## Constants and Literals | const
+### 5.4 Constants and Literals | const
 - 상수 
     - 한번 초기화 되었다면, 값이 변할 수 없는 변수를 말합니다.
     - 즉 런타임에 한번 초기화 되면 절대 바뀌지 않는 값이라고도 할 수 있습니다.
@@ -459,7 +459,7 @@
 - const 
     - const라는 키워드를 사용해서 상수를 선언할 수 있습니다.
     - ``` const in maxScore = 100; ```
-## constexpr (Constant Expression, Integral constant expression)
+### 5.5 constexpr (Constant Expression, Integral constant expression)
 - C++ 11에서 새롭게 도입된 키워드로, 키워드나 객체,     함수 앞에 붙여 해당 객체나 함수의 리턴값을 컴파일 타임에 알 수 있다 라는 의미를 전달하게 됩니다.
 - 컴파일 타임에 상수를 확실히 사용하고싶다면 constexpr 키워드를 꼭 사용해야 합니다. 
 - constexpr vs const
@@ -471,7 +471,7 @@
     ```
 
     ```
-## consteval | constinit | if constexpr
+### 5.6 consteval | constinit | if constexpr
 - consteval 
     - 함수가 반드시 컴파일 타임에 평가되도록 합니다. 만약에 컴파일타임에 평가가 이루어 질 수 없다면 컴파일 에러를 발생시킵니다
     - constexpr과 달리, 상수표현식 체크가 엄격합니다. 
@@ -502,7 +502,7 @@
             ```
 
 
-## std::is_constant_evaluated() | if consteval
+### 5.7 std::is_constant_evaluated() | if consteval
 
 - std::is_constant_evaluated()
     - 컴파일타임에, 상수표현식으로 평가되는지 체크합니다
@@ -531,7 +531,7 @@
     ```
 
 
- ### volatile Keyword
+ ### 5.8 volatile Keyword
     - 컴파일러 최적화를 방지하기 위한 type qualifer(타입한정자) 입니다.
     - 컴파일러에게, 변수의 값이 **프로그램의 다른부분** (하드웨어 등)에 의해 언제든지 변경될 수있다는 것을 알려줍니다. 
     - 사용예시
@@ -552,7 +552,7 @@
     ``` 
 
 **Explicit Type Conversion**
-- static_cast, const_cast, reintepret_cast
+### 5.9 static_cast, const_cast, reintepret_cast
 
     - static_cast
         - 컴파일 타임에서 타입체크를 합니다. 
@@ -578,5 +578,97 @@
     - const_cast와 reinterpret_cast는 CPU 명령어로 컴파일 되지 않는데, 이는 이러한 캐스팅 방식이 런타임에 추가적인 요구를 하지않는다는 것을 의미합니다. 즉 실제로 메모리의 데이터를 변형시키거나, 변환하는게 아니라, 컴파일러가 코드를 해석하는 방식을 변경합니다. 
 
 
-- Type Punning
-- sizeof Operator
+### 5.10 Type Punning
+    - Pointer Aliasing
+        - 포인터 앨리어싱은 두개 이상의 포인터가 같은 메모리 위치를 가리킬 때 발생합니다. 
+         - (이 두개의 포인터는 다른 유형일 수 도 있습니다. 예를들어 float* 이거나 int*가 동일한 메모리 주소를 가리키는 경우)
+        - 이는 컴파일러 최적화시 문제를 일으킬 수 있는데, 다른 데이터 타입의 포인터가 서로 다른 데이터를 가리킨다고 가정하고 최적화를 수행하기 때문입니다.
+    - 타입 퍼닝(Type Punning)
+        - 하나의 데이터를 다른 데이터 타입으로 해석하는 기법을 말합니다.
+        - 다시말해, 프로그래밍 언어의 타입시스템을 우회하여, 정식 언어의 범위 내에서는 어렵거나 불가능할 효과를 달성하기위한 방법을 말합니다.
+    - Strict Aliasing Rule
+        - 엄격한 앨리어싱 규칙에 따르면, 한타입으로 저장된 값을 다른 타입을 사용해 접근하는 것을 허용하지 않습니다. 이를 위반하면 undefined behavior로 분류됩니다. 즉 메모리 충돌, 안정성 문제가 발생 할 수 있습니다.   
+    - 코드예시
+        - 다음과같이 코드를 조작(?) 할 수 있습니다.
+        - img src="/images/reinterpretCast.png" width="400" height="300">
+        - 책 예제코드
+        ```
+        //안전하지만 최적화가 없는 방식입니다, CPU 명령 파이프라인 분기로 인해
+        성능저하가 일어날 수 있습니다
+            - 부연설명 
+                - 명령 파이프라인
+                  명령파이프라인이란 CPU가 명령을 더 효율적으로 처리하기위해 사용하는 기술입니다.. 
+                - 분기 (Branch)
+                    프로그램의 실행 흐름을 변경하는 명령 (if, 반복문 등)으로 인해 
+                    다음의 실행할 코드의 위치가 변경되는 것을 의미합니다.
+                    즉 예측한 실행경로가 잘못된 경우 기존 파이프라인 명령을 버리고 새로운 경로의 명령을 다시 불러오는데, 이런 과정에서 시간지연이 발생하고 성능저하가 일어날 수 있습니다. 
+
+        // float를 unsigned 정수로 해석하여 절대값을 계산합니다. 
+        // 0x7FF... 비트마스크를 사용하지만 엄격한 앨리어싱 규칙을 위반합니다
+        // GCC 컴파일러는 -Wstrict-alsiasing 경고로 알려주나, clang은 경고가 발생하지 않을 수 있습니다.
+        float abs(float) {
+            return (x < 0.0f) ? -x : x;
+        }
+
+        float abs(float x){
+            unsigned uvalue = reinterpret_cast<unsigned&>(x);
+            unsinged tmp = uvalue & 0x7FFFFFFF;
+            return retinterpret_cast<float&>(tmp);
+        }
+        ```
+
+    
+### 5.11  sizeof Operator
+    -  데이터 타입의 크기를 **바이트** 단위로 결정하는 컴파일 시간연산자 입니다. sizeof의 여러 주요 특징은 아래와 같습니다
+        - 반환타입은 size_t 입니다.
+        - 반환값의 경우, 배열의 사이즈가 0인경우를 제외하고 절대 0이 될 수 없습니다.
+        - size(char)는 항상 1을 반환하며, 이는 C++ 표쥰에 의해 보장됩니다.
+        - 구조체에 저용되는 경우,**내부 패딩** 또한 고려됩니다. 패딩이란, 데이터 정렬을 위해 컴파일러가 자동으로 삽입하는 추가 바이트 입니다.
+        - 참조에 sizeof를 적용하면, 참조된 타입의 크기가 반환됩니다. 예를들어 int& 타입에 sizeof를 적용하면, int크기의 4바이트를 반환합니다.
+        -  미완성 타입에 적용될 때 ( 예를들어 선언을 되어있지만 정의가 완료되지 않은 경우) 컴파일 오류가 발생합니다. sizeof(void)같은 경우는 오류가 발생합니다.  
+        - 비트필드 맴버에 적용될때 sizeof를 적용하면 컴파일 에러가 발생합니다.
+            - 특정 수의 비트만을 사용하는 비트필드 사용방식의 특성으로 인해, 정확한 바이트 크기가 명확하지 않기때문에 이는 허용되지 않는 것 입니다.
+    - 코드예시 
+    ```
+    // 여기서부터 컴파일에러가 나는데 뭐지..?
+    int f(int[] array) { // dangerous!!
+    cout << sizeof(array);
+    }
+    int array1[10];
+    int* array2 = new int[10];
+    cout << sizeof(array1); // sizeof(int) * 10 = 40 bytes
+    cout << sizeof(array2); // sizeof(int*) = 8 bytes
+    f(array1); 
+    -구조체
+    ```
+    struct A {
+        int x; 
+        char y;
+    }
+    sizeof(A); //8이 출력된다 (4 + 1 + 3:패딩바이트)
+
+    struct B {
+    int x; // offset 0 -> 4-byte alignment
+    char y; // offset 4 -> 1-byte alignment
+    short z; // offset 6 -> 2-byte alignment
+    };
+    sizeof(B); // 8 bytes : 4 + 1 (+ 1 padding) + 2
+    ```
+    -포인터
+    ```
+    char a;
+    char& b = a;
+
+
+    int main() {
+
+        std::cout << sizeof(&a); // 8 bytes in a 64-bit OS (pointer)
+        std::cout << sizeof(b); // 1byte이다.
+                                
+    }
+    ```
+    - 특수한  케이스
+    ```
+    struct A {}
+    sizeof(A); //0이 아니라 1을 반환한다!
+    ```
