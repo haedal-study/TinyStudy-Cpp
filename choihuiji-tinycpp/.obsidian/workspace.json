@@ -148,8 +148,9 @@
   },
   "active": "6710905ca02701c8",
   "lastOpenFiles": [
-    "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/2. constexpr.md",
+    "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. is_constant_evaluated(), if consteval.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/3. consteval, constinit, if constexpr.md",
+    "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/2. constexpr.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/1. Constants and Literals, const.md",
     "Ch5-Memory Management/Pointers and References/3. Reference.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit",
@@ -185,7 +186,6 @@
     "Pasted image 20240322152356.png",
     "Pasted image 20240322152420.png",
     "Pasted image 20240322152436.png",
-    "Ch3-Integral and Floating-point Types/9. Machine Epsilon, ULP; Units at the Last Place.md",
     "Ch3-Integral and Floating-point Types",
     "Ch2-Fundamental Types",
     "Ch1-Introduction",
