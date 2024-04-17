@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStudy-CPP-6장/41. Function Signature and Overloading, Overloading and =delete.md",
+                "file": "TinyStudy-CPP-6장/42. Default Parameter, Attributes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-6장/41. Function Signature and Overloading, Overloading and =delete.md",
+                "file": "TinyStudy-CPP-6장/42. Default Parameter, Attributes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-6장/41. Function Signature and Overloading, Overloading and =delete.md",
+                "file": "TinyStudy-CPP-6장/42. Default Parameter, Attributes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-6장/41. Function Signature and Overloading, Overloading and =delete.md"
+                "file": "TinyStudy-CPP-6장/42. Default Parameter, Attributes.md"
               }
             }
           }
@@ -148,13 +148,14 @@
   },
   "active": "20634eb9ef7a0133",
   "lastOpenFiles": [
-    "TinyStudy-CPP-6장/40. Pass by Value, Pass by Pointer and Pass by Reference.md",
     "TinyStudy-CPP-6장/41. Function Signature and Overloading, Overloading and =delete.md",
+    "TinyStudy-CPP-6장/42. Default Parameter, Attributes.md",
     "TinyStudy-CPP-5장/39. sizeof Operator.md",
+    "TinyStudy-CPP-5장/38. Type Punning.md",
+    "TinyStudy-CPP-6장/40. Pass by Value, Pass by Pointer and Pass by Reference.md",
     "TinyStudy-CPP-5장/31. Reference.md",
     "TinyStudy-CPP-5장/23. Stack Memory.md",
     "TinyStudy-CPP-4장/20. struct, Bitfield and union.md",
-    "TinyStudy-CPP-5장/38. Type Punning.md",
     "TinyStudy-CPP-3장/11. IEEE Floating-point Standard and Other Representations.md",
     "TinyStudy-CPP-3장/12. Normal and Denormal , Infinity , NaN; Not a Number.md",
     "TinyStudy-CPP-3장/9. Signed and Unsigned Integer Characteristics.md",
@@ -173,7 +174,6 @@
     "TinyStudy-CPP-2장/7. C++ Operators.md",
     "TinyStudy-CPP-2장/6. Conversion Rules and auto Declaration.md",
     "TinyStudy-CPP-2장/5. Fundamental Types Overview.md",
-    "TinyStudy-CPP-2장/4. Hello World.md",
     "TinyStudy-CPP-5장"
   ]
 }
