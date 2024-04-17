@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. volatile Keyword.md",
+                "file": "Ch5-Memory Management/Explicit Type Conversion/1. static_cast, const_cast, reintepret_cast.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. volatile Keyword.md",
+                "file": "Ch5-Memory Management/Explicit Type Conversion/1. static_cast, const_cast, reintepret_cast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. volatile Keyword.md",
+                "file": "Ch5-Memory Management/Explicit Type Conversion/1. static_cast, const_cast, reintepret_cast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. volatile Keyword.md"
+                "file": "Ch5-Memory Management/Explicit Type Conversion/1. static_cast, const_cast, reintepret_cast.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "6710905ca02701c8",
   "lastOpenFiles": [
-    "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/3. consteval, constinit, if constexpr.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. volatile Keyword.md",
+    "Ch5-Memory Management/Explicit Type Conversion/1. static_cast, const_cast, reintepret_cast.md",
+    "Ch5-Memory Management/Explicit Type Conversion",
+    "Ch5-Memory Management/무제 파일.md",
+    "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/3. consteval, constinit, if constexpr.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. is_constant_evaluated(), if consteval.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/2. constexpr.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/1. Constants and Literals, const.md",
@@ -178,8 +181,6 @@
     "Ch4-Entities and Control Flow",
     "Ch3-Integral and Floating-point Types/13. Catastrophic Cancellation.md",
     "Ch3-Integral and Floating-point Types/8. Not a Number(NaN).md",
-    "Ch3-Integral and Floating-point Types/12. Detect Floating-point Errors.md",
-    "Ch3-Integral and Floating-point Types/11. Arithmetic Properties.md",
     "Pasted image 20240322152038.png",
     "Pasted image 20240322152346.png",
     "Pasted image 20240322152334.png",
@@ -188,7 +189,6 @@
     "Pasted image 20240322152436.png",
     "Ch3-Integral and Floating-point Types",
     "Ch2-Fundamental Types",
-    "Ch1-Introduction",
-    "choihuiji-tinycpp"
+    "Ch1-Introduction"
   ]
 }
