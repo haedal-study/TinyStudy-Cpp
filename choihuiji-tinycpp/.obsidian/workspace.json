@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch5-Memory Management/Explicit Type Conversion/1. static_cast, const_cast, reintepret_cast.md",
+                "file": "Ch5-Memory Management/Explicit Type Conversion/2.  Type Punning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch5-Memory Management/Explicit Type Conversion/1. static_cast, const_cast, reintepret_cast.md",
+                "file": "Ch5-Memory Management/Explicit Type Conversion/2.  Type Punning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch5-Memory Management/Explicit Type Conversion/1. static_cast, const_cast, reintepret_cast.md",
+                "file": "Ch5-Memory Management/Explicit Type Conversion/2.  Type Punning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch5-Memory Management/Explicit Type Conversion/1. static_cast, const_cast, reintepret_cast.md"
+                "file": "Ch5-Memory Management/Explicit Type Conversion/2.  Type Punning.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "6710905ca02701c8",
   "lastOpenFiles": [
-    "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. volatile Keyword.md",
     "Ch5-Memory Management/Explicit Type Conversion/1. static_cast, const_cast, reintepret_cast.md",
+    "Ch5-Memory Management/Explicit Type Conversion/2.  Type Punning.md",
+    "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. volatile Keyword.md",
     "Ch5-Memory Management/Explicit Type Conversion",
     "Ch5-Memory Management/무제 파일.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/3. consteval, constinit, if constexpr.md",
@@ -180,7 +181,6 @@
     "Ch3-Integral and Floating-point Types/14. Floating-point Comparison.md",
     "Ch4-Entities and Control Flow",
     "Ch3-Integral and Floating-point Types/13. Catastrophic Cancellation.md",
-    "Ch3-Integral and Floating-point Types/8. Not a Number(NaN).md",
     "Pasted image 20240322152038.png",
     "Pasted image 20240322152346.png",
     "Pasted image 20240322152334.png",
