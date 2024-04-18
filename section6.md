@@ -237,11 +237,14 @@ int main() {
         - [[nonereturn]] (C++11)함수가 반환값이 없음을 나타냅니다
         - [[deprecated]] (C++14) 함수 사용을 권장하지 않을 떄 나타내며, 사용시 컴파일 에러가 나타납니다
         - [[nodiscard]]  (C++17) ,[[nodiscard("reason")]] 함수의  반환값을 사용하지않으면(discard) 경고가 발생합니다
+        
             - 참고로 Discard란 함수가 반환한 값을 무시하는 것을 말합니다
 
         - [[maybe_unused]] (C++17) 미사용 변수에대한 컴파일러 경고를 억제합니다.
 
         -참고: nodiscard는 clang c++17 이후 attribute extension이라 비쥬얼스튜디오에서는 컴파일에러없이 잘 동작했습니다.
+       
+      <img src="/images/nodiscardCompile.png" width="320" height="180">
         ```
         [[nodiscard]]
         double calculateInterest(double principal, double rate) {
