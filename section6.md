@@ -218,3 +218,45 @@ int main() {
                 f(nullptr); // 컴파일 오류: f(std::nullptr_t)가 삭제됨
 }
             ```
+## 6.3 Default Parameters | Attributes [[attribute]]
+
+- default parameter
+    : 말그대로 디폴트 값(초기값)을 가지는 파라미터라고 할 수 있습니다
+    - 다음과 같은 규칙을 따릅니다
+        - 디폴트 파라미터는 다른 매개변수를 먼저 작성한다음 오른쪽에 작성합니다.
+        - 한번 선언된 기본 매개변수 값은 변경될 수 없습니다.
+        - 기본매개 변수 선언으로 컴파일시간 최적화, 중복코드 감소효과가 있습니다.
+        ```
+        void f(int a, int b = 20);
+        void f(int a, int b){...}
+        f(5);
+        ```
+- Function Attribute
+    함수의 의도를 명확하게 표현하기 위한 목적으로 표준속성을 사용하여 함수를 표시할 수 있습니다.
+    예를들어
+        - [[nonereturn]] (C++11)함수가 반환값이 없음을 나타냅니다
+        - [[deprecated]] (C++14) 함수 사용을 권장하지 않을 떄 나타내며, 사용시 컴파일 에러가 나타납니다
+        - [[nodiscard]]  (C++17) ,[[nodiscard("reason")]] 함수의  반환값을 사용하지않으면(discard) 경고가 발생합니다
+            - 참고로 Discard란 함수가 반환한 값을 무시하는 것을 말합니다
+
+        - [[maybe_unused]] (C++17) 미사용 변수에대한 컴파일러 경고를 억제합니다.
+
+        -참고: nodiscard는 clang c++17 이후 attribute extension이라 비쥬얼스튜디오에서는 컴파일에러없이 잘 동작했습니다.
+        ```
+        [[nodiscard]]
+        double calculateInterest(double principal, double rate) {
+        return principal * rate;
+        }
+
+        int main() {
+            double principal = 10000.0;
+            double rate = 0.05;
+
+            calculateInterest(principal, rate);  
+
+            double interest = calculateInterest(principal, rate);
+            std::cout << "Calculated interest: " << interest << std::endl;
+
+            return 0;
+        }
+        ```
