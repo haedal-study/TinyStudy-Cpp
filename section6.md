@@ -1,4 +1,6 @@
-### 6.1 Pass by-Value | Pass by-Pointer |Pass by-Reference
+### 6.1 Functions 
+
+### 6.1.1 Pass by-Value | Pass by-Pointer |Pass by-Reference
 
 - 참고
     -Function Parameter (Formal Parameter)
@@ -11,7 +13,7 @@
         int add(int a, int b);
         ```                   
         여기서 함수의 시그니처는 int타입의 두 매개 변수를 받아들이고 int 타입의 값을 반환한다는 것을 나타냅니다.  
-- 6.1.1 Pass-by-Value
+-  Pass-by-Value
              
     - 함수 호출 시, 인자는 함수 파라미터로 복제됩니다.
     - 함수 내부에서 파라미터는, 함수 외부의 변수와 분리됩니다.
@@ -22,7 +24,7 @@
     }
     ```
 
-- 6.1.2 Pass by Pointer(Call By Pointer)
+-  Pass by Pointer(Call By Pointer)
     - 파라미터가 포인터인경우, 메모리 주소값이 전달되게 됩니다.
     - **역참조 함으로써** 함수가 전달된 인자(argument)를 수정할 수 있게됩니다.
     - 값의 복사가 이루어지지 않기 때문에 빠르나, 포인터가 null이거나, 잘못된 방식으로 값이 수정될 위이 있습니다.
@@ -34,7 +36,7 @@
     }
     ```
 
-- 6.1.3 참조에 의한 전달(Call by Reference)
+- 6참조에 의한 전달(Call by Reference)
     - 인자에 대한 참조가 함수로 전달되며, 실제 인자에 대한 별명(alias)이 됩니다.
     - 함수가 인자를 직접 변경할 수 있게 해주며, 복사를 하지 않습니다.
     - 포인터에 의한 전달만큼 빠르고,참조가 가진특성인  null이 될 수 없는 성질 때문에, 다른곳을 가리킬 수 없어 더욱 안전합니다.
@@ -71,84 +73,9 @@ int main() {
 }
 ```
 
-    
 
-### 6.1 Pass by-Value | Pass by-Pointer |Pass by-Reference
 
-- 참고
-    -Function Parameter (Formal Parameter)
-        - 함수 내부에서의 변수를 의미합니다.
-    -Function Argument (Actual Parameter)
-       - 함수에 전달되는 실제값(actual value)를 나타냅니다. 
-    -함수 시그니쳐 (Function Signature) 어떤 함수를 정의할 때 ,해당 함수가 어떤 인자를 받고 어떤 타입의 값을 반환하는지 명시하는 부분입니다. 이 시그니처를 통해 컴파일러는 함수 호출이 올바른지, 즉 올바른 개수와 타입의 인자가 전달 되었는지 확인할 수 있습니다. 
-        예를들어
-        ```
-        int add(int a, int b);
-        ```                   
-        여기서 함수의 시그니처는 int타입의 두 매개 변수를 받아들이고 int 타입의 값을 반환한다는 것을 나타냅니다.  
-- 6.1.1 Pass-by-Value
-             
-    - 함수 호출 시, 인자는 함수 파라미터로 복제됩니다.
-    - 함수 내부에서 파라미터는, 함수 외부의 변수와 분리됩니다.
-    - 즉 파라미터에서의 값 수정은 원래 값에 영향을 주지 않습니다.
-    ```
-        void f(int x)
-        {
-            x =10; // x라는 변수가 들어와도 x값은 바뀌지않습니다.
-        }
-    ```
-
-- 6.1.2 Pass by Pointer(Call By Pointer)
-    - 파라미터가 포인터인경우, 메모리 주소값이 전달되게 됩니다.
-    - **역참조 함으로써** 함수가 전달된 인자(argument)를 수정할 수 있게됩니다.
-    - 값의 복사가 이루어지지 않기 때문에 빠르나, 포인터가 null이거나, 잘못된 방식으로 값이 수정될 위이 있습니다.
-    ```
-    void f(int* x){
-        if( x!= nullptr){
-            *x =10; // 원본인자 변경
-        }
-    }
-    ```
-
-- 6.1.3 참조에 의한 전달(Call by Reference)
-    - 인자에 대한 참조가 함수로 전달되며, 실제 인자에 대한 별명(alias)이 됩니다.
-    - 함수가 인자를 직접 변경할 수 있게 해주며, 복사를 하지 않습니다.
-    - 포인터에 의한 전달만큼 빠르고,참조가 가진특성인  null이 될 수 없는 성질 때문에, 다른곳을 가리킬 수 없어 더욱 안전합니다.
-    ```
-    void f(int& x){
-        x =10; //원본인자 직접변경
-    }
-    ```
-- 코드예시
-```
-    #include <iostream>
-    #pragma STDC FENV_ACCESS ON
-    struct MyStruct;
-
-    void f1(int a) {}; // pass by-value // 바디가 없으면 컴파일 에러가 발생함
-    void f2(int& a) {}; // pass by-reference
-    void f3(const int& a) {}; // pass by-const reference
-    void f4(MyStruct& a) {}; // pass by-reference
-    void f5(int* a) {}; // pass by-pointer
-    void f6(const int* a) {
-        
-    }; // pass by-const pointer
-    void f7(MyStruct* a); // pass by-pointer
-    void f8(int*& a); // pass a pointer by-referencestruct S 
-    char c = 'a';
-
-    int main() {
-
-        f1(c); // ok, pass by-value (implicit conversion)
-        // f2(c); // compile error different types
-        f3(c); // ok, pass by-value (implicit conversion) 
-    }
-
-```
-
-    
-
-## 6.2 Function Signature and Overloading | Overloading and =delete
+## 6.1.2 Function Signature and Overloading | Overloading and =delete
     - Function Signature
         - Function Signature는 함수의 인터페이스를 정의한다고 말할 수 있습니다.
         - 이는 인수의 수(갯수), 그 타입 그리고 전달되는 순서를 포함합니다.
@@ -218,7 +145,7 @@ int main() {
                 f(nullptr); // 컴파일 오류: f(std::nullptr_t)가 삭제됨
 }
             ```
-## 6.3 Default Parameters | Attributes [[attribute]]
+## 6.1.3 Default Parameters | Attributes [[attribute]]
 
 - default parameter
     : 말그대로 디폴트 값(초기값)을 가지는 파라미터라고 할 수 있습니다
@@ -266,7 +193,7 @@ int main() {
 
 
         
-## 6.3 **Function Pointers and Function Objects**
+## 6.1.4 **Function Pointers and Function Objects**
     - Function Pointers
        - 개요
             - C언어의 경우, Function Pointer를 활용해 제네릭프로그래밍(일반화 프로그래밍)을 가능하게 합니다 
@@ -316,4 +243,95 @@ int main() {
             ```
         
 
-## 6.4 **Lambda Expressions**
+## 6.2 **Lambda Expressions**
+
+### 6.2.1 Lamda Expression
+- 람다함수란(C+11) Inline local-scope function object
+    - 로컬 스코프에서 유효한, 인라인 함수 오브젝트
+    - 인라인 함수란, 일반적인 함수호출과정을 거치지 않고, 함수의 모든 코드를 호출된 곳에 바로 삽입하는 방식의 함수를 말합니다.
+        - 호출시 걸리는 시간을 절약할 수 있다는 장점이 있으나, 호출과정에서 얻는 이점을 잃게되는 단점이 있습니다. 
+        - 따라서 적은 코드량의 함수만을 인라인함수로 선언하는 것이 권장되는 편입니다.
+- 람다함수 예시(교재꺼 아님)
+```
+int main() {
+    std::vector<int> numbers = { 10, 20, 30, 40, 50 };
+    // 인라인 람다 표현식: numbers 배열의 각 요소에 5를 더함
+    std::for_each(numbers.begin(), numbers.end(), [](int& n) {
+        n += 5;
+        });
+    for (int n : numbers) {
+        std::cout << n << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+```
+
+### 6.2.2 Capture List
+- 캡쳐리스트란 람다 함수 바깥에 있는 변수들을 람다 함수 내부에서 사용할 수 있게 해주는 매커니즘을 말합니다.
+    - 외부 스코프를 값으로 캡쳐 혹은 참조로 캡쳐(Value Capture, Reference Caputre)할 수 있습니다.
+    - 이를 통해 람다 내부에서 외부 변수를 읽거나 수정할 수 있습니다. 
+- 캡쳐리스트 옵션
+    - [] 캡쳐 X
+    - [=] 모든 외부변수를 값으로 캡쳐합니다.
+    - [&] 모든 외부변수를 참조로 캡쳐합니다.
+    - [var1]: var1만 값을 캡처합니다.
+    - [&var2]: var2만 참조로 캡처합니다.
+    - [var1, &var2]: var1은 값으로, var2는 참조로 캡처합니다.
+    - [=, &var1]: var1을 제외한 모든 변수를 값으로 캡처하고, var1만 참조로 캡처합니다.
+    - [&, var1]: var1을 제외한 모든 변수를 참조로 캡처하고, var1만 값을 캡처합니다.
+    - constexpr로 선언된 변수는 컴파일 시간에 값이 결정되므로, 이러한 변수는 캡쳐선언 필요없이 람다함수에서 직접 사용가능합니다.
+
+- 코드예시
+    ```
+    #pragma STDC FENV_ACCESS ON
+    #include <algorithm>
+    #include <iostream>
+
+
+    int array[] = {11, 2, 5, 1 };
+
+    int main() {
+
+        int limit = 10;
+
+        // 람다를 사용하여 배열에서 limit보다 큰 첫 번째 원소 찾기
+        auto lambda1 = [=](int value) { return value > limit; };  // 모든 외부 변수를 값으로 캡처
+        auto lambda2 = [&](int value) { return value > limit; };  // 모든 외부 변수를 참조로 캡처
+        auto lambda3 = [limit](int value) { return value > limit; };  // "limit"만 값을 캡처
+        auto lambda4 = [&limit](int value) { return value > limit; };  // "limit"만 참조로 캡처
+
+
+        auto result = std::find_if(std::begin(array), std::end(array), lambda1);
+
+        if (result != std::end(array)) {
+            std::cout << "Found a value greater than " << limit << ": " << *result << std::endl;
+            //11 출력
+        }
+        else {
+            std::cout << "No value greater than " << limit << " found." << std::endl;
+        }
+    }
+    ```
+    -원본에 영향을 준 경우.
+    ```
+    int array[] = {15, 2, 5, 1 };
+
+    int main() {
+
+
+        int limitRef = 10;
+        auto lambda2 = [&](int value) { limitRef += 1; return value > limitRef; };  
+        auto result = std::find_if(std::begin(array), std::end(array), lambda2);
+
+        if (result != std::end(array)) {
+            std::cout << "Found a value greater than " << limitRef << ": " << *result << std::endl;
+        //Found a value greater than 11: 15 이 출력된다. Ref캡쳐기때문에 원본에 영향을 줬다.
+        }
+    }
+    ```
+
+
+### 6.2.3 Parameters | Composability | constexpr/consteval
+### 6.2.4 template | mutable
