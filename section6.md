@@ -263,3 +263,57 @@ int main() {
             return 0;
         }
         ```
+
+
+        
+## 6.3 **Function Pointers and Function Objects**
+    - Function Pointers
+       - 개요
+            - C언어의 경우, Function Pointer를 활용해 제네릭프로그래밍(일반화 프로그래밍)을 가능하게 합니다 
+            - 함수 포인터를 사용하여 다른 함수에 "함수를" 인수로 전달할 수 있으며, 이를통해 간접적인 함수 호출(Indirect call)이 가능합니다.
+            - 다만, 함수 포인터를 사용하여 전달된 인수에 타입검사가 없고, 간접적인 호출이기 때문에, 함수 인라이닝이 불가능하여 성능에 영향을 줄 수없습니다.
+        -코드예시
+            ```
+            #include <stdlib.h> // qsort
+            int descending(const void* a, const void* b) {
+                return *((const int*)a) > *((const int*)b);
+            }
+
+            // array: { 7, 5, 2, 1 
+            int main() {
+
+            int array[] = { 7, 2, 5, 1 };
+            qsort(array, 4, sizeof(int), descending);
+            }
+            ```
+    - Function Object (Functor)
+        - 개요
+            - 함수포인터의 몇가지 단점을 보완하기 위한 역할을 합니다., 
+            - 함수처럼 동작하는 객체를 말합니다.
+                - 객체가 마치 일반함수처럼 사용될 수 있다는 말 입니다.  
+            - 이는 연산자 오버로딩을 통해 가능하며 operator()를 오버로딩 하여 구현합니다
+        -코드예시
+            ```
+            class Adder {
+            public:
+                Adder(int y) : y(y) {}  // 생성자
+
+                // 함수 호출 연산자 오버로딩
+                int operator()(int x) {
+                    return x + y;  // 입력 x에 y를 더해서 반환
+                }
+
+            private:
+                int y;
+            };
+
+            int main() {
+                Adder addFive(5);  // 5를 더하는 함수 객체 생성
+                int result = addFive(3);  // 함수처럼 객체를 호출. 결과는 8
+                std::cout << "Result: " << result << std::endl;  // "Result: 8" 출력
+                return 0;
+            }
+            ```
+        
+
+## 6.4 **Lambda Expressions**
