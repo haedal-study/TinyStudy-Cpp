@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch5-Memory Management/Explicit Type Conversion/3. sizeof Operation.md",
+                "file": "Ch6-Functions and Preprocessing/1. Pass by-Value, Pass by-Pointer, Pass by-Reference.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch5-Memory Management/Explicit Type Conversion/3. sizeof Operation.md",
+                "file": "Ch6-Functions and Preprocessing/1. Pass by-Value, Pass by-Pointer, Pass by-Reference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch5-Memory Management/Explicit Type Conversion/3. sizeof Operation.md",
+                "file": "Ch6-Functions and Preprocessing/1. Pass by-Value, Pass by-Pointer, Pass by-Reference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch5-Memory Management/Explicit Type Conversion/3. sizeof Operation.md"
+                "file": "Ch6-Functions and Preprocessing/1. Pass by-Value, Pass by-Pointer, Pass by-Reference.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "6710905ca02701c8",
   "lastOpenFiles": [
-    "Ch5-Memory Management/Explicit Type Conversion/2.  Type Punning.md",
     "Ch5-Memory Management/Explicit Type Conversion/3. sizeof Operation.md",
+    "Ch6-Functions and Preprocessing/1. Pass by-Value, Pass by-Pointer, Pass by-Reference.md",
+    "Ch6-Functions and Preprocessing",
+    "Ch5-Memory Management/Explicit Type Conversion/2.  Type Punning.md",
     "Ch5-Memory Management/Explicit Type Conversion/1. static_cast, const_cast, reintepret_cast.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. volatile Keyword.md",
     "Ch5-Memory Management/Explicit Type Conversion",
@@ -179,7 +181,6 @@
     "Ch4-Entities and Control Flow/3. struct, Bitfield and union.md",
     "Ch4-Entities and Control Flow/2. Enumerators.md",
     "Ch4-Entities and Control Flow/1. Entities, Declaration and Definition.md",
-    "Ch3-Integral and Floating-point Types/14. Floating-point Comparison.md",
     "Ch4-Entities and Control Flow",
     "Pasted image 20240322152038.png",
     "Pasted image 20240322152346.png",
@@ -188,7 +189,6 @@
     "Pasted image 20240322152420.png",
     "Pasted image 20240322152436.png",
     "Ch3-Integral and Floating-point Types",
-    "Ch2-Fundamental Types",
-    "Ch1-Introduction"
+    "Ch2-Fundamental Types"
   ]
 }
