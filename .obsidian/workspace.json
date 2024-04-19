@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStudy-CPP-6장/42. Default Parameter, Attributes.md",
+                "file": "TinyStudy-CPP-6장/44. Capture List(Lambda Expression).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-6장/42. Default Parameter, Attributes.md",
+                "file": "TinyStudy-CPP-6장/44. Capture List(Lambda Expression).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-6장/42. Default Parameter, Attributes.md",
+                "file": "TinyStudy-CPP-6장/44. Capture List(Lambda Expression).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-6장/42. Default Parameter, Attributes.md"
+                "file": "TinyStudy-CPP-6장/44. Capture List(Lambda Expression).md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "20634eb9ef7a0133",
   "lastOpenFiles": [
-    "TinyStudy-CPP-6장/41. Function Signature and Overloading, Overloading and =delete.md",
+    "TinyStudy-CPP-6장/43. Function Pointer and Function Object.md",
+    "TinyStudy-CPP-6장/44. Capture List(Lambda Expression).md",
     "TinyStudy-CPP-6장/42. Default Parameter, Attributes.md",
+    "TinyStudy-CPP-6장/41. Function Signature and Overloading, Overloading and =delete.md",
     "TinyStudy-CPP-5장/39. sizeof Operator.md",
     "TinyStudy-CPP-5장/38. Type Punning.md",
     "TinyStudy-CPP-6장/40. Pass by Value, Pass by Pointer and Pass by Reference.md",
@@ -172,8 +174,6 @@
     "TinyStudy-CPP-5장/27. Variable, Uniform, Fixed-size Array Initialization.md",
     "TinyStudy-CPP-5장/26. Memory Leak.md",
     "TinyStudy-CPP-2장/7. C++ Operators.md",
-    "TinyStudy-CPP-2장/6. Conversion Rules and auto Declaration.md",
-    "TinyStudy-CPP-2장/5. Fundamental Types Overview.md",
     "TinyStudy-CPP-5장"
   ]
 }
