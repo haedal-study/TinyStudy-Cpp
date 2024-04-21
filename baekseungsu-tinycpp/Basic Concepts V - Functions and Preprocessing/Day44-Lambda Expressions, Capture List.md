@@ -1,7 +1,7 @@
 # Day-44
 
 ## Lambda Expressions
-Capture List
+## Capture List
 
 ### Lambda Expression
 
