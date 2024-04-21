@@ -1,7 +1,7 @@
 # Day-45
 
-## **Lambda Expressions
-Parameters, Composability, constexpr/consteval**
+## Lambda Expressions
+## Parameters, Composability, constexpr/consteval
 
 ### **Parameters**
 
