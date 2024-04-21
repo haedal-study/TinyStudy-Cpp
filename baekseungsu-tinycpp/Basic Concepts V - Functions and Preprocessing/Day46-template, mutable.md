@@ -1,7 +1,7 @@
 # Day-46
 
-## **Lambda Expressions
-template, mutable**
+## Lambda Expressions
+## template, mutable
 
 ### template Lambda Expression
 
