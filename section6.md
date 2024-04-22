@@ -334,4 +334,120 @@ int main() {
 
 
 ### 6.2.3 Parameters | Composability | constexpr/consteval
+- Parameters
+    - C++14 람다 표현식부터, 파라미터는 자동으로 추론될 수 있습니다.
+    ```
+    int value = 8;
+	auto x = [](auto value) { return (value + 4); };
+	std::cout << x(value); 12출력
+    ```
+    - C++14 안에서 초기화 변수 선언이 가능합니다.
+    - 이는 다음과같을때 유용할 수 있습니다.
+        - 초기화 선언 
+            ```auto configure = [](double timeout =0.5f, bool loggingEnabled =false)
+        - 조건문 만들기
+        ```
+        auto adjustValue = [](int base, int increment = 1) {
+        return base + increment;
+        };
+        int value = 10;
+        std::cout << "Adjusted Value: " << adjustValue(value, 5) << std::endl;
+        std::cout << "Base Value: " << adjustValue(value) << std::endl; // Uses default increment
+        ```
+        - Fallback Value assignment
+        ```
+        auto processInput = [](const std::string& data, int maxLen = 100) {
+        std::string trimmed = data.substr(0, maxLen);
+        std::cout << "Processed data: " << trimmed << std::endl;
+        ```
+        - **즉 람다지만 일반적인 함수에서 디폴트 파라미터 선언으로 얻는 이점을 활용할 수 있게됩니다!** 
+
+    };
+    processInput("Very long data string that might need trimming");
+
+        ```
+    ```
+	int value = 8;
+	auto x = [](int i = 6) { return i + 4; };
+	std::cout << x(value) << std::endl;
+	std::cout << "i: "<< i << std::endl;
+    ```
+
+    - Composability
+        - 람다안에 다르게 선언된 람다함수를 사용할 수 있습니다.
+            ```
+            auto lamda1 = [](int value) {return value + 4; };
+            auto lamda2 = [](int value) {return value * 2; };
+
+            auto lamda3 = [&](int value) {return lamda2(lamda1(value)); };;
+
+            int value = 8;
+            std::cout << "x: "<< lamda3(8); //"x: 24" 출력
+            ```
+        - 함수는 람다를 반환할 수 있으며, 다이나믹 디스패치(Dynamic Dispatch) 또한 가능합니다. 
+                - 엄밀한 메소드 오버라이딩 관점에서의 다이나믹 디스패치라고 할 수 없으나,  런타임에서 어떤 메소드를 실행하지 결정할 수 있도록 만들 수 있다는 점에서 가능하다고 할 수 있습니다. 
+            ```
+            auto f(){
+                return [](int value){return value+4;};
+                auto lamda = f();
+                std::cout<<lamda(2);
+            }
+            ```
+        - constexpr | consteval  
+            - constexpr(C++17) 
+                - 람다표현식을 컴파일 시간에 평가 하도록 합니다. 즉 컴파일 이후에는 불변합니다.
+                ```
+                auto factorial = [] (int value) constexpr{
+                    int ret = 1; 
+                    for (int i =2; i <=; i++)
+                    {
+                        ret *= i;
+                    }
+                    return; 
+                }
+
+                ```
+            - consteval (C++20)
+                - 람다 표현식을 컴파일 타임에 평가되게 하며, 상수성(Constancy)를 강제하여, 조건 불충분시 컴파일에러를 발생시킵니다
+               ```
+            auto mul = [](int v) consteval { return v * 2; };
+
+            int main() {
+             const int val = 1;
+            constexpr int result = mul(val);
+            std::cout << "Result: " << result << std::endl; // Should output "Result: 20"
+            }
+               ```
+    
+
 ### 6.2.4 template | mutable
+
+    - lamda Expression, template
+        - (C++20)에서 람다 표현식은 템플릿 매개변수를 사용할 수 있게되었습니다.
+        - 이를 통해 람다 함수 내에서 다양한 타입에 대해 동작할 수 있습니다.
+        ```
+        int main() {
+        // 산술타입인지를 평가합니다. 참고로 is_artimetic_v는 모든 정수, 부동소수점 타입을 포함합니다.
+        auto lamda = []<typename T>(T value) requires std::is_arithmetic_v<T> {
+            return value * 2;
+        };
+
+        auto v = lamda(3.4);
+        struct A {} a; 
+        //auto v = lamda(a)// 컴파일에러!!
+}
+        ```
+
+    - mutable
+        - 기본적으로 람다에서 캡쳐한 값은 수정할 수 없습니다.
+        - 하지만 mutable 키워드를 사용하면 이러한 제약을 해제할 수 있습니다.
+        ```
+        int var = 1;
+        auto lambda1 = [&]() { var = 4; }; // ok
+        lambda1();
+        std::cout << var; // print '4'
+        // 아래처럼 기본적으로 var라는 값을 캡쳐했을때, 람다에서 직접적으로 수정하는건 기본적으로 불가능합니다!
+        //auto lambda2 = [=](){ var = 3; }; // compile error
+        // lambda operator() is const
+        auto lambda3 = [=]() mutable { var = 3; }; // ok
+        ```
