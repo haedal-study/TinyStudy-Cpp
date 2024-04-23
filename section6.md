@@ -451,3 +451,56 @@ int main() {
         // lambda operator() is const
         auto lambda3 = [=]() mutable { var = 3; }; // ok
         ```
+
+### 6.2.5 [[nodiscard]] Attribute | Capture List and Classes 
+    - [[nondiscard]]
+        - **C++23** 부터, [[nondiscard]]속성을 추가할 수 있으며, 이는 해당 함수나 여기서는 **람다의 반환값**을 무시하면 안되는 중요한 값임을 나타내는 속성입니다.
+        - nondiscard 속성을 활용하여, 잠재적인 오류를 예방하고, 개발자가 반환값을 의도적으로 확인하도록 유도 할 수 있습니다.
+        ```
+        int main() {
+
+        auto lambda = [] [[nodiscard]] (){ return 4; };
+        lambda(); // 이 코드는 컴파일러 경고를 발생시킵니다
+        auto x = lambda(); // ok
+        }
+        ```
+    - 람다 표현식에서 캡쳐리스트를 사용하여, 특정변수를 람다함수 내부에서 사용할 수 있도록합니다. 다음은 지역변수를 캡쳐하는 방법입니다
+        1.[this] 'this' 포인트를 캡쳐하여, 현재 객체를 참조로 캡쳐합니다 
+            - C++17 이전에는 명시적으로 사용해야 했습니다. 
+        2.[x=x]
+        3.[&x = x]
+        4.[=]
+        - 코드예시
+            ```
+        class A {
+        public:
+            int data = 1;
+            
+
+            auto f() {
+                int var = 2; // 지역 변수4
+                
+            
+                auto lambda1 = [=]() { return var; }; // var를 값으로 캡처, 2 반환
+
+                auto lambda2 = [=]() { int var = 3; return var; }; // 최근 범위의 var를 사용, 3 반환
+
+                auto lambda3 = [this]() { return data; }; // this를 통해 data 참조, 1 반환
+                auto lambda4 = [*this]() { return data; }; // C++17부터 가능, *this를 통해 객체 복사, data 값 1 반환
+                // auto lambda5 = [data]() { return data; };클래스 맴버인 data를 이런 문법으로 접근할 수 없음
+                auto lambda6 = [data = data]() { return data; }; // data를 값으로 캡처하여 data 반환, 1 반환
+
+                return lambda4;
+            }
+        };
+
+        int main() {
+
+
+            A a;
+            auto lambda = a.f();  // a.f() 호출 결과를 lambda 변수에 저장
+            std::cout << lambda() << std::endl;  // lambda를 실행하고 결과 출력
+        }
+	
+        ```
+
