@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Default Parameters, Attributes.md",
+                "file": "Ch6-Functions and Preprocessing/4. Function Pointers and Function Objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Default Parameters, Attributes.md",
+                "file": "Ch6-Functions and Preprocessing/4. Function Pointers and Function Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Default Parameters, Attributes.md",
+                "file": "Ch6-Functions and Preprocessing/4. Function Pointers and Function Objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Default Parameters, Attributes.md"
+                "file": "Ch6-Functions and Preprocessing/4. Function Pointers and Function Objects.md"
               }
             }
           }
@@ -149,7 +149,8 @@
   "active": "6710905ca02701c8",
   "lastOpenFiles": [
     "Ch6-Functions and Preprocessing/2. Function Signature and Overloading, Overloading and =delete.md",
-    "Ch6-Functions and Preprocessing/Default Parameters, Attributes.md",
+    "Ch6-Functions and Preprocessing/3. Default Parameters, Attributes.md",
+    "Ch6-Functions and Preprocessing/4. Function Pointers and Function Objects.md",
     "Ch6-Functions and Preprocessing/1. Pass by-Value, Pass by-Pointer, Pass by-Reference.md",
     "Ch5-Memory Management/Explicit Type Conversion/3. sizeof Operation.md",
     "Ch6-Functions and Preprocessing",
@@ -180,7 +181,6 @@
     "Ch4-Entities and Control Flow/6. Avoid Unused Variable Warning.md",
     "Ch4-Entities and Control Flow/5. switch, goto.md",
     "Ch4-Entities and Control Flow/4. if statement, for and while Loops, Range-based for Loop.md",
-    "Ch4-Entities and Control Flow/3. struct, Bitfield and union.md",
     "Ch4-Entities and Control Flow",
     "Pasted image 20240322152038.png",
     "Pasted image 20240322152346.png",
