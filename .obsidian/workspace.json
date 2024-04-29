@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStudy-CPP-6장/51. Condition Compiling Macros.md",
+                "file": "TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-6장/51. Condition Compiling Macros.md",
+                "file": "TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-6장/51. Condition Compiling Macros.md",
+                "file": "TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-6장/51. Condition Compiling Macros.md"
+                "file": "TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "20634eb9ef7a0133",
   "lastOpenFiles": [
-    "TinyStudy-CPP-6장/50. Source Location Macro.md",
+    "TinyStudy-CPP-6장/52. Stringizing Operator.md",
+    "TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
     "TinyStudy-CPP-6장/51. Condition Compiling Macros.md",
+    "TinyStudy-CPP-6장/50. Source Location Macro.md",
     "TinyStudy-CPP-6장/49. Common Errors(Preprocessing).md",
     "TinyStudy-CPP-6장/48. Preprocessors.md",
     "TinyStudy-CPP-6장/47. nodiscard, Capture List and Classes.md",
@@ -172,8 +174,6 @@
     "TinyStudy-CPP-3장/9. Signed and Unsigned Integer Characteristics.md",
     "TinyStudy-CPP-3장/10. Undefined Behavior.md",
     "TinyStudy-CPP-5장/37. static_cast, const_cast, reinterpret_cast.md",
-    "TinyStudy-CPP-5장/36. volatile Keyword.md",
-    "TinyStudy-CPP-5장/35. is_constant_evaluated(), if consteval.md",
     "TinyStudy-CPP-5장"
   ]
 }
