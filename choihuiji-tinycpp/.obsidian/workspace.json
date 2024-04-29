@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Lambda Expressions/2. Parameters, Composability, constexpr,consteval.md",
+                "file": "Ch6-Functions and Preprocessing/Lambda Expressions/3. template, mutable.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Lambda Expressions/2. Parameters, Composability, constexpr,consteval.md",
+                "file": "Ch6-Functions and Preprocessing/Lambda Expressions/3. template, mutable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Lambda Expressions/2. Parameters, Composability, constexpr,consteval.md",
+                "file": "Ch6-Functions and Preprocessing/Lambda Expressions/3. template, mutable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Lambda Expressions/2. Parameters, Composability, constexpr,consteval.md"
+                "file": "Ch6-Functions and Preprocessing/Lambda Expressions/3. template, mutable.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "6710905ca02701c8",
   "lastOpenFiles": [
-    "Ch6-Functions and Preprocessing/Lambda Expressions/1. Capture List.md",
     "Ch6-Functions and Preprocessing/Lambda Expressions/2. Parameters, Composability, constexpr,consteval.md",
+    "Ch6-Functions and Preprocessing/Lambda Expressions/3. template, mutable.md",
+    "Ch6-Functions and Preprocessing/Lambda Expressions/1. Capture List.md",
     "Ch6-Functions and Preprocessing/Functions/1. Pass by-Value, Pass by-Pointer, Pass by-Reference.md",
     "Ch6-Functions and Preprocessing/Lambda Expressions",
     "Ch6-Functions and Preprocessing/Functions/4. Function Pointers and Function Objects.md",
@@ -181,7 +182,6 @@
     "Ch5-Memory Management/Heap and Stack/4. Memory Leak.md",
     "Ch5-Memory Management/Heap and Stack",
     "Ch5-Memory Management/Initialization",
-    "Ch5-Memory Management/Heap and Stack/3. Non-allocating Placement Allocation, Non-throwing Allocation.md",
     "Ch5-Memory Management",
     "Ch4-Entities and Control Flow",
     "Pasted image 20240322152038.png",
