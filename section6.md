@@ -537,7 +537,7 @@ int main() {
             #include "myfile.h" : 현재 파일에 코드를 삽입
             #define MACRO <expression> : 새로운 매크로정의
             #undef MACRO : 매크로 정의해제  // 안전을 위해 최대한 즉각적으로 정의를 해제해야합니다.
-            다중 줄 처리기, 코드한줄 끝에 \ 기호를 삽입합니다.
+            ** 다중 줄 처리 시, 코드한줄 끝에 \ 기호를 삽입합니다. **
             #  define을 통해 들여쓰기가 가능합니다. 
     - 조건부 컴파일 문법은 다음과같습니다.
         - #if <condition> : 조건이 참일때 코드 실행
@@ -633,5 +633,49 @@ int main() {
             std::cout << __func__ << std::endl; // 'main' 출력
     }
  ```
+
+ - C++20에서는 소스 위치 매크로를 대체하기 위한 소스위치 유틸리티가 제공됩니다. 이를 사용해 매크로 기반 접근 방식을 대체 할 수 있습니다
+ ```
+ #include <source_location>
+ current(): 소스 위치 정보 
+ line(): 소스 코드 줄 번호
+ column(): 소스 코드 열번호
+ file_name(): 현재파일 이름
+ function_name(): 현재 함수 이름 
+
+ ```
 - Stringizing Operator # | #error and #warning | #pragma
+
+    - 문자열화 매크로 연산자 (#)
+        - 해당하는  인수(arguments)를 따옴표로 둘러쌉니다.즉 인수를 문자열 상수로 변환하여 출력합니다.
+        - 연산자를 활용하여 디버깅 메세지를 생성하는데도 사용 할 수 있습니다.
+         ```
+        #define INFO_MACRO(my_func) \
+        { \
+            my_func; \
+            std::cout << "call " << #my_func << " at " \
+                    << __FILE__ << ":" << __LINE__; \
+        }
+
+        void g(int) {}
+
+        int main() {
+            INFO_MACRO(g(3));
+        }
+         ```
+    - #error and #warning 
+        - #error "text" 
+        컴파일러가 이를 파싱할 때 사용자가 지정한 오류 메세지를 컴파일 시간에 발생시키고, 컴파일 프로세스를 중지합니다
+        - C++23 #warning "text" 
+        사용자 지정 경고 메세지를 컴파일시간에 발생시키지만, 컴파일 프로세스를 중지시키지는 않습니다.
+    - #pragma
+        - #pragma는 컴파일러의 구현별 동작을 제어합니다. 일반적으로 이식성은 없습니다.
+        - #pragma message "text" 이 지시문은 컴파일 시간에 정보 메세지를 표시합니다. 
+        - #pragma GCC diagnostic warning "-WFormat" 이 지시문은 GCC 경고를 비활성화 합니다.
+        - Pragma(<command>)(C++11) #define에 내장될 수 있는 키워등비니다.
+        ```
+        #define MY_MESSAGE \
+        _Pragma("message(\"hello\")")
+        ```
+
 - Token-Pasting Operator ## | Variadic Macro
