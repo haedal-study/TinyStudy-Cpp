@@ -504,3 +504,117 @@ int main() {
 	
         ```
 
+## 7 Prerocessing
+### 7.1 Preprocessor
+- 개요 
+    - 전처리기 지시문(Preprocessor Directive) 이란, 소스코드를 컴파일 하기 이전에, 어떻게 해석해야하는 것인지 컴파일러에게 알려주는 작업을 말합니다. 
+    - Macro는 전처리기 지시문이며, 나머지 코드에서 식별자의 발생을 대체합니다. 
+    코드예시
+    ```
+    // 매크로 정의
+    #define PI 3.14159
+    #define SQUARE(x) ((x) * (x))
+
+    int main() {
+        // 매크로 사용
+        double radius = 5.0;
+        double area = PI * SQUARE(radius);
+
+        std::cout << "원의 반지름: " << radius << std::endl;
+        std::cout << "원의 넓이: " << area << std::endl;
+
+        return 0;
+    }
+    ```
+    - 매크로는 다음과 같은 단점이 있기때문에 조심해서 사용해야합니다
+        1. 직접 디버깅 할 수 없습니다.
+        2. 예상못한 부작용을 가질 수 있습니다.
+        3. 이름공간이나 범위가 없습니다. 
+    - 전처리기 사용관련
+        - Hash(#)로 시작하는 문을 포함합니다 
+        - 예시
+             ```
+            #include "myfile.h" : 현재 파일에 코드를 삽입
+            #define MACRO <expression> : 새로운 매크로정의
+            #undef MACRO : 매크로 정의해제  // 안전을 위해 최대한 즉각적으로 정의를 해제해야합니다.
+            다중 줄 처리기, 코드한줄 끝에 \ 기호를 삽입합니다.
+            #  define을 통해 들여쓰기가 가능합니다. 
+    - 조건부 컴파일 문법은 다음과같습니다.
+        - #if <condition> : 조건이 참일때 코드 실행
+        - #elif <condition> : 이전 조건이 거짓이고 현재 조건이 참일 때 코드 실행
+        - #else : 이전 조건들이 거짓일 때 코드 실행
+        - #endif: 조건부 컴파일 블록 종료
+        - #if defined(MACRO): 이전 조건이 거짓이고 현재 매크로가 정의되어있는지 확인
+        - #elif defined(MACRO) : 이전 조건이 거짓이고 현재 매크로가 정의 되어있는지 확인
+        - #if !defined(MACRO) : 매크로가 정의되어있지 않은지 확인
+        - #elif !defined(MACRO) 이전 조건이 거짓이고 현재 매크로가 정의되어 있지 않은지 확인(C++23)
+
+
+
+### Common Errors
+- 매크로 사용시 발생하는 흔한 에러들입니다.
+    1. 헤더파일 및 인클루드 이전에 매크로를 정의하면 안됩니다.
+    ```
+        #include <iostream>
+        #define value  //매우위험
+        #include "big_lib.hpp"
+
+        int main() {
+            std::cout << f(4)>>
+        }
+    ```
+    2. 매크로 정의시 괄호를 사용해야합니다. 
+    ```
+    #include <iostream>
+    #define SUB1(a,b) a-b// 잘못된사용
+    #define SUB2(a,b) (a-b) //잘못된사용
+
+    #define SUB#(a,b) ((a) -(b)) // 올바른사용
+    ```
+    3. 매크로는 컴파일 에러를 찾기가 매우 어렵습니다.
+    4. 매크로 내용이 항상 평가되는 것은 아니므로 주의해야합니다
+    ```
+    #if defined(DEBUG)
+    #define CHECK(EXPR) // EXPR을 이용해서 무언가를 수행
+    void check(bool b) { /* b를 이용해서 무언가를 수행 */ }
+    #else
+    #define CHECK(EXPR) // 아무것도 수행하지 않음
+    void check(bool) {} // 아무것도 수행하지 않음
+    #endif
+    ```
+    5. 다중 줄 매크로에 중괄호를 사용하면 예기치 않게 동작합니다
+    ```
+    #define NUCLEAR_EXPLOSION
+    {
+    std::cout << "핵폭탄 투척">>;
+    nuclear
+    }
+    
+    int main(){
+        bool never_happen = false;
+        if(never_happen)
+        NUCLEAR_EXLPOSION
+    }
+    ```
+
+    6. 매크로는 항상 스코프를 명시해야합니다.
+    7. 매크로는 부작용을 발생시킬 수 있습니다
+    ```
+    # define MIN(a, b) ((a) < (b) ? (a) : (b))
+    int main() {
+    int array1[] = { 1, 5, 2 };
+    int array2[] = { 6, 3, 4 };
+    int i = 0;
+    int j = 0;
+    int v1 = MIN(array1[i++], array2[j++]); // v1 = 5!!
+    int v2 = MIN(array1[i++], array2[j++]); // undefined behavior/segmentation fault A
+    }
+    //대체시 다음과 같아지기때문에, 두번 증감연산자 실행 및, 배열인덱스를 벗어나기때문에 세그멘테이션 오류가발생힙니다. 
+    ((array1[i++]) < (array2[j++]) ? (array1[i++]) : (array2[j++]))
+    ```
+
+
+
+- Source Location Macros
+- Stringizing Operator # | #error and #warning | #pragma
+- Token-Pasting Operator ## | Variadic Macro
