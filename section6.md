@@ -616,5 +616,22 @@ int main() {
 
 
 - Source Location Macros
+소스위치 매크로란, 컴파일 중인 줄 번호 혹은 파일이름과 같은 정보를 제공하는 매크로입니다.
+종류는 다음과같습니다
+ - __LINE__ : 현재 소스 코드 파일에서의 줄 번호를 나타내는 정수 값
+ -__FILE__ : 컴파일 중인 소스파일의 이름을 나타내는 문장졀 입니다. 
+ -__FUNCTION__: 현재 매크로 범위 내의 함수의 전체 시그니처를 나타내는 문자열 입니다.
+ -__PRETTY_FUNCTION__:현재 매크로 범위 내의 함수 전체 시그니처를 나타내는 문자열 입니다. (GCC Clang)
+ -__func__ 현재 매크로 범위 내의 함수 이름을 나타내는 C++11 키워드입니다.
+
+- 코드예시
+ ```
+ # define MIN(a, b) ((a) < (b) ? (a) : (b))
+        int main() {
+            std::cout << __FILE__ << ":" << __LINE__ << std::endl; // '\MyCppProject\MyCppProject\Source.cpp:11' 출력
+            std::cout << __FUNCTION__ << std::endl; // 'main' 출력
+            std::cout << __func__ << std::endl; // 'main' 출력
+    }
+ ```
 - Stringizing Operator # | #error and #warning | #pragma
 - Token-Pasting Operator ## | Variadic Macro
