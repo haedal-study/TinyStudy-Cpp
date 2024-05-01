@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Lambda Expressions/4. nodiscard, Capture List and Classes.md",
+                "file": "Ch6-Functions and Preprocessing/Preprocessing/1. Preprocessors.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Lambda Expressions/4. nodiscard, Capture List and Classes.md",
+                "file": "Ch6-Functions and Preprocessing/Preprocessing/1. Preprocessors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Lambda Expressions/4. nodiscard, Capture List and Classes.md",
+                "file": "Ch6-Functions and Preprocessing/Preprocessing/1. Preprocessors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Lambda Expressions/4. nodiscard, Capture List and Classes.md"
+                "file": "Ch6-Functions and Preprocessing/Preprocessing/1. Preprocessors.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "6710905ca02701c8",
   "lastOpenFiles": [
-    "Ch6-Functions and Preprocessing/Lambda Expressions/3. template, mutable.md",
     "Ch6-Functions and Preprocessing/Lambda Expressions/4. nodiscard, Capture List and Classes.md",
+    "Ch6-Functions and Preprocessing/Preprocessing/1. Preprocessors.md",
+    "Ch6-Functions and Preprocessing/Preprocessing",
+    "Ch6-Functions and Preprocessing/Lambda Expressions/3. template, mutable.md",
     "Ch6-Functions and Preprocessing/Lambda Expressions/2. Parameters, Composability, constexpr,consteval.md",
     "Ch6-Functions and Preprocessing/Lambda Expressions/1. Capture List.md",
     "Ch6-Functions and Preprocessing/Functions/1. Pass by-Value, Pass by-Pointer, Pass by-Reference.md",
@@ -179,11 +181,9 @@
     "Ch5-Memory Management/Initialization/2. Structure Initialization, Dynamic Memory Initialization.md",
     "Ch5-Memory Management/Pointers and References",
     "Ch5-Memory Management/Initialization/1. Variable Initialization, Uniform Initialization.md",
-    "Ch5-Memory Management/Heap and Stack/1. Stack Memory.md",
     "Ch5-Memory Management/Heap and Stack",
     "Ch5-Memory Management/Initialization",
     "Ch5-Memory Management",
-    "Ch4-Entities and Control Flow",
     "Pasted image 20240322152038.png",
     "Pasted image 20240322152346.png",
     "Pasted image 20240322152334.png",
