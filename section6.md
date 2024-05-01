@@ -679,3 +679,55 @@ int main() {
         ```
 
 - Token-Pasting Operator ## | Variadic Macro
+
+### Token-Pasting Operator (##)
+
+토큰 결합매크로 연산자(##)는 두 개의 토큰을 결합합니다. (공백 없이)
+사용법: tokenA##tokenB와 같이 사용하며, tokenA와 tokenB를 결합하여 새로운 식별자를 생성합니다.
+예시
+```
+#define FUNC_GEN_A(tokenA, tokenB) \
+void tokenA##tokenB() {}
+
+#define FUNC_GEN_B(tokenA, tokenB) \
+void tokenA##_##tokenB() {}
+
+FUNC_GEN_A(my, function)
+FUNC_GEN_B(my, function)
+/*
+예를 들어, FUNC_GEN_A(my, function)은 my와 function을 결합하여 새로운 함수 이름인 myfunction을 생성합니다.
+*/
+
+// 함수 호출
+myfunction(); // FUNC_GEN_A에서 생성됨
+my_function(); // FUNC_GEN_B에서 생성됨
+Variadic Macro
+```
+개요: 가변 인자 매크로는 C++11에서 도입된 특수한 매크로로, 변수 개수의 인수를 허용합니다. (쉼표로 구분됨)
+동작: 매크로 치환 목록에서 VA ARGS의 각 발생은 전달된 인수로 대체됩니다.
+```
+void f(int a) { printf("%d", a); }
+void f(int a, int b) { printf("%d %d", a, b); }
+void f(int a, int b, int c) { printf("%d %d %d", a, b, c); }
+
+#define PRINT(...) \
+f(__VA_ARGS__);
+
+PRINT(1, 2)
+PRINT(1, 2, 3)
+```
+### Macro Trick
+
+목적: 숫자 리터럴을 문자열 리터럴로 변환합니다.
+동기: 정수를 문자열로 변환하는 것을 피하려는 목적으로 성능을 개선합니다.
+```
+#define TO_LITERAL_AUX(x) #x
+#define TO_LITERAL(x) TO_LITERAL_AUX(x)
+
+int main() {
+    int x1 = 3 * 10;
+    int y1 = __LINE__ + 4;
+    char x2[] = TO_LITERAL(3);
+    char
+```
+이것들은 매크로를 사용하여 코드를 유연하게 만들고, 특히 가변 인자 매크로를 통해 함수의 다양한 매개변수에 대응할 수 있습니다. 토큰 붙이기 연산자(##)는 여러 개의 매크로를 조합하여 새로운 기능을 만드는 데 사용됩니다.
