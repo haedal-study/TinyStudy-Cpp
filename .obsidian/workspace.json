@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/1. RAII Idiom.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/1. RAII Idiom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/1. RAII Idiom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md"
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/1. RAII Idiom.md"
               }
             }
           }
@@ -148,32 +148,35 @@
   },
   "active": "20634eb9ef7a0133",
   "lastOpenFiles": [
-    "TinyStudy-CPP-6장/52. Stringizing Operator.md",
-    "TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
-    "TinyStudy-CPP-6장/51. Condition Compiling Macros.md",
-    "TinyStudy-CPP-6장/50. Source Location Macro.md",
-    "TinyStudy-CPP-6장/49. Common Errors(Preprocessing).md",
-    "TinyStudy-CPP-6장/48. Preprocessors.md",
-    "TinyStudy-CPP-6장/47. nodiscard, Capture List and Classes.md",
-    "TinyStudy-CPP-6장/45. Parameters, Composability, constexpr vs consteval.md",
-    "TinyStudy-CPP-6장/46. template, mutable.md",
-    "TinyStudy-CPP-5장/33. constexpr.md",
-    "TinyStudy-CPP-5장/34. consteval, constinit, if constexpr.md",
-    "TinyStudy-CPP-6장/44. Capture List(Lambda Expression).md",
-    "TinyStudy-CPP-6장/43. Function Pointer and Function Object.md",
-    "TinyStudy-CPP-6장/42. Default Parameter, Attributes.md",
-    "TinyStudy-CPP-6장/41. Function Signature and Overloading, Overloading and =delete.md",
-    "TinyStudy-CPP-5장/39. sizeof Operator.md",
-    "TinyStudy-CPP-5장/38. Type Punning.md",
-    "TinyStudy-CPP-6장/40. Pass by Value, Pass by Pointer and Pass by Reference.md",
-    "TinyStudy-CPP-5장/31. Reference.md",
-    "TinyStudy-CPP-5장/23. Stack Memory.md",
-    "TinyStudy-CPP-4장/20. struct, Bitfield and union.md",
-    "TinyStudy-CPP-3장/11. IEEE Floating-point Standard and Other Representations.md",
-    "TinyStudy-CPP-3장/12. Normal and Denormal , Infinity , NaN; Not a Number.md",
-    "TinyStudy-CPP-3장/9. Signed and Unsigned Integer Characteristics.md",
-    "TinyStudy-CPP-3장/10. Undefined Behavior.md",
-    "TinyStudy-CPP-5장/37. static_cast, const_cast, reinterpret_cast.md",
-    "TinyStudy-CPP-5장"
+    "1차/TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/1. RAII Idiom.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장",
+    "2차(객체지향, 일반화 프로그래밍)",
+    "1차",
+    "1차/TinyStudy-CPP-6장/52. Stringizing Operator.md",
+    "1차/TinyStudy-CPP-6장/51. Condition Compiling Macros.md",
+    "1차/TinyStudy-CPP-6장/50. Source Location Macro.md",
+    "1차/TinyStudy-CPP-6장/49. Common Errors(Preprocessing).md",
+    "1차/TinyStudy-CPP-6장/48. Preprocessors.md",
+    "1차/TinyStudy-CPP-6장/47. nodiscard, Capture List and Classes.md",
+    "1차/TinyStudy-CPP-6장/45. Parameters, Composability, constexpr vs consteval.md",
+    "1차/TinyStudy-CPP-6장/46. template, mutable.md",
+    "1차/TinyStudy-CPP-5장/33. constexpr.md",
+    "1차/TinyStudy-CPP-5장/34. consteval, constinit, if constexpr.md",
+    "1차/TinyStudy-CPP-6장/44. Capture List(Lambda Expression).md",
+    "1차/TinyStudy-CPP-6장/43. Function Pointer and Function Object.md",
+    "1차/TinyStudy-CPP-6장/42. Default Parameter, Attributes.md",
+    "1차/TinyStudy-CPP-6장/41. Function Signature and Overloading, Overloading and =delete.md",
+    "1차/TinyStudy-CPP-5장/39. sizeof Operator.md",
+    "1차/TinyStudy-CPP-5장/38. Type Punning.md",
+    "1차/TinyStudy-CPP-6장/40. Pass by Value, Pass by Pointer and Pass by Reference.md",
+    "1차/TinyStudy-CPP-5장/31. Reference.md",
+    "1차/TinyStudy-CPP-5장/23. Stack Memory.md",
+    "1차/TinyStudy-CPP-4장/20. struct, Bitfield and union.md",
+    "1차/TinyStudy-CPP-3장/11. IEEE Floating-point Standard and Other Representations.md",
+    "1차/TinyStudy-CPP-3장/12. Normal and Denormal , Infinity , NaN; Not a Number.md",
+    "1차/TinyStudy-CPP-3장/9. Signed and Unsigned Integer Characteristics.md",
+    "1차/TinyStudy-CPP-3장/10. Undefined Behavior.md",
+    "1차/TinyStudy-CPP-5장"
   ]
 }
