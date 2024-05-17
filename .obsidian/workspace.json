@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/1. RAII Idiom.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/2. Class Hierarchy and Access Specifiers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/1. RAII Idiom.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/2. Class Hierarchy and Access Specifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/1. RAII Idiom.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/2. Class Hierarchy and Access Specifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/1. RAII Idiom.md"
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/2. Class Hierarchy and Access Specifiers.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "20634eb9ef7a0133",
   "lastOpenFiles": [
-    "1차/TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/1. RAII Idiom.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/2. Class Hierarchy and Access Specifiers.md",
+    "1차/TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장",
     "2차(객체지향, 일반화 프로그래밍)",
     "1차",
@@ -176,7 +177,6 @@
     "1차/TinyStudy-CPP-3장/11. IEEE Floating-point Standard and Other Representations.md",
     "1차/TinyStudy-CPP-3장/12. Normal and Denormal , Infinity , NaN; Not a Number.md",
     "1차/TinyStudy-CPP-3장/9. Signed and Unsigned Integer Characteristics.md",
-    "1차/TinyStudy-CPP-3장/10. Undefined Behavior.md",
     "1차/TinyStudy-CPP-5장"
   ]
 }
