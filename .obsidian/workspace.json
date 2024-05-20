@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/4. Uniform Initialization for Objects, Delegate Constructor, explicit Keyword, nodiscard.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/5. Copy Constructor, Class Destructor.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/4. Uniform Initialization for Objects, Delegate Constructor, explicit Keyword, nodiscard.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/5. Copy Constructor, Class Destructor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/4. Uniform Initialization for Objects, Delegate Constructor, explicit Keyword, nodiscard.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/5. Copy Constructor, Class Destructor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/4. Uniform Initialization for Objects, Delegate Constructor, explicit Keyword, nodiscard.md"
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/5. Copy Constructor, Class Destructor.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "20634eb9ef7a0133",
   "lastOpenFiles": [
-    "1차/TinyStudy-CPP-6장/42. Default Parameter, Attributes.md",
-    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/4. Uniform Initialization for Objects, Delegate Constructor, explicit Keyword, nodiscard.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/3. Default Constructor, Class Initialization.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/4. Uniform Initialization for Objects, Delegate Constructor, explicit Keyword, nodiscard.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/5. Copy Constructor, Class Destructor.md",
+    "1차/TinyStudy-CPP-6장/42. Default Parameter, Attributes.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/2. Class Hierarchy and Access Specifiers.md",
     "1차/TinyStudy-CPP-5장/33. constexpr.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/1. RAII Idiom.md",
@@ -176,7 +177,6 @@
     "1차/TinyStudy-CPP-5장/31. Reference.md",
     "1차/TinyStudy-CPP-5장/23. Stack Memory.md",
     "1차/TinyStudy-CPP-4장/20. struct, Bitfield and union.md",
-    "1차/TinyStudy-CPP-3장/11. IEEE Floating-point Standard and Other Representations.md",
     "1차/TinyStudy-CPP-5장"
   ]
 }
