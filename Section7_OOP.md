@@ -218,7 +218,7 @@ struct A {
 
 
  ### 7.1.7 초기화 순서 
- 클래스 맴버의 초기화는 선언된 순서를 따르며, 초기화 목록의 순서가 아닌, 멤버변수가 선언된 순서대로 초기화합니다.
+ 클래스 맴버의 초기화는 선언된 순서를 따르며, 초기화 목록의 순서가 아닌, 멤버변수가 선언된 순서대로 초기화합니다. 즉 아래코드는 컴파일에러는 발생하지 않지만, segmentation fault에러가 발생하게됩니다.
  ```
  struct ArrayWrapper {
     int* array;
@@ -230,3 +230,189 @@ struct A {
     {}
 };
  ```
+
+ ### 7.1.8 Uniform Initialization for Objects
+
+ - C++11 이후에 도입되었으며, 중괄호'{}'를 사용하여, 어떤 데이터 타입의 객체인지 상관없이, 초기화 할 수 있는 방법을 말합니다. 이는 일관된 초기화 문법을 제공하며, 특정문제 (중복된 타입 이름 최소화, Most Vexing Parse) 를 해결하는데 도움이 됩니다. 
+
+ - 중복 타입 이름 최소화 예제 코드
+ ```
+     
+struct Point
+{
+    int x, y;
+    Point(int x1, int y1) : x(x1), y(y1){}
+};
+//C++11
+Point add(Point a, Point b) {
+    return {a.x + b.x, a.y + b.y };
+}
+//C++3
+ Pointadd(Pointa,Pointb){
+ returnPoint(a.x+b.x,a.y+b.y);
+ }
+ Pointc=add(Point(1,2),Point(3,4));
+
+int main() {
+  
+    Point c = add(Point(1, 2), Point(3, 4));
+    std::cout<<c.x <<" "<< c.y;
+}
+ ```
+ - Most Vexing Parse
+ 
+    - 예제 1
+        
+    ```
+        struct A {
+        A(int) {}
+    };
+
+    struct B {
+        A A(1); // 컴파일에러 발생
+    };
+
+    // 아래 코드와 같이 작성하여 컴파일 에러를 해결 할 수 있습니다.
+    struct A{
+        A(int) {}
+    };
+    struct B{
+        A a; 
+        B() : A(1) {}
+    };
+
+    //2
+    struct A {
+    A(int) {}
+    };
+
+    struct B {
+        A a{1}; // 중괄호를 사용하여 a를 1로 초기화
+    };
+
+    // 혹은 다음과 같이
+    A a{1}; // a를 1로 초기화
+
+    ```
+
+    
+ ### 7.1.8 Constructors and Inheritance
+ - 클래스의 생성자는 절대 상속되지않습니다.
+ - 즉 파생클래스는 생성자를 명시적,암시적으로 호출해야하며, 
+ 촹사위 기본클래스 -> 가장최신(가까운) 파생 클래스 순서로 호출됩니다.
+```
+struct A {
+    A() { std::cout << "A"; }
+};
+
+struct B1 : A {
+    int y = 3; 
+};
+
+struct B2 : B1 {
+    // B2클래스의 생성자에서, B1 클래스의 생성자를 명시적으로 호출하는 구문 입니다. 
+    B2() : B1() { std::cout << "B"; }
+};
+
+int main() {
+    B1 b1; // "A" 출력
+    B2 b2; // "A" 출력 후 "B" 출력
+
+}
+```
+
+  ### 7.1.9 Delegate Constructor (대리생성자)
+
+  - 대부분 생성자에서는 개별작업 수행 전, 동일한 초기화 단계를 수행합니다.
+  - C++11 에서는 동일 클래스의 다른 생성자 호출시, 반복 코드를 줄이기 위한 목적으로 대리생성자를 도입했습니다 
+  ```
+struct A {
+    int a;
+    float b;
+    bool c;
+
+    // 표준 생성자
+    A(int a1, float b1, bool c1) : a(a1), b(b1), c(c1) {
+        // 많은 작업 수행
+    }
+
+    // 대리 생성자
+    A(int a1, float b1) : A(a1, b1, false) {}
+    A(float b1) : A(100, b1, false) {}
+};
+
+int main() {
+  
+    A a(3.0f);
+    std::cout << a.a << " " << a.b <<" "<< a.c; // 100 3 0 출력
+}
+  ```
+
+  - explicit 키워드
+    - 생성자나 변환 연산자가 단일 인자 또는 중괄호 초기화자로 부터, 암시적 변환이나 복사초기화를 허용하지 않음을 명시합니다.다음과같은 초기화 방식끼리 암시적으로 변환하며 혼란을 유발하지 않도록 하기위한 의도가 담겨있다고 할 수 있습니다.
+       용어 정리
+        - 직접 초기화(Direct Initialization):
+             중괄호 {} 또는 소괄호 ()를 사용하여 객체를 직접 초기화하는 방식입니다.
+        예: B b1{2};, B b2(2);
+        - 복사 초기화(Copy Initialization):
+        등호(=)를 사용하여 객체를 초기화하는 방식입니다.
+        예: B b1 = 2; (단, explicit 생성자가 있으면 암시적 변환이 금지됨)
+
+        - 값 초기화(Value Initialization):
+        중괄호 {}를 사용하여 객체를 기본 값으로 초기화하는 방식입니다.
+        예: B b2{};
+        
+        - 리스트 초기화(List Initialization):
+        중괄호 {}를 사용하여 객체를 초기화하는 방식의 총칭입니다.
+        예: B b1{2};, B b2{};
+    ```
+        struct MyString {
+        MyString(int n);          // (1) n 바이트 할당
+        MyString(const char* p);  // (2) 원시 문자열로부터 초기화
+    };
+
+    MyString string = 'a'; // (1) 호출, 암시적 변환!!
+
+    // explicit 키워드 사용
+    struct B {
+        explicit B() {}
+        explicit B(int) {}
+        explicit B(int, int) {}
+    };
+
+    void f(const B&) {}
+
+
+
+    int main() {
+    
+        // B b1 = {};   // 오류: 암시적 변환
+        B b2(2);       // ok
+        // B b3 = 1;    // 오류: 암시적 변환
+        B b4{ 4, 5 };    // ok: B(int, int) 호출
+        // B b5 = {4, 5}; // 오류: 암시적 변환
+        B b6 = (B)1;   // ok: 명시적 캐스트
+        // f({});      // 오류: 암시적 변환
+        // f(1);       // 오류: 암시적 변환
+        //f({1});     // 오류: 암시적 변환
+        f(B{ 1 });       // ok
+    }
+    ```
+    - [nondiscard]
+    C++17, 함수가 반환하는 타입의 결과를 무시하지 않게 컴파일에러를 발생시킵니다. C++20에서는 생성자에도 이속성을 넣을 수 있도록 확장하였습니다. 
+ 
+
+    ```
+      struct A {
+    [[nodiscard]] A() {} // 생성자에 적용
+    };
+
+    void f(A) {}
+
+    int main() {
+    A a{};     // ok: 반환 값을 사용함
+    f(A{});    // ok: 반환 값을 사용함
+    A{};       // 경고: 생성된 객체를 무시함
+    return 0;
+}
+    ```
