@@ -39,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Section7_OOP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Section7_OOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Section7_OOP.md"
+              }
             }
           }
         ]
@@ -172,9 +175,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69d3abbe88706e13",
+  "active": "c69a30ba558fa5d5",
   "lastOpenFiles": [
+    "Pasted image 20240522230550.png",
     "Section7_OOP.md",
+    "Pasted image 20240522230555.png",
     "Tags",
     "section6.md"
   ]
