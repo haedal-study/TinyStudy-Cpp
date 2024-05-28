@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/7. const, mutable, using, friend, delete.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/12. Comparison Operator, Spaceship Operator.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/7. const, mutable, using, friend, delete.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/12. Comparison Operator, Spaceship Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/7. const, mutable, using, friend, delete.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/12. Comparison Operator, Spaceship Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/7. const, mutable, using, friend, delete.md"
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/12. Comparison Operator, Spaceship Operator.md"
               }
             }
           }
@@ -148,8 +148,16 @@
   },
   "active": "20634eb9ef7a0133",
   "lastOpenFiles": [
-    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/6. default, this, static.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/11. Inheritance Casting and Run-time Type Identification.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/12. Comparison Operator, Spaceship Operator.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/10. override, final, pure virtual method, abstract class and interface .md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/9. Virtual Methods, Virtual Table.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/8. Polymorphism Overview.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/10. Virtual Methods, Virtual Table.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/9. Virtual Method, Virtual Table.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/7. const, mutable, using, friend, delete.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/6. default, this, static.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/4. Uniform Initialization for Objects, Delegate Constructor, explicit Keyword, nodiscard.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/5. Copy Constructor, Class Destructor.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/3. Default Constructor, Class Initialization.md",
@@ -170,13 +178,6 @@
     "1차/TinyStudy-CPP-6장/45. Parameters, Composability, constexpr vs consteval.md",
     "1차/TinyStudy-CPP-6장/46. template, mutable.md",
     "1차/TinyStudy-CPP-5장/34. consteval, constinit, if constexpr.md",
-    "1차/TinyStudy-CPP-6장/44. Capture List(Lambda Expression).md",
-    "1차/TinyStudy-CPP-6장/43. Function Pointer and Function Object.md",
-    "1차/TinyStudy-CPP-6장/41. Function Signature and Overloading, Overloading and =delete.md",
-    "1차/TinyStudy-CPP-5장/39. sizeof Operator.md",
-    "1차/TinyStudy-CPP-5장/38. Type Punning.md",
-    "1차/TinyStudy-CPP-6장/40. Pass by Value, Pass by Pointer and Pass by Reference.md",
-    "1차/TinyStudy-CPP-5장/31. Reference.md",
     "1차/TinyStudy-CPP-5장"
   ]
 }
