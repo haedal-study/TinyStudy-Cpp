@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Preprocessing/1. Preprocessors.md",
+                "file": "Ch6-Functions and Preprocessing/Preprocessing/3. Source Location Macros.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Preprocessing/1. Preprocessors.md",
+                "file": "Ch6-Functions and Preprocessing/Preprocessing/3. Source Location Macros.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Preprocessing/1. Preprocessors.md",
+                "file": "Ch6-Functions and Preprocessing/Preprocessing/3. Source Location Macros.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Preprocessing/1. Preprocessors.md"
+                "file": "Ch6-Functions and Preprocessing/Preprocessing/3. Source Location Macros.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "6710905ca02701c8",
   "lastOpenFiles": [
-    "Ch6-Functions and Preprocessing/Lambda Expressions/4. nodiscard, Capture List and Classes.md",
     "Ch6-Functions and Preprocessing/Preprocessing/1. Preprocessors.md",
+    "Ch6-Functions and Preprocessing/Preprocessing/3. Source Location Macros.md",
+    "Ch6-Functions and Preprocessing/Lambda Expressions/4. nodiscard, Capture List and Classes.md",
+    "Ch6-Functions and Preprocessing/Preprocessing/2. Common Errors.md",
     "Ch6-Functions and Preprocessing/Preprocessing",
     "Ch6-Functions and Preprocessing/Lambda Expressions/3. template, mutable.md",
     "Ch6-Functions and Preprocessing/Lambda Expressions/2. Parameters, Composability, constexpr,consteval.md",
@@ -178,9 +180,7 @@
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit",
     "Ch5-Memory Management/Pointers and References/2. Address-of operator &.md",
     "Ch5-Memory Management/Pointers and References/1. Pointer Operations.md",
-    "Ch5-Memory Management/Initialization/2. Structure Initialization, Dynamic Memory Initialization.md",
     "Ch5-Memory Management/Pointers and References",
-    "Ch5-Memory Management/Initialization/1. Variable Initialization, Uniform Initialization.md",
     "Ch5-Memory Management/Heap and Stack",
     "Ch5-Memory Management/Initialization",
     "Ch5-Memory Management",
