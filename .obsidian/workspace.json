@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/12. Comparison Operator, Spaceship Operator.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/12. Comparison Operator, Spaceship Operator.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/12. Comparison Operator, Spaceship Operator.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/12. Comparison Operator, Spaceship Operator.md"
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md"
               }
             }
           }
@@ -148,8 +148,22 @@
   },
   "active": "20634eb9ef7a0133",
   "lastOpenFiles": [
-    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/11. Inheritance Casting and Run-time Type Identification.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/13. Overloading of Subscript, Function Call, static and Conversion Operator.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/12. Comparison Operator, Spaceship Operator.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md",
+    "1차/TinyStudy-CPP-2장/7. C++ Operators.md",
+    "1차/TinyStudy-CPP-6장/43. Function Pointer and Function Object.md",
+    "1차/TinyStudy-CPP-6장/48. Preprocessors.md",
+    "1차/TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
+    "1차/TinyStudy-CPP-6장/51. Condition Compiling Macros.md",
+    "1차/TinyStudy-CPP-6장/52. Stringizing Operator.md",
+    "1차/TinyStudy-CPP-6장/47. nodiscard, Capture List and Classes.md",
+    "1차/TinyStudy-CPP-6장/44. Capture List(Lambda Expression).md",
+    "1차/TinyStudy-CPP-6장/45. Parameters, Composability, constexpr vs consteval.md",
+    "1차/TinyStudy-CPP-6장/41. Function Signature and Overloading, Overloading and =delete.md",
+    "1차/TinyStudy-CPP-6장/42. Default Parameter, Attributes.md",
+    "1차/TinyStudy-CPP-6장/40. Pass by Value, Pass by Pointer and Pass by Reference.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/11. Inheritance Casting and Run-time Type Identification.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/10. override, final, pure virtual method, abstract class and interface .md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/9. Virtual Methods, Virtual Table.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/8. Polymorphism Overview.md",
@@ -161,23 +175,9 @@
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/4. Uniform Initialization for Objects, Delegate Constructor, explicit Keyword, nodiscard.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/5. Copy Constructor, Class Destructor.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/3. Default Constructor, Class Initialization.md",
-    "1차/TinyStudy-CPP-6장/42. Default Parameter, Attributes.md",
-    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/2. Class Hierarchy and Access Specifiers.md",
-    "1차/TinyStudy-CPP-5장/33. constexpr.md",
-    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/1. RAII Idiom.md",
-    "1차/TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장",
     "2차(객체지향, 일반화 프로그래밍)",
     "1차",
-    "1차/TinyStudy-CPP-6장/52. Stringizing Operator.md",
-    "1차/TinyStudy-CPP-6장/51. Condition Compiling Macros.md",
-    "1차/TinyStudy-CPP-6장/50. Source Location Macro.md",
-    "1차/TinyStudy-CPP-6장/49. Common Errors(Preprocessing).md",
-    "1차/TinyStudy-CPP-6장/48. Preprocessors.md",
-    "1차/TinyStudy-CPP-6장/47. nodiscard, Capture List and Classes.md",
-    "1차/TinyStudy-CPP-6장/45. Parameters, Composability, constexpr vs consteval.md",
-    "1차/TinyStudy-CPP-6장/46. template, mutable.md",
-    "1차/TinyStudy-CPP-5장/34. consteval, constinit, if constexpr.md",
     "1차/TinyStudy-CPP-5장"
   ]
 }
