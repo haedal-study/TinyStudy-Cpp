@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/16. C++ Layout. Standard-Layout Class, Plain Old Data.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/16. C++ Layout. Standard-Layout Class, Plain Old Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/16. C++ Layout. Standard-Layout Class, Plain Old Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md"
+                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/16. C++ Layout. Standard-Layout Class, Plain Old Data.md"
               }
             }
           }
@@ -148,9 +148,11 @@
   },
   "active": "20634eb9ef7a0133",
   "lastOpenFiles": [
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/15. C++ Layout. Aggregate, Trivial Class.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/16. C++ Layout. Standard-Layout Class, Plain Old Data.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/13. Overloading of Subscript, Function Call, static and Conversion Operator.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/12. Comparison Operator, Spaceship Operator.md",
-    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md",
     "1차/TinyStudy-CPP-2장/7. C++ Operators.md",
     "1차/TinyStudy-CPP-6장/43. Function Pointer and Function Object.md",
     "1차/TinyStudy-CPP-6장/48. Preprocessors.md",
@@ -173,8 +175,6 @@
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/6. default, this, static.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/4. Uniform Initialization for Objects, Delegate Constructor, explicit Keyword, nodiscard.md",
-    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/5. Copy Constructor, Class Destructor.md",
-    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/3. Default Constructor, Class Initialization.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장",
     "2차(객체지향, 일반화 프로그래밍)",
     "1차",
