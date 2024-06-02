@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ac7ee783699d2a94",
+        "id": "92f3e643fc5b0eca",
         "type": "tabs",
         "children": [
           {
-            "id": "20634eb9ef7a0133",
+            "id": "e3b1696a52478828",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/16. C++ Layout. Standard-Layout Class, Plain Old Data.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/18. Template Instantiation, Template Parameters.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/16. C++ Layout. Standard-Layout Class, Plain Old Data.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/18. Template Instantiation, Template Parameters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/16. C++ Layout. Standard-Layout Class, Plain Old Data.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/18. Template Instantiation, Template Parameters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/16. C++ Layout. Standard-Layout Class, Plain Old Data.md"
+                "file": "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/18. Template Instantiation, Template Parameters.md"
               }
             }
           }
@@ -146,10 +146,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "20634eb9ef7a0133",
+  "active": "e3b1696a52478828",
   "lastOpenFiles": [
-    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/15. C++ Layout. Aggregate, Trivial Class.md",
+    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/17. Template Overview.md",
+    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/18. Template Instantiation, Template Parameters.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/16. C++ Layout. Standard-Layout Class, Plain Old Data.md",
+    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template",
+    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1",
+    "2차(객체지향, 일반화 프로그래밍)/9장. Templates and Meta-Programming1.md",
+    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/15. C++ Layout. Aggregate, Trivial Class.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/13. Overloading of Subscript, Function Call, static and Conversion Operator.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/12. Comparison Operator, Spaceship Operator.md",
@@ -171,11 +176,8 @@
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/8. Polymorphism Overview.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/10. Virtual Methods, Virtual Table.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/9. Virtual Method, Virtual Table.md",
-    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/7. const, mutable, using, friend, delete.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장",
-    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/6. default, this, static.md",
-    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장/4. Uniform Initialization for Objects, Delegate Constructor, explicit Keyword, nodiscard.md",
-    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-7장",
+    "2차(객체지향, 일반화 프로그래밍)/7장-Object-Oriented Programming 1",
     "2차(객체지향, 일반화 프로그래밍)",
     "1차",
     "1차/TinyStudy-CPP-5장"
