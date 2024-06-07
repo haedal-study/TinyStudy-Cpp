@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/21. Compile-Time Utilities.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Type Traits/22. Type Trait Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/21. Compile-Time Utilities.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Type Traits/22. Type Trait Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/21. Compile-Time Utilities.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Type Traits/22. Type Trait Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/21. Compile-Time Utilities.md"
+                "file": "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Type Traits/22. Type Trait Overview.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "e3b1696a52478828",
   "lastOpenFiles": [
+    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/21. Compile-Time Utilities.md",
+    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Type Traits/22. Type Trait Overview.md",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/19. Template Parameter - Default Value, Overloading, Specialization.md",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/20. Template Variable, Template Parameter Types.md",
-    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/21. Compile-Time Utilities.md",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/18. Template Instantiation, Template Parameters.md",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/17. Template Overview.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/16. C++ Layout. Standard-Layout Class, Plain Old Data.md",
@@ -175,7 +176,6 @@
     "1차/TinyStudy-CPP-6장/40. Pass by Value, Pass by Pointer and Pass by Reference.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/11. Inheritance Casting and Run-time Type Identification.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/10. override, final, pure virtual method, abstract class and interface .md",
-    "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/9. Virtual Methods, Virtual Table.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장",
     "2차(객체지향, 일반화 프로그래밍)/7장-Object-Oriented Programming 1",
     "2차(객체지향, 일반화 프로그래밍)",
