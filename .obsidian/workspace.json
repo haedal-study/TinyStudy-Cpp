@@ -8,36 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c69a30ba558fa5d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Section7_OOP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ff2bcdbf19d2479",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Section8. Object-Oriented Programming II - Polymorphism and Operator Overloading.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "69d3abbe88706e13",
             "type": "leaf",
             "state": {
-              "type": "mk-uri-view",
+              "type": "markdown",
               "state": {
-                "path": "https://www.make.md/static/latest.md"
+                "file": "Section8/Section8. Object-Oriented Programming II - Polymorphism and Operator Overloading.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41427f11e2b36ec5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "846032549180a868",
@@ -109,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section8. Object-Oriented Programming II - Polymorphism and Operator Overloading.md",
+                "file": "cppBook/08.Object_Oriented_II.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section8. Object-Oriented Programming II - Polymorphism and Operator Overloading.md",
+                "file": "cppBook/08.Object_Oriented_II.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section8. Object-Oriented Programming II - Polymorphism and Operator Overloading.md"
+                "file": "cppBook/08.Object_Oriented_II.pdf"
               }
             }
           }
@@ -170,12 +159,59 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9ff2bcdbf19d2479",
+  "floating": {
+    "id": "dbf5ed7b8c41026b",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a638fc70173b172a",
+        "type": "window",
+        "children": [
+          {
+            "id": "42632a8065cd6df2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4813469ce6609ad5",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "cppBook/08.Object_Oriented_II.pdf"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1280,
+        "y": 0,
+        "width": 1280,
+        "height": 1440,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "4813469ce6609ad5",
   "lastOpenFiles": [
-    "Section8. Object-Oriented Programming II - Polymorphism and Operator Overloading.md",
+    "README.md",
+    "cppBook/08.Object_Oriented_II.pdf",
+    "Section8/Section8. Object-Oriented Programming II - Polymorphism and Operator Overloading.md",
     "Section7_OOP.md",
-    "Pasted image 20240522230550.png",
+    "Section8/5.25 override,final, common Errors Pure Virtual Method, Abstract Class and Interface.md",
+    "Section8",
+    "cppBook/09.Templates_I.pdf",
+    "Pasted image 20240524184510.png",
+    "Section5.md",
+    "cppBook/14.Ecosystem_I.pdf",
     "Pasted image 20240522230555.png",
+    "cppBook/07.Object_Oriented_I.pdf",
+    "cppBook/19.Advanced_Topics_II.pdf",
+    "cppBook/21.Optimization_II.pdf",
+    "cppBook/22.Optimization_III.pdf",
+    "Pasted image 20240522230550.png",
     "Tags",
     "section6.md"
   ]

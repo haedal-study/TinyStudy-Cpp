@@ -611,7 +611,7 @@ int main() {
 }
 
 ```
-### Class Keywards
+### Class Keywords
 
 - ### default
 	- C++11 부터, 컴파일러가 기본 생성자, 소멸자, 복사/이동 생성자, 대입 연산자, spaceship 연산자를 자동 생성할 수 있도록 `default` 구문을 제공합니다.
@@ -650,8 +650,15 @@ const A& g() { return *this; // 객체 자신을 반환 } };
 	- 클래스 자체에 속하고, 모든 클래스 인스턴스가 공유하는 멤버를 선언하기 위해 사용됩니다.
 	- 인스턴스 바운드가 아닌 멤버를 선언하는 것이라고도 표현할 수 있습니다
 	- 클래스 이름으로 직접 호출하거나, 클래스 인스턴스를 통해 호출합니다.
-- const
+- **const**
 	- 데이터 멤버나 함수를 런타임에 변경할수 없음을 나타냅니다.
+	- const correctness
+``` C++
+	struct A { int a; int* ptr; void f() const {     
+	 ptr[4] = 10; } }; 
+	const A some{ .ptr{ new int[10]; } }; some.f(); 
+	some.ptr[4] = 10; // const-correcetness는 이런식으로 깨질수있다. 
+```
 - mutable
 	- mutable은 const 클래스 인스턴스의 데이터멤버를 수정할 수 있게합니다.
 
