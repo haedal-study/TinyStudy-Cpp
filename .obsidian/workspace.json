@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section8/Inheritance Casting and Run-time Type Identification.md",
+                "file": "Section8/5.27 Operator Overloading, Comparison Operator ,Spaceship Operator.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section8/Inheritance Casting and Run-time Type Identification.md",
+                "file": "Section8/5.27 Operator Overloading, Comparison Operator ,Spaceship Operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section8/Inheritance Casting and Run-time Type Identification.md",
+                "file": "Section8/5.27 Operator Overloading, Comparison Operator ,Spaceship Operator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section8/Inheritance Casting and Run-time Type Identification.md"
+                "file": "Section8/5.27 Operator Overloading, Comparison Operator ,Spaceship Operator.md"
               }
             }
           }
@@ -172,10 +172,10 @@
           }
         ],
         "direction": "vertical",
-        "x": 1289,
-        "y": 10,
-        "width": 1036,
-        "height": 1400,
+        "x": 1280,
+        "y": 0,
+        "width": 1280,
+        "height": 1440,
         "maximize": false,
         "zoom": 0
       }
@@ -184,12 +184,12 @@
   "active": "4813469ce6609ad5",
   "lastOpenFiles": [
     "cppBook/08.Object_Oriented_II.pdf",
-    "Section8/Inheritance Casting and Run-time Type Identification.md",
+    "Section8/5.27 Operator Overloading, Comparison Operator ,Spaceship Operator.md",
     "Section8/Section8. Object-Oriented Programming II - Polymorphism and Operator Overloading.md",
-    "Section8/Comparison Operator ,Spaceship Operator.md",
-    "cppBook/09.Templates_I.pdf",
-    "README.md",
+    "Section8/5.26 Inheritance Casting and Run-time Type Identification.md",
     "Section8/5.25 override,final, common Errors Pure Virtual Method, Abstract Class and Interface.md",
+    "README.md",
+    "cppBook/09.Templates_I.pdf",
     "Untitled.md",
     "Untitled",
     "cppBook/README.md",
