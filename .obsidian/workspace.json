@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/27. Class Template - Advanced Concepts.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/SFINAE Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/27. Class Template - Advanced Concepts.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/SFINAE Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/27. Class Template - Advanced Concepts.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/SFINAE Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/27. Class Template - Advanced Concepts.md"
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/SFINAE Overview.md"
               }
             }
           }
@@ -148,8 +148,12 @@
   },
   "active": "e3b1696a52478828",
   "lastOpenFiles": [
-    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Type Traits/24. Type Manipulation.md",
+    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/28. Template Meta-Programming.md",
+    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/SFINAE Overview.md",
+    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE",
+    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SF.md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/27. Class Template - Advanced Concepts.md",
+    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Type Traits/24. Type Manipulation.md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/26. Constructor Template Autometic Deduction(CTAD).md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/25. Class Template.md",
     "2차(객체지향, 일반화 프로그래밍)/8장-Object-Oriented Programming 2/15. C++ Layout. Aggregate, Trivial Class.md",
@@ -173,9 +177,6 @@
     "1차/TinyStudy-CPP-6장/48. Preprocessors.md",
     "1차/TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
     "1차/TinyStudy-CPP-6장/51. Condition Compiling Macros.md",
-    "1차/TinyStudy-CPP-6장/52. Stringizing Operator.md",
-    "1차/TinyStudy-CPP-6장/47. nodiscard, Capture List and Classes.md",
-    "1차/TinyStudy-CPP-6장/44. Capture List(Lambda Expression).md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장",
     "2차(객체지향, 일반화 프로그래밍)/7장-Object-Oriented Programming 1",
     "2차(객체지향, 일반화 프로그래밍)",
