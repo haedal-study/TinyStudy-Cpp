@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/SFINAE Overview.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/30. Function SFINAE.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "decltype",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/SFINAE Overview.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/30. Function SFINAE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/SFINAE Overview.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/30. Function SFINAE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/SFINAE Overview.md"
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/30. Function SFINAE.md"
               }
             }
           }
@@ -148,22 +148,27 @@
   },
   "active": "e3b1696a52478828",
   "lastOpenFiles": [
+    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/21. Compile-Time Utilities.md",
+    "2차(객체지향, 일반화 프로그래밍)/8장-Object-Oriented Programming 2/11. Inheritance Casting and Run-time Type Identification.md",
+    "2차(객체지향, 일반화 프로그래밍)/8장-Object-Oriented Programming 2/12. Comparison Operator, Spaceship Operator.md",
+    "2차(객체지향, 일반화 프로그래밍)/8장-Object-Oriented Programming 2/13. Overloading of Subscript, Function Call, static and Conversion Operator.md",
+    "2차(객체지향, 일반화 프로그래밍)/8장-Object-Oriented Programming 2/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md",
+    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/30. Function SFINAE.md",
+    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/29. SFINAE Overview.md",
+    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/25. Class Template.md",
+    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/17. Template Overview.md",
+    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Type Traits/23. Type Traits Library.md",
+    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Type Traits/22. Type Trait Overview.md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/28. Template Meta-Programming.md",
-    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/SFINAE Overview.md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SF.md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/27. Class Template - Advanced Concepts.md",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Type Traits/24. Type Manipulation.md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/26. Constructor Template Autometic Deduction(CTAD).md",
-    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/25. Class Template.md",
     "2차(객체지향, 일반화 프로그래밍)/8장-Object-Oriented Programming 2/15. C++ Layout. Aggregate, Trivial Class.md",
-    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Type Traits/23. Type Traits Library.md",
-    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Type Traits/22. Type Trait Overview.md",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/20. Template Variable, Template Parameter Types.md",
-    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/21. Compile-Time Utilities.md",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/19. Template Parameter - Default Value, Overloading, Specialization.md",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/18. Template Instantiation, Template Parameters.md",
-    "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/17. Template Overview.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/16. C++ Layout. Standard-Layout Class, Plain Old Data.md",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1",
@@ -172,11 +177,6 @@
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/13. Overloading of Subscript, Function Call, static and Conversion Operator.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장/12. Comparison Operator, Spaceship Operator.md",
-    "1차/TinyStudy-CPP-2장/7. C++ Operators.md",
-    "1차/TinyStudy-CPP-6장/43. Function Pointer and Function Object.md",
-    "1차/TinyStudy-CPP-6장/48. Preprocessors.md",
-    "1차/TinyStudy-CPP-6장/53. Token-Pasting Operator, Variadic Macro.md",
-    "1차/TinyStudy-CPP-6장/51. Condition Compiling Macros.md",
     "2차(객체지향, 일반화 프로그래밍)/TinyStudy-CPP-8장",
     "2차(객체지향, 일반화 프로그래밍)/7장-Object-Oriented Programming 1",
     "2차(객체지향, 일반화 프로그래밍)",
