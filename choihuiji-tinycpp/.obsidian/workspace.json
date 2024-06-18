@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Preprocessing/5. Stringizing Operator, error and warning, pragma.md",
+                "file": "Ch6-Functions and Preprocessing/Preprocessing/5. Token-Pasting Operator, Variadic Macro.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Preprocessing/5. Stringizing Operator, error and warning, pragma.md",
+                "file": "Ch6-Functions and Preprocessing/Preprocessing/5. Token-Pasting Operator, Variadic Macro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Preprocessing/5. Stringizing Operator, error and warning, pragma.md",
+                "file": "Ch6-Functions and Preprocessing/Preprocessing/5. Token-Pasting Operator, Variadic Macro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch6-Functions and Preprocessing/Preprocessing/5. Stringizing Operator, error and warning, pragma.md"
+                "file": "Ch6-Functions and Preprocessing/Preprocessing/5. Token-Pasting Operator, Variadic Macro.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "6710905ca02701c8",
   "lastOpenFiles": [
-    "Ch6-Functions and Preprocessing/Preprocessing/4. Condition Compiling Macros.md",
     "Ch6-Functions and Preprocessing/Preprocessing/5. Stringizing Operator, error and warning, pragma.md",
+    "Ch6-Functions and Preprocessing/Preprocessing/5. Token-Pasting Operator, Variadic Macro.md",
+    "Ch6-Functions and Preprocessing/Preprocessing/4. Condition Compiling Macros.md",
     "Ch6-Functions and Preprocessing/Preprocessing/3. Source Location Macros.md",
     "Ch6-Functions and Preprocessing/Preprocessing/2. Common Errors.md",
     "Ch6-Functions and Preprocessing/Preprocessing/1. Preprocessors.md",
@@ -178,7 +179,6 @@
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. is_constant_evaluated(), if consteval.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/2. constexpr.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/1. Constants and Literals, const.md",
-    "Ch5-Memory Management/Pointers and References/3. Reference.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit",
     "Ch5-Memory Management/Pointers and References",
     "Ch5-Memory Management/Heap and Stack",
