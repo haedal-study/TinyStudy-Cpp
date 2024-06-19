@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/32. Variadic Template Overview.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/33. Folding Expression and Variadic Class Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/32. Variadic Template Overview.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/33. Folding Expression and Variadic Class Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/32. Variadic Template Overview.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/33. Folding Expression and Variadic Class Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/32. Variadic Template Overview.md"
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/33. Folding Expression and Variadic Class Template.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "e3b1696a52478828",
   "lastOpenFiles": [
-    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/31. Class SFINAE.md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/32. Variadic Template Overview.md",
+    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/33. Folding Expression and Variadic Class Template.md",
+    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/31. Class SFINAE.md",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/20. Template Variable, Template Parameter Types.md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/27. Class Template - Advanced Concepts.md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/30. Function SFINAE.md",
@@ -173,7 +174,6 @@
     "1차/TinyStudy-CPP-3장/16. Catastrophic Cancellation.md",
     "1차/TinyStudy-CPP-3장/15. Arithmetic Properties , Detect Floating-point Errors.md",
     "1차/TinyStudy-CPP-3장/14. Cheatsheet.md",
-    "1차/TinyStudy-CPP-3장/13. Machine Epsilon , ULP.md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1",
