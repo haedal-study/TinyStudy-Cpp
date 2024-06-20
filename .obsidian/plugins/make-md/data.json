@@ -39,7 +39,9 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//cppBook",
+    "//Section8"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

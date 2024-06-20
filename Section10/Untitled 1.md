@@ -1,0 +1,1 @@
+- 6.10(~19/80) : CTAD; Constructor Template Automatic Deduction

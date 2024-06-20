@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ff26fad677698932",
+        "id": "38e25409cdc0e9df",
         "type": "tabs",
         "children": [
           {
-            "id": "4813469ce6609ad5",
+            "id": "0e8a96a85398c733",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63a4fdaabfa48960",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Section8/5.28 Subscript Operator , Multidimensional Subscript Operator ,Function Call Operator , static operator() and static operator() Conversion Operator.md",
+                "file": "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -77,13 +64,21 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "a61ad7c0b05a99db",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 210.5
   },
   "right": {
     "id": "846032549180a868",
@@ -99,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section8/5.28 Subscript Operator , Multidimensional Subscript Operator ,Function Call Operator , static operator() and static operator() Conversion Operator.md",
+                "file": "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section8/5.28 Subscript Operator , Multidimensional Subscript Operator ,Function Call Operator , static operator() and static operator() Conversion Operator.md",
+                "file": "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section8/5.28 Subscript Operator , Multidimensional Subscript Operator ,Function Call Operator , static operator() and static operator() Conversion Operator.md"
+                "file": "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md"
               }
             }
           }
@@ -192,35 +187,90 @@
         "height": 1440,
         "maximize": false,
         "zoom": 0
+      },
+      {
+        "id": "168c6103b2464caf",
+        "type": "window",
+        "children": [
+          {
+            "id": "ce86f7292d8657dc",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4813469ce6609ad5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "63a4fdaabfa48960",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "cppBook/08.Object_Oriented_II.pdf"
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": -1280,
+        "y": 0,
+        "width": 1280,
+        "height": 1440,
+        "maximize": false,
+        "zoom": 0
       }
     ]
   },
-  "active": "63a4fdaabfa48960",
+  "active": "0e8a96a85398c733",
   "lastOpenFiles": [
     "cppBook/08.Object_Oriented_II.pdf",
-    "Section8/5.28 Subscript Operator , Multidimensional Subscript Operator ,Function Call Operator , static operator() and static operator() Conversion Operator.md",
-    "README.md",
-    "Section8/Section8. Object-Oriented Programming II - Polymorphism and Operator Overloading.md",
-    "cppBook/09.Templates_I.pdf",
-    "tinyCppStudy/Welcome.md",
-    "cppBook/README.md",
-    "images/Pasted image 20240524184510.png",
-    "Section1.md",
+    "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md",
     "Section8/5.27 Operator Overloading, Comparison Operator ,Spaceship Operator.md",
-    "cppBook/10.Templates_II.pdf",
+    "README.md",
+    "Section3.md",
+    "section6.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Section9/6.02.md",
+    "Section8/5.28 Subscript Operator , Multidimensional Subscript Operator ,Function Call Operator , static operator() and static operator() Conversion Operator.md",
     "Section8/5.26 Inheritance Casting and Run-time Type Identification.md",
-    "Section8/5.25 override,final, common Errors Pure Virtual Method, Abstract Class and Interface.md",
+    "Section9/Untitled 6.md",
+    "Tags",
+    "Section10/Untitled.md",
+    "Section10/Untitled 1.md",
+    "Section10/Untitled 2.md",
+    "Section10/Untitled 9.md",
+    "Section10/Untitled 10.md",
+    "Section10/Untitled 8.md",
+    "Section10/Untitled 7.md",
+    "Section10/Untitled 6.md",
+    "Section10/Untitled 5.md",
+    "Section10/Untitled 4.md",
+    "Section10/Untitled 3.md",
+    "Section10",
+    "Section9/Untitled 7.md",
+    "Section9/Untitled 5.md",
+    "Section9/Untitled 4.md",
+    "images/Pasted image 20240522230555.png",
+    "Section9",
+    "cppBook/09.Templates_I.pdf",
+    "images/Pasted image 20240524184510.png",
+    "cppBook/10.Templates_II.pdf",
     "Untitled",
     "cppBook/modern-cpp.pdf",
-    "images/Pasted image 20240522230555.png",
     "Section8/Untitled",
-    "Section7_OOP.md",
     "Section8",
-    "Section5.md",
-    "cppBook/14.Ecosystem_I.pdf",
-    "cppBook/07.Object_Oriented_I.pdf",
-    "cppBook/19.Advanced_Topics_II.pdf",
-    "images/Pasted image 20240522230550.png",
-    "section6.md"
+    "images/Pasted image 20240522230550.png"
   ]
 }
