@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/33. Folding Expression and Variadic Class Template.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/C++20 Concepts/34. C++20 Concepts Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/33. Folding Expression and Variadic Class Template.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/C++20 Concepts/34. C++20 Concepts Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/33. Folding Expression and Variadic Class Template.md",
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/C++20 Concepts/34. C++20 Concepts Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/33. Folding Expression and Variadic Class Template.md"
+                "file": "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/C++20 Concepts/34. C++20 Concepts Overview.md"
               }
             }
           }
@@ -148,8 +148,14 @@
   },
   "active": "e3b1696a52478828",
   "lastOpenFiles": [
-    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/32. Variadic Template Overview.md",
+    "2차(객체지향, 일반화 프로그래밍)/8장-Object-Oriented Programming 2/12. Comparison Operator, Spaceship Operator.md",
+    "2차(객체지향, 일반화 프로그래밍)/8장-Object-Oriented Programming 2/13. Overloading of Subscript, Function Call, static and Conversion Operator.md",
+    "2차(객체지향, 일반화 프로그래밍)/8장-Object-Oriented Programming 2/14. Return Type Overloading Resolution, Increment and Decrement Operator, Assignment Operator, Stream Operator, Operator Notes.md",
+    "2차(객체지향, 일반화 프로그래밍)/8장-Object-Oriented Programming 2/15. C++ Layout. Aggregate, Trivial Class.md",
+    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/C++20 Concepts/34. C++20 Concepts Overview.md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/33. Folding Expression and Variadic Class Template.md",
+    "2차(객체지향, 일반화 프로그래밍)/8장-Object-Oriented Programming 2/16. C++ Layout. Standard-Layout Class, Plain Old Data.md",
+    "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Variadic Templates/32. Variadic Template Overview.md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE/31. Class SFINAE.md",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template/20. Template Variable, Template Parameter Types.md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/Class Template/27. Class Template - Advanced Concepts.md",
@@ -168,12 +174,6 @@
     "1차/TinyStudy-CPP-4장/22. switch, goto and Avoid Unused Variable Warning.md",
     "1차/TinyStudy-CPP-4장/21. if, for, while and Range-based for Loop.md",
     "1차/TinyStudy-CPP-4장/20. struct, Bitfield and union.md",
-    "1차/TinyStudy-CPP-4장/19. Enumerators.md",
-    "1차/TinyStudy-CPP-4장/18. Entities , Declaration and Definition.md",
-    "1차/TinyStudy-CPP-3장/17. Floating-point Comparison.md",
-    "1차/TinyStudy-CPP-3장/16. Catastrophic Cancellation.md",
-    "1차/TinyStudy-CPP-3장/15. Arithmetic Properties , Detect Floating-point Errors.md",
-    "1차/TinyStudy-CPP-3장/14. Cheatsheet.md",
     "2차(객체지향, 일반화 프로그래밍)/10장-Templates and Meta-Programming2/SFINAE",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1/Function Template",
     "2차(객체지향, 일반화 프로그래밍)/9장-Templates and Meta-Programming1",
