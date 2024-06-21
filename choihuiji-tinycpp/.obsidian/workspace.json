@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch7-Object-Oriendted Programming I/1. RAII Idiom.md",
+                "file": "Ch7-Object-Oriendted Programming I/2. Class Hierarchy, Access Specifiers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch7-Object-Oriendted Programming I/1. RAII Idiom.md",
+                "file": "Ch7-Object-Oriendted Programming I/2. Class Hierarchy, Access Specifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch7-Object-Oriendted Programming I/1. RAII Idiom.md",
+                "file": "Ch7-Object-Oriendted Programming I/2. Class Hierarchy, Access Specifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch7-Object-Oriendted Programming I/1. RAII Idiom.md"
+                "file": "Ch7-Object-Oriendted Programming I/2. Class Hierarchy, Access Specifiers.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "6710905ca02701c8",
   "lastOpenFiles": [
-    "Ch6-Functions and Preprocessing/Preprocessing/5. Token-Pasting Operator, Variadic Macro.md",
     "Ch7-Object-Oriendted Programming I/1. RAII Idiom.md",
+    "Ch7-Object-Oriendted Programming I/2. Class Hierarchy, Access Specifiers.md",
+    "Ch6-Functions and Preprocessing/Preprocessing/5. Token-Pasting Operator, Variadic Macro.md",
     "Ch7-Object-Oriendted Programming I",
     "Ch6-Functions and Preprocessing/Preprocessing/5. Stringizing Operator, error and warning, pragma.md",
     "Ch6-Functions and Preprocessing/Preprocessing/4. Condition Compiling Macros.md",
@@ -179,7 +180,6 @@
     "Ch5-Memory Management/무제 파일.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/3. consteval, constinit, if constexpr.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. is_constant_evaluated(), if consteval.md",
-    "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/2. constexpr.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit",
     "Ch5-Memory Management/Pointers and References",
     "Ch5-Memory Management/Heap and Stack",
