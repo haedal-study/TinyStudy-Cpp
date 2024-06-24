@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch7-Object-Oriendted Programming I/2. Class Hierarchy, Access Specifiers.md",
+                "file": "Ch7-Object-Oriendted Programming I/Class Constructor/1. Default Constructor, Class Initialization.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch7-Object-Oriendted Programming I/2. Class Hierarchy, Access Specifiers.md",
+                "file": "Ch7-Object-Oriendted Programming I/Class Constructor/1. Default Constructor, Class Initialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch7-Object-Oriendted Programming I/2. Class Hierarchy, Access Specifiers.md",
+                "file": "Ch7-Object-Oriendted Programming I/Class Constructor/1. Default Constructor, Class Initialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch7-Object-Oriendted Programming I/2. Class Hierarchy, Access Specifiers.md"
+                "file": "Ch7-Object-Oriendted Programming I/Class Constructor/1. Default Constructor, Class Initialization.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "6710905ca02701c8",
   "lastOpenFiles": [
-    "Ch7-Object-Oriendted Programming I/1. RAII Idiom.md",
     "Ch7-Object-Oriendted Programming I/2. Class Hierarchy, Access Specifiers.md",
+    "Ch7-Object-Oriendted Programming I/Class Constructor/1. Default Constructor, Class Initialization.md",
+    "Ch7-Object-Oriendted Programming I/Class Constructor",
+    "Ch7-Object-Oriendted Programming I/3..md",
+    "Ch7-Object-Oriendted Programming I/1. RAII Idiom.md",
     "Ch6-Functions and Preprocessing/Preprocessing/5. Token-Pasting Operator, Variadic Macro.md",
     "Ch7-Object-Oriendted Programming I",
     "Ch6-Functions and Preprocessing/Preprocessing/5. Stringizing Operator, error and warning, pragma.md",
@@ -178,12 +181,9 @@
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. volatile Keyword.md",
     "Ch5-Memory Management/Explicit Type Conversion",
     "Ch5-Memory Management/무제 파일.md",
-    "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/3. consteval, constinit, if constexpr.md",
-    "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. is_constant_evaluated(), if consteval.md",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit",
     "Ch5-Memory Management/Pointers and References",
     "Ch5-Memory Management/Heap and Stack",
-    "Ch5-Memory Management/Initialization",
     "Pasted image 20240322152038.png",
     "Pasted image 20240322152346.png",
     "Pasted image 20240322152334.png",
