@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch7-Object-Oriendted Programming I/Class Constructor/2. Uniform Initilization for Objects, Delegate Consturctor, explicit Keyword, nodiscard and Classes.md",
+                "file": "Ch7-Object-Oriendted Programming I/Class Constructor/Copy Constructor, Class Destructor.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch7-Object-Oriendted Programming I/Class Constructor/2. Uniform Initilization for Objects, Delegate Consturctor, explicit Keyword, nodiscard and Classes.md",
+                "file": "Ch7-Object-Oriendted Programming I/Class Constructor/Copy Constructor, Class Destructor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch7-Object-Oriendted Programming I/Class Constructor/2. Uniform Initilization for Objects, Delegate Consturctor, explicit Keyword, nodiscard and Classes.md",
+                "file": "Ch7-Object-Oriendted Programming I/Class Constructor/Copy Constructor, Class Destructor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch7-Object-Oriendted Programming I/Class Constructor/2. Uniform Initilization for Objects, Delegate Consturctor, explicit Keyword, nodiscard and Classes.md"
+                "file": "Ch7-Object-Oriendted Programming I/Class Constructor/Copy Constructor, Class Destructor.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "5fdfeb179bae0abf",
   "lastOpenFiles": [
-    "Ch7-Object-Oriendted Programming I/Class Constructor/1. Default Constructor, Class Initialization.md",
     "Ch7-Object-Oriendted Programming I/Class Constructor/2. Uniform Initilization for Objects, Delegate Consturctor, explicit Keyword, nodiscard and Classes.md",
+    "Ch7-Object-Oriendted Programming I/Class Constructor/Copy Constructor, Class Destructor.md",
+    "Ch7-Object-Oriendted Programming I/Class Constructor/1. Default Constructor, Class Initialization.md",
     "Ch7-Object-Oriendted Programming I/2. Class Hierarchy, Access Specifiers.md",
     "Ch7-Object-Oriendted Programming I/Class Constructor",
     "Ch7-Object-Oriendted Programming I/3..md",
@@ -180,7 +181,6 @@
     "Ch6-Functions and Preprocessing",
     "Ch5-Memory Management/Explicit Type Conversion/2.  Type Punning.md",
     "Ch5-Memory Management/Explicit Type Conversion/1. static_cast, const_cast, reintepret_cast.md",
-    "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit/4. volatile Keyword.md",
     "Ch5-Memory Management/Explicit Type Conversion",
     "Ch5-Memory Management/Constants, Literals, const, constexpr, consteval, constinit",
     "Ch5-Memory Management/Pointers and References",
