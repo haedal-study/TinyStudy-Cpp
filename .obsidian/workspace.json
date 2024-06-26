@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section9/6.01 Template Overview.md",
+                "file": "Section9/6.03 Template Parameters - Default Value, Overloading, Specialization.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "846032549180a868",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section9/6.01 Template Overview.md",
+                "file": "Section9/6.03 Template Parameters - Default Value, Overloading, Specialization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section9/6.01 Template Overview.md",
+                "file": "Section9/6.03 Template Parameters - Default Value, Overloading, Specialization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section9/6.01 Template Overview.md"
+                "file": "Section9/6.03 Template Parameters - Default Value, Overloading, Specialization.md"
               }
             }
           }
@@ -202,6 +203,11 @@
   "active": "9ad8e20b2c169680",
   "lastOpenFiles": [
     "cppBook/09.Templates_I.pdf",
+    "Section9/6.03 Template Parameters - Default Value, Overloading, Specialization.md",
+    "Section9/6.07 Type Traits Library.md",
+    "Section9/6.04 Template Variable, Template Parameter Types.md",
+    "Section9/6.02. Template Instantiation, Template Parameters.md",
+    "Section9/6.08 Type Manipulation.md",
     "Section9/6.01 Template Overview.md",
     "Section8/5.26 Inheritance Casting and Run-time Type Identification.md",
     "Section8/5.25 override,final, common Errors Pure Virtual Method, Abstract Class and Interface.md",
@@ -219,11 +225,6 @@
     "Section10/6.17 Folding Expression ,Variadic Class Template.md",
     "Section9/6.05 Compile-Time Utilities.md",
     "Section9/6.06 Type Traits Overview.md",
-    "Section9/6.04 Template Variable, Template Parameter Types.md",
-    "Section9/6.08 Type Manipulation.md",
-    "Section9/6.03 Template Parameters - Default Value, Overloading, Specialization.md",
-    "Section9/6.07 Type Traits Library.md",
-    "Section9/6.02. Template Instantiation, Template Parameters.md",
     "cppBook/08.Object_Oriented_II.pdf",
     "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md",
     "Pasted image 20240626095637.png",
