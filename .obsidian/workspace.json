@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "38e25409cdc0e9df",
+        "id": "bb344d466f24b839",
         "type": "tabs",
         "children": [
           {
-            "id": "131f51bef1f0750b",
+            "id": "9ad8e20b2c169680",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section9/6.01.md",
+                "file": "Section9/6.01 Template Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section9/6.01.md",
+                "file": "Section9/6.01 Template Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section9/6.01.md",
+                "file": "Section9/6.01 Template Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section9/6.01.md"
+                "file": "Section9/6.01 Template Overview.md"
               }
             }
           }
@@ -160,24 +160,33 @@
     "type": "floating",
     "children": [
       {
-        "id": "e7201d97c44cf86e",
+        "id": "ec02da1c0d24d536",
         "type": "window",
         "children": [
           {
-            "id": "b4473aa622002132",
+            "id": "4f45bf4785719403",
             "type": "tabs",
             "children": [
               {
-                "id": "0e8a96a85398c733",
+                "id": "b84a00a054674d2d",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "131f51bef1f0750b",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "cppBook/08.Object_Oriented_II.pdf"
+                    "file": "cppBook/09.Templates_I.pdf"
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
@@ -190,39 +199,39 @@
       }
     ]
   },
-  "active": "131f51bef1f0750b",
+  "active": "9ad8e20b2c169680",
   "lastOpenFiles": [
-    "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md",
-    "Pasted image 20240626095637.png",
-    "cppBook/08.Object_Oriented_II.pdf",
-    "Section8/5.30. Aggregate, Trivial Class.md",
-    "Section8/5.30.Aggregate, Trivial Class.md",
-    "Section8/Section8. Object-Oriented Programming II - Polymorphism and Operator Overloading.md",
-    "2024-06-26.md",
-    "Untitled.canvas",
-    "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md",
-    "Untitled.md",
     "cppBook/09.Templates_I.pdf",
+    "Section9/6.01 Template Overview.md",
     "Section8/5.26 Inheritance Casting and Run-time Type Identification.md",
     "Section8/5.25 override,final, common Errors Pure Virtual Method, Abstract Class and Interface.md",
-    "Section10/Untitled 1.md",
-    "Section10/Untitled 3.md",
-    "Section10/Untitled 8.md",
-    "Section9/6.02.md",
-    "Section9/Untitled 5.md",
-    "Section9/Untitled 1.md",
-    "Section9/6.01.md",
-    "Section9/Untitled 6.md",
-    "Section8/5.28 Subscript Operator , Multidimensional Subscript Operator ,Function Call Operator , static operator() and static operator() Conversion Operator.md",
+    "Section10/6.10 CTAD; Constructor Template Automatic Deduction.md",
+    "Section10/6.12 Template Meta-programming.md",
+    "Section8/Section8. Object-Oriented Programming II - Polymorphism and Operator Overloading.md",
+    "Section10/6.19 requires Expression , requires Expression + Clause , requires Clause + Expression , requires and constexpr ,Nested requires.md",
+    "Section10/6.13 SFINAE Overview.md",
+    "Section10/6.11 Class Template - Advanced Concepts.md",
+    "Section10/6.14 Function SFINAE.md",
+    "Section10/6.16 Variadic Templates Overview.md",
+    "Section10/6.15 Class SFINAE.md",
+    "Section10/6.18Overview ,concept Keyword ,reauquires Clause.md",
+    "Section10/6.09  Class Template.md",
+    "Section10/6.17 Folding Expression ,Variadic Class Template.md",
+    "Section9/6.05 Compile-Time Utilities.md",
+    "Section9/6.06 Type Traits Overview.md",
+    "Section9/6.04 Template Variable, Template Parameter Types.md",
+    "Section9/6.08 Type Manipulation.md",
+    "Section9/6.03 Template Parameters - Default Value, Overloading, Specialization.md",
+    "Section9/6.07 Type Traits Library.md",
+    "Section9/6.02. Template Instantiation, Template Parameters.md",
+    "cppBook/08.Object_Oriented_II.pdf",
+    "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md",
+    "Pasted image 20240626095637.png",
+    "Section8/5.30. Aggregate, Trivial Class.md",
+    "Section8/5.30.Aggregate, Trivial Class.md",
+    "Untitled.canvas",
     "cppBook/10.Templates_II.pdf",
     "cppBook/11.Translation_Units_I.pdf",
-    "Section10/Untitled 7.md",
-    "Section10/Untitled 6.md",
-    "Section10/Untitled 9.md",
-    "Section10/Untitled 4.md",
-    "Section10/Untitled 5.md",
-    "Section10/Untitled.md",
-    "Section9/Untitled 4.md",
     "Tags",
     "Section10",
     "images/Pasted image 20240522230555.png",
