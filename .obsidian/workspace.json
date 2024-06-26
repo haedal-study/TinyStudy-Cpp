@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md",
+                "file": "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md",
+                "file": "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md",
+                "file": "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md"
+                "file": "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md"
               }
             }
           }
@@ -234,16 +234,19 @@
   },
   "active": "0e8a96a85398c733",
   "lastOpenFiles": [
-    "cppBook/08.Object_Oriented_II.pdf",
-    "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md",
+    "Section8/5.28 Subscript Operator , Multidimensional Subscript Operator ,Function Call Operator , static operator() and static operator() Conversion Operator.md",
     "Section8/5.27 Operator Overloading, Comparison Operator ,Spaceship Operator.md",
+    "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md",
+    "cppBook/08.Object_Oriented_II.pdf",
+    "Section8/5.30. Aggregate, Trivial Class.md",
+    "cppBook/09.Templates_I.pdf",
+    "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md",
+    "Untitled.md",
     "README.md",
     "Section3.md",
     "section6.md",
     "Untitled 1.md",
-    "Untitled.md",
     "Section9/6.02.md",
-    "Section8/5.28 Subscript Operator , Multidimensional Subscript Operator ,Function Call Operator , static operator() and static operator() Conversion Operator.md",
     "Section8/5.26 Inheritance Casting and Run-time Type Identification.md",
     "Section9/Untitled 6.md",
     "Tags",
@@ -260,11 +263,8 @@
     "Section10/Untitled 3.md",
     "Section10",
     "Section9/Untitled 7.md",
-    "Section9/Untitled 5.md",
-    "Section9/Untitled 4.md",
     "images/Pasted image 20240522230555.png",
     "Section9",
-    "cppBook/09.Templates_I.pdf",
     "images/Pasted image 20240524184510.png",
     "cppBook/10.Templates_II.pdf",
     "Untitled",
