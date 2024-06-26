@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0e8a96a85398c733",
+            "id": "131f51bef1f0750b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md",
+                "file": "Section9/6.01.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 200
   },
   "right": {
     "id": "846032549180a868",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md",
+                "file": "Section9/6.01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md",
+                "file": "Section9/6.01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md"
+                "file": "Section9/6.01.md"
               }
             }
           }
@@ -160,15 +160,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "247143ce4affdbbe",
+        "id": "e7201d97c44cf86e",
         "type": "window",
         "children": [
           {
-            "id": "e03acf12af4f39da",
+            "id": "b4473aa622002132",
             "type": "tabs",
             "children": [
               {
-                "id": "d7f8c72e9b9e7fa4",
+                "id": "0e8a96a85398c733",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
@@ -181,97 +181,56 @@
           }
         ],
         "direction": "vertical",
-        "x": -2560,
+        "x": -1920,
         "y": 0,
-        "width": 1280,
-        "height": 1440,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
-        "id": "168c6103b2464caf",
-        "type": "window",
-        "children": [
-          {
-            "id": "ce86f7292d8657dc",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "4813469ce6609ad5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "63a4fdaabfa48960",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "cppBook/08.Object_Oriented_II.pdf"
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": -1280,
-        "y": 0,
-        "width": 1280,
-        "height": 1440,
+        "width": 960,
+        "height": 1080,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "0e8a96a85398c733",
+  "active": "131f51bef1f0750b",
   "lastOpenFiles": [
-    "Section8/5.30.Aggregate, Trivial Class.md",
-    "Section8/5.28 Subscript Operator , Multidimensional Subscript Operator ,Function Call Operator , static operator() and static operator() Conversion Operator.md",
-    "Section8/5.27 Operator Overloading, Comparison Operator ,Spaceship Operator.md",
     "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md",
+    "Pasted image 20240626095637.png",
     "cppBook/08.Object_Oriented_II.pdf",
     "Section8/5.30. Aggregate, Trivial Class.md",
-    "cppBook/09.Templates_I.pdf",
+    "Section8/5.30.Aggregate, Trivial Class.md",
+    "Section8/Section8. Object-Oriented Programming II - Polymorphism and Operator Overloading.md",
+    "2024-06-26.md",
+    "Untitled.canvas",
     "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md",
     "Untitled.md",
-    "README.md",
-    "Section3.md",
-    "section6.md",
-    "Untitled 1.md",
-    "Section9/6.02.md",
+    "cppBook/09.Templates_I.pdf",
     "Section8/5.26 Inheritance Casting and Run-time Type Identification.md",
-    "Section9/Untitled 6.md",
-    "Tags",
-    "Section10/Untitled.md",
+    "Section8/5.25 override,final, common Errors Pure Virtual Method, Abstract Class and Interface.md",
     "Section10/Untitled 1.md",
-    "Section10/Untitled 2.md",
-    "Section10/Untitled 9.md",
-    "Section10/Untitled 10.md",
+    "Section10/Untitled 3.md",
     "Section10/Untitled 8.md",
+    "Section9/6.02.md",
+    "Section9/Untitled 5.md",
+    "Section9/Untitled 1.md",
+    "Section9/6.01.md",
+    "Section9/Untitled 6.md",
+    "Section8/5.28 Subscript Operator , Multidimensional Subscript Operator ,Function Call Operator , static operator() and static operator() Conversion Operator.md",
+    "cppBook/10.Templates_II.pdf",
+    "cppBook/11.Translation_Units_I.pdf",
     "Section10/Untitled 7.md",
     "Section10/Untitled 6.md",
-    "Section10/Untitled 5.md",
+    "Section10/Untitled 9.md",
     "Section10/Untitled 4.md",
-    "Section10/Untitled 3.md",
+    "Section10/Untitled 5.md",
+    "Section10/Untitled.md",
+    "Section9/Untitled 4.md",
+    "Tags",
     "Section10",
-    "Section9/Untitled 7.md",
     "images/Pasted image 20240522230555.png",
     "Section9",
     "images/Pasted image 20240524184510.png",
-    "cppBook/10.Templates_II.pdf",
     "Untitled",
     "cppBook/modern-cpp.pdf",
     "Section8/Untitled",
-    "Section8",
     "images/Pasted image 20240522230550.png"
   ]
 }
