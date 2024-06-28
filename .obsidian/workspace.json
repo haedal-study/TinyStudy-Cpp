@@ -8,6 +8,14 @@
         "type": "tabs",
         "children": [
           {
+            "id": "131aed092460c609",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
             "id": "b034ea762f48cd86",
             "type": "leaf",
             "state": {
@@ -16,16 +24,9 @@
                 "file": "cppBook/09.Templates_I.pdf"
               }
             }
-          },
-          {
-            "id": "131aed092460c609",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section9/6.04 Template Variable, Template Parameter Types.md",
+                "file": "Section9/6.05 Compile-Time Utilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section9/6.04 Template Variable, Template Parameter Types.md",
+                "file": "Section9/6.05 Compile-Time Utilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section9/6.04 Template Variable, Template Parameter Types.md"
+                "file": "Section9/6.05 Compile-Time Utilities.md"
               }
             }
           }
@@ -233,28 +234,41 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "53e964da6ac27a70",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Section9/6.05 Compile-Time Utilities.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
-        "x": 0,
+        "x": -14,
         "y": 0,
-        "width": 768,
+        "width": 769,
         "height": 816,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "9ad8e20b2c169680",
+  "active": "53e964da6ac27a70",
   "lastOpenFiles": [
+    "cppBook/09.Templates_I.pdf",
+    "Section9/6.05 Compile-Time Utilities.md",
+    "Section9/6.04 Template Variable, Template Parameter Types.md",
     "Section9/6.03 Template Parameters - Default Value, Overloading, Specialization.md",
     "Section9/6.02 Template Instantiation, Template Parameters.md",
-    "Section9/6.04 Template Variable, Template Parameter Types.md",
-    "cppBook/09.Templates_I.pdf",
     "cppBook/08.Object_Oriented_II.pdf",
-    "Section9/6.05 Compile-Time Utilities.md",
     "Section9/6.01 Template Overview.md",
     "Section9/6.06 Type Traits Overview.md",
     "Section9/6.08 Type Manipulation.md",
