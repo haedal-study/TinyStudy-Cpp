@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b034ea762f48cd86",
+            "id": "942bdc7da9812f93",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -16,17 +16,8 @@
                 "file": "cppBook/09.Templates_I.pdf"
               }
             }
-          },
-          {
-            "id": "942bdc7da9812f93",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "846032549180a868",
@@ -102,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Section9/6.08 Type Manipulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Section9/6.08 Type Manipulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +131,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Section9/6.08 Type Manipulation.md"
+              }
             }
           }
         ]
@@ -242,9 +236,33 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "b034ea762f48cd86",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Section9/6.07 Type Traits Library.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "bc6cbc73029f1713",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Section9/6.08 Type Manipulation.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "vertical",
@@ -257,18 +275,18 @@
       }
     ]
   },
-  "active": "942bdc7da9812f93",
+  "active": "bc6cbc73029f1713",
   "lastOpenFiles": [
-    "Section9/6.06 Type Traits Overview.md",
+    "Section9/6.07 Type Traits Library.md",
     "cppBook/09.Templates_I.pdf",
+    "Section9/6.08 Type Manipulation.md",
+    "Section9/6.06 Type Traits Overview.md",
     "Section9/6.05 Compile-Time Utilities.md",
     "Section9/6.04 Template Variable, Template Parameter Types.md",
     "Section9/6.03 Template Parameters - Default Value, Overloading, Specialization.md",
     "Section9/6.02 Template Instantiation, Template Parameters.md",
     "cppBook/08.Object_Oriented_II.pdf",
     "Section9/6.01 Template Overview.md",
-    "Section9/6.08 Type Manipulation.md",
-    "Section9/6.07 Type Traits Library.md",
     "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md",
     "Section8/5.30. Aggregate, Trivial Class.md",
     "Section8/Section8. Object-Oriented Programming II - Polymorphism and Operator Overloading.md",
