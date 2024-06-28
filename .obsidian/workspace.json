@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "131aed092460c609",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "b034ea762f48cd86",
             "type": "leaf",
             "state": {
@@ -23,6 +15,14 @@
               "state": {
                 "file": "cppBook/09.Templates_I.pdf"
               }
+            }
+          },
+          {
+            "id": "942bdc7da9812f93",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -102,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section9/6.05 Compile-Time Utilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section9/6.05 Compile-Time Utilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Section9/6.05 Compile-Time Utilities.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -241,7 +237,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Section9/6.05 Compile-Time Utilities.md",
+                    "file": "Section9/6.06 Type Traits Overview.md",
                     "mode": "source",
                     "source": false
                   }
@@ -261,8 +257,9 @@
       }
     ]
   },
-  "active": "53e964da6ac27a70",
+  "active": "942bdc7da9812f93",
   "lastOpenFiles": [
+    "Section9/6.06 Type Traits Overview.md",
     "cppBook/09.Templates_I.pdf",
     "Section9/6.05 Compile-Time Utilities.md",
     "Section9/6.04 Template Variable, Template Parameter Types.md",
@@ -270,7 +267,6 @@
     "Section9/6.02 Template Instantiation, Template Parameters.md",
     "cppBook/08.Object_Oriented_II.pdf",
     "Section9/6.01 Template Overview.md",
-    "Section9/6.06 Type Traits Overview.md",
     "Section9/6.08 Type Manipulation.md",
     "Section9/6.07 Type Traits Library.md",
     "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md",
