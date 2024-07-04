@@ -171,35 +171,6 @@
     "type": "floating",
     "children": [
       {
-        "id": "247143ce4affdbbe",
-        "type": "window",
-        "children": [
-          {
-            "id": "e03acf12af4f39da",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d7f8c72e9b9e7fa4",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "cppBook/08.Object_Oriented_II.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -2560,
-        "y": 0,
-        "width": 1280,
-        "height": 1440,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
         "id": "168c6103b2464caf",
         "type": "window",
         "children": [
@@ -229,8 +200,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical",
@@ -245,9 +215,11 @@
   },
   "active": "eacb5fa5ddf606ac",
   "lastOpenFiles": [
+    "README.md",
+    "cppBook/10.Templates_II.pdf",
+    "cppBook/08.Object_Oriented_II.pdf",
     "Section10/6.10 CTAD; Constructor Template Automatic Deduction.md",
     "cppBook/09.Templates_I.pdf",
-    "README.md",
     "Section9/6.08 Type Manipulation.md",
     "Section9/6.06 Type Traits Overview.md",
     "Section9/6.07 Type Traits Library.md",
@@ -267,7 +239,6 @@
     "cppBook/21.Optimization_II.pdf",
     "Section8/5.30.Aggregate, Trivial Class.md",
     "Section8/5.27 Operator Overloading, Comparison Operator ,Spaceship Operator.md",
-    "cppBook/08.Object_Oriented_II.pdf",
     "Section8/5.30. Aggregate, Trivial Class.md",
     "Untitled.md",
     "Section3.md",
@@ -280,7 +251,6 @@
     "images/Pasted image 20240522230555.png",
     "Section9",
     "images/Pasted image 20240524184510.png",
-    "cppBook/10.Templates_II.pdf",
     "Untitled",
     "cppBook/modern-cpp.pdf",
     "images/Pasted image 20240522230550.png"
