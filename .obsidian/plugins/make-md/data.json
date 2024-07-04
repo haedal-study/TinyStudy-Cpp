@@ -41,8 +41,9 @@
   "expandedSpaces": [
     "/",
     "//cppBook",
-    "//Section9",
-    "//Section10"
+    "//Section8",
+    "//Section10",
+    "//Section9"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
