@@ -43,7 +43,8 @@
     "//cppBook",
     "//Section8",
     "//Section10",
-    "//Section9"
+    "//Section9",
+    "//images"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

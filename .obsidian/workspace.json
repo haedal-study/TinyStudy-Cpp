@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "38e25409cdc0e9df",
+        "id": "6d3a98527e439cb3",
         "type": "tabs",
         "children": [
           {
-            "id": "cb416740bc01b3c2",
+            "id": "d2395e447e266710",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "cppBook/10.Templates_II.pdf"
+                "file": "Section10/6.11 Class Template - Advanced Concepts.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Section10/6.11 Class Template - Advanced Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Section10/6.11 Class Template - Advanced Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Section10/6.11 Class Template - Advanced Concepts.md"
               }
             }
           }
@@ -199,22 +201,20 @@
         "zoom": 0
       },
       {
-        "id": "b3af792e2191e9ec",
+        "id": "9271de6cb68ea58f",
         "type": "window",
         "children": [
           {
-            "id": "d71bb499014ee4cf",
+            "id": "72e19e023a548a0d",
             "type": "tabs",
             "children": [
               {
-                "id": "d2395e447e266710",
+                "id": "3e8292aea39c44ba",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "Section10/6.10 CTAD; Constructor Template Automatic Deduction.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "cppBook/10.Templates_II.pdf"
                   }
                 }
               }
@@ -222,25 +222,28 @@
           }
         ],
         "direction": "vertical",
-        "x": 1562,
+        "x": 1280,
         "y": 0,
-        "width": 998,
-        "height": 720,
+        "width": 1280,
+        "height": 1440,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "4813469ce6609ad5",
+  "active": "d2395e447e266710",
   "lastOpenFiles": [
-    "Section10/6.10 CTAD; Constructor Template Automatic Deduction.md",
     "cppBook/10.Templates_II.pdf",
-    "cppBook/09.Templates_I.pdf",
+    "Section10/6.11 Class Template - Advanced Concepts.md",
+    "Section10/6.12 Template Meta-programming.md",
+    "Section10/6.10 CTAD; Constructor Template Automatic Deduction.md",
     "Section10/6.09  Class Template.md",
-    "Section10/6.16 Variadic Templates Overview.md",
     "Section10/6.18Overview ,concept Keyword ,reauquires Clause.md",
-    "Section10/6.19 requires Expression , requires Expression + Clause , requires Clause + Expression , requires and constexpr ,Nested requires.md",
+    "Section10/6.15 Class SFINAE.md",
     "README.md",
+    "cppBook/09.Templates_I.pdf",
+    "Section10/6.16 Variadic Templates Overview.md",
+    "Section10/6.19 requires Expression , requires Expression + Clause , requires Clause + Expression , requires and constexpr ,Nested requires.md",
     "cppBook/08.Object_Oriented_II.pdf",
     "Section9/6.08 Type Manipulation.md",
     "Section9/6.06 Type Traits Overview.md",
@@ -252,8 +255,6 @@
     "Section8/5.28 Subscript Operator , Multidimensional Subscript Operator ,Function Call Operator , static operator() and static operator() Conversion Operator.md",
     "Section10/6.14 Function SFINAE.md",
     "Section10/6.13 SFINAE Overview.md",
-    "Section10/6.12 Template Meta-programming.md",
-    "Section10/6.11 Class Template - Advanced Concepts.md",
     "Pasted image 20240626095637.png",
     "2024-06-26.md",
     "cppBook/20.Optimization_I.pdf",
@@ -263,7 +264,6 @@
     "Section8/5.30. Aggregate, Trivial Class.md",
     "Untitled.md",
     "Section3.md",
-    "section6.md",
     "Tags",
     "Section10",
     "images/Pasted image 20240522230555.png",
