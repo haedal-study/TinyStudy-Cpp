@@ -11,26 +11,13 @@
             "id": "cb416740bc01b3c2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Section10/6.10 CTAD; Constructor Template Automatic Deduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eacb5fa5ddf606ac",
-            "type": "leaf",
-            "state": {
               "type": "pdf",
               "state": {
                 "file": "cppBook/10.Templates_II.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cppBook/10.Templates_II.pdf",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cppBook/10.Templates_II.pdf",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cppBook/10.Templates_II.pdf"
+                "file": "README.md"
               }
             }
           }
@@ -204,22 +191,57 @@
           }
         ],
         "direction": "vertical",
-        "x": -1280,
+        "x": -944,
         "y": 0,
-        "width": 1280,
+        "width": 944,
         "height": 1440,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "b3af792e2191e9ec",
+        "type": "window",
+        "children": [
+          {
+            "id": "d71bb499014ee4cf",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d2395e447e266710",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Section10/6.10 CTAD; Constructor Template Automatic Deduction.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1562,
+        "y": 0,
+        "width": 998,
+        "height": 720,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "eacb5fa5ddf606ac",
+  "active": "4813469ce6609ad5",
   "lastOpenFiles": [
-    "README.md",
-    "cppBook/10.Templates_II.pdf",
-    "cppBook/08.Object_Oriented_II.pdf",
     "Section10/6.10 CTAD; Constructor Template Automatic Deduction.md",
+    "cppBook/10.Templates_II.pdf",
     "cppBook/09.Templates_I.pdf",
+    "Section10/6.09  Class Template.md",
+    "Section10/6.16 Variadic Templates Overview.md",
+    "Section10/6.18Overview ,concept Keyword ,reauquires Clause.md",
+    "Section10/6.19 requires Expression , requires Expression + Clause , requires Clause + Expression , requires and constexpr ,Nested requires.md",
+    "README.md",
+    "cppBook/08.Object_Oriented_II.pdf",
     "Section9/6.08 Type Manipulation.md",
     "Section9/6.06 Type Traits Overview.md",
     "Section9/6.07 Type Traits Library.md",
@@ -227,7 +249,6 @@
     "Section8/5.31 Standard-Layout Class , POD, Hierarchy.md",
     "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md",
     "Section8/5.26 Inheritance Casting and Run-time Type Identification.md",
-    "Section10/6.09  Class Template.md",
     "Section8/5.28 Subscript Operator , Multidimensional Subscript Operator ,Function Call Operator , static operator() and static operator() Conversion Operator.md",
     "Section10/6.14 Function SFINAE.md",
     "Section10/6.13 SFINAE Overview.md",
@@ -243,9 +264,6 @@
     "Untitled.md",
     "Section3.md",
     "section6.md",
-    "Untitled 1.md",
-    "Section9/6.02.md",
-    "Section9/Untitled 6.md",
     "Tags",
     "Section10",
     "images/Pasted image 20240522230555.png",
