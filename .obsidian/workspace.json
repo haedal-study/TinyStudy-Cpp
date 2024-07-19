@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section10/6.17 Folding Expression ,Variadic Class Template.md",
+                "file": "Section10/6.19 requires Expression , requires Expression + Clause , requires Clause + Expression , requires and constexpr ,Nested requires.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section10/6.17 Folding Expression ,Variadic Class Template.md",
+                "file": "Section10/6.19 requires Expression , requires Expression + Clause , requires Clause + Expression , requires and constexpr ,Nested requires.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section10/6.17 Folding Expression ,Variadic Class Template.md",
+                "file": "Section10/6.19 requires Expression , requires Expression + Clause , requires Clause + Expression , requires and constexpr ,Nested requires.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section10/6.17 Folding Expression ,Variadic Class Template.md"
+                "file": "Section10/6.19 requires Expression , requires Expression + Clause , requires Clause + Expression , requires and constexpr ,Nested requires.md"
               }
             }
           }
@@ -192,14 +192,14 @@
   },
   "active": "d2395e447e266710",
   "lastOpenFiles": [
-    "Section10/6.16 Variadic Templates Overview.md",
     "cppBook/10.Templates_II.pdf",
+    "Section10/6.19 requires Expression , requires Expression + Clause , requires Clause + Expression , requires and constexpr ,Nested requires.md",
+    "Section10/6.18Overview ,concept Keyword ,reauquires Clause.md",
+    "Section10/6.17 Folding Expression ,Variadic Class Template.md",
+    "Section10/6.16 Variadic Templates Overview.md",
     "Section10/6.15 Class SFINAE.md",
     "Pasted image 20240719161001.png",
     "Section10/6.14 Function SFINAE.md",
-    "Section10/6.17 Folding Expression ,Variadic Class Template.md",
-    "Section10/6.19 requires Expression , requires Expression + Clause , requires Clause + Expression , requires and constexpr ,Nested requires.md",
-    "Section10/6.18Overview ,concept Keyword ,reauquires Clause.md",
     "Section10/6.10 CTAD; Constructor Template Automatic Deduction.md",
     "Section10/6.13 SFINAE Overview.md",
     "Section10/6.11 Class Template - Advanced Concepts.md",
