@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section10/6.11 Class Template - Advanced Concepts.md",
+                "file": "Section10/6.15 Class SFINAE.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "846032549180a868",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Section10/6.11 Class Template - Advanced Concepts.md",
+                "file": "cppBook/10.Templates_II.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Section10/6.11 Class Template - Advanced Concepts.md",
+                "file": "cppBook/10.Templates_II.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Section10/6.11 Class Template - Advanced Concepts.md"
+                "file": "cppBook/10.Templates_II.pdf"
               }
             }
           }
@@ -160,56 +161,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "168c6103b2464caf",
+        "id": "fab6df1ecb89cd67",
         "type": "window",
         "children": [
           {
-            "id": "ce86f7292d8657dc",
+            "id": "84b7eeb21da8c744",
             "type": "tabs",
             "children": [
               {
-                "id": "4813469ce6609ad5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "0e8a96a85398c733",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "cppBook/09.Templates_I.pdf"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -944,
-        "y": 0,
-        "width": 944,
-        "height": 1440,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
-        "id": "9271de6cb68ea58f",
-        "type": "window",
-        "children": [
-          {
-            "id": "72e19e023a548a0d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3e8292aea39c44ba",
+                "id": "b790c275570742eb",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
@@ -222,28 +182,31 @@
           }
         ],
         "direction": "vertical",
-        "x": 1280,
+        "x": 1760,
         "y": 0,
-        "width": 1280,
+        "width": 800,
         "height": 1440,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "d2395e447e266710",
+  "active": "b790c275570742eb",
   "lastOpenFiles": [
-    "cppBook/10.Templates_II.pdf",
-    "Section10/6.11 Class Template - Advanced Concepts.md",
-    "Section10/6.12 Template Meta-programming.md",
-    "Section10/6.10 CTAD; Constructor Template Automatic Deduction.md",
-    "Section10/6.09  Class Template.md",
-    "Section10/6.18Overview ,concept Keyword ,reauquires Clause.md",
     "Section10/6.15 Class SFINAE.md",
-    "README.md",
-    "cppBook/09.Templates_I.pdf",
-    "Section10/6.16 Variadic Templates Overview.md",
+    "Section10/6.14 Function SFINAE.md",
+    "cppBook/10.Templates_II.pdf",
+    "Section10/6.17 Folding Expression ,Variadic Class Template.md",
     "Section10/6.19 requires Expression , requires Expression + Clause , requires Clause + Expression , requires and constexpr ,Nested requires.md",
+    "Section10/6.18Overview ,concept Keyword ,reauquires Clause.md",
+    "Section10/6.10 CTAD; Constructor Template Automatic Deduction.md",
+    "Section10/6.16 Variadic Templates Overview.md",
+    "Section10/6.13 SFINAE Overview.md",
+    "Section10/6.11 Class Template - Advanced Concepts.md",
+    "README.md",
+    "Section10/6.12 Template Meta-programming.md",
+    "Section10/6.09  Class Template.md",
+    "cppBook/09.Templates_I.pdf",
     "cppBook/08.Object_Oriented_II.pdf",
     "Section9/6.08 Type Manipulation.md",
     "Section9/6.06 Type Traits Overview.md",
@@ -253,8 +216,6 @@
     "Section8/5.29 Return Type Overloading Resolution ~ Operator Notes.md",
     "Section8/5.26 Inheritance Casting and Run-time Type Identification.md",
     "Section8/5.28 Subscript Operator , Multidimensional Subscript Operator ,Function Call Operator , static operator() and static operator() Conversion Operator.md",
-    "Section10/6.14 Function SFINAE.md",
-    "Section10/6.13 SFINAE Overview.md",
     "Pasted image 20240626095637.png",
     "2024-06-26.md",
     "cppBook/20.Optimization_I.pdf",
@@ -263,7 +224,6 @@
     "Section8/5.27 Operator Overloading, Comparison Operator ,Spaceship Operator.md",
     "Section8/5.30. Aggregate, Trivial Class.md",
     "Untitled.md",
-    "Section3.md",
     "Tags",
     "Section10",
     "images/Pasted image 20240522230555.png",
